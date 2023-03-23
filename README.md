@@ -1,5 +1,5 @@
 - Website para divulgação de cadastro das famílias, etc: wodpress
-- Controle de estoque, pontuações das famílias e afins: php e angular
+- Controle de estoque, pontuações das famílias e afins: php, sql e bootstrap
 - Controle de versão: git
 
 ## Website
