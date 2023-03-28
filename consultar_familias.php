@@ -22,7 +22,8 @@
     <title>Listagem de Familias</title>
 </head>
 <body>
-    <table id="example" class="table table-striped" style="width:100%">
+    <div class="container w-50 pt-5">
+        <table id="example" class="table table-striped" style="width:100%">
         <thead>
             <tr>
                 <th>Name</th>
@@ -501,7 +502,8 @@
                 <th>Salary</th>
             </tr>
         </tfoot>
-    </table>
+        </table>
+    </div>
 </body>
 
 </html>
