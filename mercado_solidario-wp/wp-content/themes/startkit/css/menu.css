@@ -1,0 +1,330 @@
+.mobile-menu-area {
+	width: 100%;
+}
+
+.main-menu ul li ul {
+    position: absolute;
+    width: 200px;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: 1px solid #ddd;
+    top: 100%;
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    left: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.main-menu ul li:hover ul,
+.main-menu ul li.focus ul {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+
+.main-menu ul li ul li {
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+
+.main-menu ul li ul li a {
+    padding: 8px 15px 8px 15px;
+    text-transform: capitalize;
+    font-size: 95%;
+}
+
+.main-menu ul li a {
+    padding: 0px 9px;
+    color: inherit;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-menu ul li a i {
+    display: inline-block;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.main-menu ul li .s-dropdown-menu li a i {
+    transform: rotateZ(0deg);
+}
+
+.main-menu ul li .s-dropdown-menu li:hover a i,
+.main-menu ul li .s-dropdown-menu li:hover a i,
+.main-menu ul li .s-dropdown-menu li.focus a i,
+.main-menu ul li .s-dropdown-menu li.active a i {
+    transform: rotateZ(-90deg);
+}
+
+.main-menu > ul > li > a > span {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.main-menu > ul > li:hover > a > span,
+.main-menu > ul > li.focus > a > span,
+.main-menu > ul > li.active a > span {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.main-menu > ul > li > a > span:before {
+    position: absolute;
+    top: 100%;
+    content: attr(data-hover);
+    font-weight: 700;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.navbar-area .main-menu > ul > li:hover > a > span,
+.navbar-area .main-menu > ul > li.focus > a > span,
+.navbar-area .main-menu > ul > li.active a > span {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.navbar-area .main-menu > ul > li.active > a,
+.navbar-area .main-menu > ul > li:hover > a,
+.navbar-area .main-menu > ul > li.focus > a {
+    color: #0088CC;
+}
+
+/* Sticky */
+
+div#sticky-wrapper.is-sticky .sticky-nav, .normal-h {
+    background: #ffffff;
+    background-image: none;
+    min-height: 100px;
+    -webkit-box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    -ms-box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    -o-box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+}
+
+.is-sticky .sticky-nav {
+    -webkit-animation: flipInX 1s both;
+    animation: flipInX 1s both;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    cursor: pointer;
+}
+
+.collapse.show {
+    padding: 15px;
+}
+.is-sticky .sticky-nav {
+    z-index: 99 !important;
+}
+
+/* Mean menu */
+
+.mobile-menu-area .col-md-12 {
+    position: inherit;
+}
+
+.mean-container .mean-bar {
+    background: transparent none repeat scroll 0 0!important;
+    position: inherit;
+    padding: 0;
+    min-height: 0;
+}
+
+.mean-container a.meanmenu-reveal {
+    border: 1px solid;
+    margin-right: 0;
+    padding: 3px 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 15px !important;
+}
+
+.mean-container .mean-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 0;
+    z-index: 0;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+    height: 28px;
+}
+
+nav.mean-nav {
+	overflow-y: scroll;
+	max-height: 340px;
+}
+
+.overlay-enabled {
+    position: inherit;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.main-menu ul li ul.s-dropdown-menu li ul {
+    position: absolute;
+    left: calc(-100% + 0px);
+    top: 0;
+    width: 200px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    z-index: 999;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.main-menu ul li a {
+    white-space: normal;
+}
+
+.main-menu ul li ul.s-dropdown-menu li ul li ul li ul li ul {
+    left: calc(100% + 0px);
+}
+
+#close-btn {
+    font-size: 20px;
+}
+
+.main-menu ul li ul.s-dropdown-menu li:hover > ul,
+.main-menu ul li ul.s-dropdown-menu li.focus > ul {
+    visibility: visible;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+/* Right Nav */
+
+.header-right-bar {
+    text-align: right;
+}
+
+.header-right-bar > ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header-right-bar ul li {
+    display: inline-block !important;
+	vertical-align: middle;
+}
+
+a.book-now {
+    border: 0;
+    border-radius: 4px;
+    padding: 0 15px 0 15px;
+    line-height: 40px;
+    margin-left: 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    display: block;
+    letter-spacing: 0.5px;
+    font-size: 88%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background: #212529;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #212529;
+    color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+    z-index: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+a.book-now:hover, a.book-now:focus {
+    opacity: 0.9;
+    color: #ffffff;
+}
+.startkit-btn a.book-now:before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: auto;
+    bottom: auto;
+    left: -100px;
+    height: 220px;
+    width: 50px;
+    z-index: -1;
+    opacity: .1;
+    -webkit-transform: skew(-12deg, 0deg);
+    transform: skew(-12deg, 0deg);
+    -webkit-transition: .5s ease 0s;
+    transition: .5s ease 0s;
+    visibility: hidden;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+}
+.startkit-btn a.book-now:hover:before,
+.startkit-btn a.book-now:focus:before {
+    left: 100%;
+    visibility: visible;
+    -webkit-transition: .5s ease .2s;
+    transition: .5s ease .2s;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.03) 1%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.85) 71%, rgba(255, 255, 255, 0) 100%);
+}
+a.book-now i {
+    transform: translate(0);
+    vertical-align: revert;
+    color: #ffffff;
+    background-color: #0088cc;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 13px;
+    margin-right: -9px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .mean-container .mean-nav ul li a i {
+        display: none;
+    }
+}
+.mean-container .mean-nav ul li a {
+    white-space: normal;
+}
+
+a.dropdown-item.active, a.dropdown-item:active {
+    color: #212529;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}

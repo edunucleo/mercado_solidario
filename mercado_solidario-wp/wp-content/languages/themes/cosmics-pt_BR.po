@@ -1,0 +1,74 @@
+# Translation of Themes - Cosmics in Portuguese (Brazil)
+# This file is distributed under the same license as the Themes - Cosmics package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-20 08:39:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Themes - Cosmics\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Cosmics is an elegant and modern WordPress theme for spa and wellness centers but it is also very easy to customize it for other business like hairdressing, ayurvedic, manicures, pedicures, makeup, mashups, nails, detox, tanning, male grooming, facials, waxing, spa and body treatments, massages or other Hair & Barber related services. View the demo of Cosmics Pro https://www.nayrathemes.com/demo/pro/?theme=cosmics"
+msgstr "O Cosmics é um tema WordPress elegante e moderno para centros de spa e bem-estar, mas também é muito fácil personalizá-lo para outros negócios, como cabeleireiro, ayurvédica, manicure, pedicure, maquiagem, mashups, unhas, desintoxicação, bronzeamento, higiene masculina, tratamentos faciais, depilação , tratamentos de spa e corporais, massagens ou outros serviços relacionados a Cabelos e barbeiros. Veja a demonstração do Cosmics Pro https://www.nayrathemes.com/demo/pro/?theme=cosmics"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Cosmics"
+msgstr "Cosmics"
+
+#: inc/customize/cosmics-premium.php:36
+msgid "Show Some Love"
+msgstr "Demonstre amor"
+
+#: inc/customize/cosmics-premium.php:32
+msgid "Free Vs Pro"
+msgstr "Grátis Vs Pro"
+
+#: inc/customize/cosmics-premium.php:30
+msgid "Get Support"
+msgstr "Obtenha suporte"
+
+#: inc/customize/cosmics-premium.php:28
+msgid "View Documentation"
+msgstr "Ver documentação"
+
+#: inc/customize/cosmics-premium.php:12 inc/customize/cosmics-premium.php:34
+msgid "Upgrade to Pro"
+msgstr "Atualize para o Pro"
+
+#: template-parts/sections/cosmics-navigation.php:182
+msgid "Your cart"
+msgstr "Seu carrinho"
+
+#: template-parts/sections/cosmics-navigation.php:140
+msgid "Search"
+msgstr "Pesquisa"
+
+#: template-parts/sections/cosmics-navigation.php:79
+#: template-parts/sections/cosmics-navigation.php:122
+msgid "0"
+msgstr "0"
+
+#: header.php:17
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://www.nayrathemes.com/cosmics-free/"
+msgstr "https://www.nayrathemes.com/cosmics-free/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://www.nayrathemes.com/"
+msgstr "https://www.nayrathemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Nayra Themes"
+msgstr "Nayra Themes"

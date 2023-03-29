@@ -1,0 +1,962 @@
+/*
+===============================================================
+    Footer Widgets CSS
+===============================================================
+*/
+
+#footer-widgets {
+    background: #f7f7f7;
+    padding: 88px 0 80px;
+    color: #5e6271;
+    box-shadow: 0px 1px 1px 0px rgba(44, 49, 59, 0.15);
+}
+
+#footer-widgets p {
+    color: #5e6271;
+}
+
+.footer-logo,
+#footer-widgets .widget-title {
+    margin-bottom: 30px !important;
+}
+
+#footer-widgets .widget-title {
+    position: relative;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+#footer-widgets .widget-title:after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 1px;
+    position: absolute;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+}
+
+#footer-widgets .widget-title:hover:after {
+    width: 160px;
+}
+
+#footer-widgets .widget-title img {
+    margin-right: 8px;
+}
+.widget_pages ul li a,.widget_nav_menu ul li a {
+    color: #2c3145;
+}
+.widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.widget_nav_menu ul.sub-menu {
+    padding: 15px 0 15px 18px;
+}
+.widget_nav_menu ul.sub-menu > li:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+/*-----------------------------------
+    01. Widget About
+------------------------------------*/
+
+ul.widget-info {
+    margin-top: 10px;
+}
+
+ul.widget-info i {
+    margin-right: 10px;
+}
+
+ul.widget-info li {
+    line-height: 2;
+}
+
+.widget_about p {
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    margin-top: -8px;
+}
+
+/*-----------------------------------
+    02. Widget Page List
+------------------------------------*/
+
+.widget_links ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-right: 40px;
+}
+
+.widget_links ul {
+    display: inline-block;
+}
+
+.widget_links ul li a {
+    color: #5e6271;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.widget_links ul li:last-child {
+    margin-bottom: 0;
+}
+
+/*-----------------------------------
+    03. Widget Latest News
+------------------------------------*/
+
+
+li.latest-news {
+    margin-bottom: 20px;
+}
+
+li.latest-news h6 {
+    color: #5e6271;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+li.latest-news:last-child {
+    margin-bottom: 0;
+}
+
+#footer-widgets li.latest-news p {
+    text-transform: uppercase;
+    color: #9c9c9c;
+    margin-top: 5px;
+}
+
+/*
+=============================================
+ Blog Page Widgets 
+ ============================================
+ */
+
+.sidebar .widget {
+    margin-bottom: 30px;
+}
+
+
+.sidebar .widget-tag {
+    margin-bottom: 20px;
+}
+.sidebar .widdget-instagram {
+    margin-bottom: 15px;
+}
+
+.sidebar .widget:last-child {
+    margin-bottom:  0;
+}
+
+.widget .widget-title {
+    position: relative;
+    display: block;
+    padding: 0 0 30px 0 !important;
+    margin: 0 !important;
+    line-height: 1.2 !important;
+}
+
+.post-comment-area .row {
+    width: 100%;
+}
+
+.widget_recent_entries .post-date {
+    display: block;
+    color: #c2c2c2;
+}
+
+/*.widget .widget-title:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: url(../assets/images/section-icon.png);
+    line-height: 24px;
+}*/
+
+.sidebar .widget-title img {
+    margin-right: 10px;
+}
+
+.sidebar .widget-title {
+    padding: 0 0 30px 30px;
+    font-weight: 500 !important;
+    position: relative;
+}
+
+/*.sidebar .widget-title:before {
+    content: url(../images/section-icon.png);
+    position:absolute;
+    left: 0;
+}*/
+
+/*-----------------------------------
+    02. Widget Search
+------------------------------------*/
+
+.widget_search .input, .widget_search label {
+    width: calc(80% - 2em);
+    margin-right: 10px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    margin-bottom: 0;
+}
+
+.widget_search label {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.widget_search label .search-field {
+    outline: none;
+    border: 1px solid #e5e5e5;
+    min-height: 40px;
+    box-shadow: none;
+}
+
+.widget_search .input__field, .widget_search label .search-field {
+    padding: 10px 20px
+}
+
+.widget_search .graphic--hantus {
+    stroke-width: 0px;    
+}
+
+.widget_search .input__field--hantus:focus + .input__label--hantus .graphic--hantus, 
+.widget_search .input--filled .graphic--hantus {
+    stroke-width: 4px;
+}
+
+.widget_search input[type=button], 
+.widget_search input[type=submit], 
+.widget_block.widget_search .wp-block-search__button,
+.wp-block-loginout a {
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    color: #fff;
+    border: 0;
+    padding: 10px 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.widget_search input[type=submit]:hover,
+.widget_search input[type=submit]:focus{
+   background: #fff !important;
+   color: #ec5498;
+}
+
+.widget_search form.search-form {
+    display: flex;
+}
+
+/*-----------------------------------
+    02. Widget Recent Post
+------------------------------------*/
+#recent-posts-2 ul {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+#recent-posts-2 h5 {
+    margin-bottom: 10px;
+    transition: .3s all;
+}
+
+#recent-posts-2 ul li a {
+    color: #2c3145;
+}
+
+#recent-posts-2 ul:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+.widget_recent_entries ul li {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.widget_recent_entries ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+    transition: .3s all;
+    color: #2c3145;
+}
+
+.widget_recent_entries:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+/*-----------------------------------
+    03. widget gallery
+------------------------------------*/
+
+.widget_media_gallery .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.widget_media_gallery .gallery-item {
+    -webkit-box-flex: 1 1 25%;
+    -moz-box-flex: 1 1 25%;
+    -webkit-flex: 1 1 25%;
+    -ms-flex: 1 1 25%;
+    flex: 1 1 25%;
+    position: relative;
+    width: auto;
+    margin: 0 15px 10px 0;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.widget_media_gallery .gallery-item .gallery-icon {
+    margin-bottom: 0;
+}
+
+.widget_media_gallery .gallery-item:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.widget_media_gallery .gallery-item img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+
+.widget_media_gallery .gallery-item:hover img {
+    transform: scale(1.15,1.15);
+    -webkit-transform: scale(1.15,1.15);
+    -moz-transform: scale(1.15,1.15);
+    -ms-transform: scale(1.15,1.15);
+    -o-transform: scale(1.15,1.15);
+}
+
+.widget_media_gallery .gallery .gallery-item a:after {
+    position: absolute;
+    content: "+";
+    color: #fff;
+    font-size: 36px;
+    top: 0;
+    background: rgba(44,49,69,.7);
+    left: 0;    
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+
+.widget_media_gallery .gallery .gallery-item:hover a:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/*-----------------------------------
+    04. Widget Tags
+------------------------------------*/
+
+.widget_tag_cloud .tagcloud, .widget_product_tag_cloud .tagcloud {
+     display: -webkit-box;
+}
+
+.widget_tag_cloud .tagcloud a,.widget_product_tag_cloud .tagcloud a,
+.wp-block-tag-cloud a {
+    font-size: 16px !important;
+    color: #5e6271;
+    background: #efeff1;
+    padding: 8px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.widget_tag_cloud .tagcloud a:hover, .widget_product_tag_cloud .tagcloud a:hover,
+.widget_tag_cloud .tagcloud a:focus, .widget_product_tag_cloud .tagcloud a:focus,
+.wp-block-tag-cloud a:hover, .wp-block-tag-cloud a:focus {
+    color: #fff !important;
+}
+
+.wp-block-tag-cloud a, 
+.wp-block-tag-cloud a:hover {
+    border: none;
+}
+/*-----------------------------------
+    03. Widget Archives
+------------------------------------*/
+
+.widget_archive li {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.widget_acrhive li:last-child {
+    border-bottom: 0;
+}
+
+.widget_archive li a {
+    color: #c2c2c2;
+    padding: 10px 0;
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.widget_archive li:first-child {
+    padding-top: 0px;
+}
+
+
+.widget_acrhive li:last-child {
+    padding-bottom: 0;
+}
+
+/*-----------------------------------
+    05. Widget Calender
+------------------------------------*/
+.calendar_wrap {
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.calendar_wrap thead tr{
+     margin: 0;
+    padding: 10px 0 10px;
+    color: #fff;
+}
+.calendar_wrap caption {
+    padding: 10px 0;
+    width: 100%;
+    color: #2c3145;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+}
+table#wp-calendar {
+    border: 0 none;
+    padding: 0px;
+    margin: 0;
+    line-height: 18px;
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+.widget_calender .widget-title {
+    padding-bottom: 0;
+}
+
+.widget_calender .widget-title li i {
+    padding: 11px 20px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.widget_calender .widget-title li i.left {
+    left: 0;
+    border-right: 1px solid rgba(255,255,255,.4);
+}
+
+.widget_calender .widget-title li i.right {
+    right: 0;
+    border-left: 1px solid rgba(255,255,255,.4);
+}
+
+.widget_calender {
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+td#today a {
+    color: #fff;
+}
+.calendar_wrap thead {
+    margin: 0;
+    padding: 10px 0 10px;
+    color: #fff;
+}
+
+.calendar_wrap thead tr th {
+    /* display: inline-block; */
+    font-weight: 400;
+    width: 11.6%;
+    text-align: center;
+}
+
+.calendar_wrap tbody tr {
+    padding: 0 0;
+    margin: 0;
+}
+
+div#calendar_wrap tbody tr td {
+    list-style-type: none;
+    border: 0;
+    width: 11.6%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.days li.disable {
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+td#today {
+    padding: 5px;
+    color: #fff;
+}
+
+table#wp-calendar tfoot td a {
+    color: #fff;
+}
+/* Calender Responsive*/
+@media screen and (max-width:920px) {
+    .weekdays li,
+    .days li {
+        width: 11.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li,
+    .days li {
+        width: 11.6%;
+    }
+    .days li .active {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li,
+    .days li {
+        width: 11.6%;
+    }
+}
+
+.wp-calendar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+
+/*-----------------------------------
+    05. Widget Gallery
+------------------------------------*/
+
+.gallery-images {
+    margin-top: 30px;
+}
+
+.gallery-images img {
+    width: 33.33333%;
+    margin: 0;
+    padding: 0;
+    margin-right: -5px;
+    margin-bottom: -1px;
+}
+
+/*-----------------------------------
+    06. Widget Newsletter
+------------------------------------*/
+
+.widget .newsletter {
+    padding: 30px 16px;
+}
+
+.widget-newsletter input[type=email] {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.widget-newsletter .subscribe {
+    border: 1px solid;
+    border-radius: 4px;
+    background: #fff;
+    padding: 10px 16px;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.widget-newsletter .subscribe:hover {
+    color: #fff;
+}
+/*-----------------------------------
+    06. Widget recent comment
+------------------------------------*/
+#recent-comments-2 ul li {
+    margin-bottom: 10px;
+    transition: .3s all;
+}
+.widget_recent_comments ul li {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.widget_recent_comments ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+    transition: .3s all;
+}
+.widget_recent_comments ul li a {
+    color: #2c3145;
+}
+/*-----------------------------------
+    07. Widget recent comment
+------------------------------------*/
+.widget_categories ul li {
+    margin-bottom: 10px;
+    transition: .3s all;
+}
+.widget_categories ul li {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.widget_categories ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+    transition: .3s all;
+}
+.widget_categories ul li a {
+    color: #2c3145;
+}
+/*-----------------------------------
+    08. Widget meta
+------------------------------------*/
+.widget_meta ul li {
+    margin-bottom: 10px;
+    transition: .3s all;
+}
+.widget_meta ul li {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.widget_meta ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+    transition: .3s all;
+}
+.widget_meta ul li a {
+    color: #2c3145;
+}
+
+/* widget woocommerce*/
+/*widget_product_categories*/
+
+.woo-sidebar .widget-title {
+    padding: 0 0 30px;
+}
+
+.woo-sidebar .widget {
+    margin-bottom: 30px;
+}
+.widget_product_categories ul li {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.widget_product_categories ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+    transition: .3s all;
+    color:#2c3145;
+}
+/*widget_products*/
+.widget_products ul li,.widget_top_rated_products ul li,.widget_recently_viewed_products ul li{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.widget_products ul li a,.widget_top_rated_products ul li a,.widget_recently_viewed_products ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+    transition: .3s all;
+    color:#2c3145;
+}
+/* woocommerce widget search */
+.widget_product_search .input {
+    width: calc(80% - 2em);
+    margin-right: 10px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    margin-bottom: 0;
+}
+
+.widget_product_search .search-field {
+    padding: 10px 10px;
+    border-radius: 4px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    border: 0;
+    width: 70%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.widget_product_search button[type=submit] {
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    color: #fff;
+    border: 0;
+    padding: 10px 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.widget_product_search button[type=submit]:hover,
+.widget_product_search button[type=submit]:focus {
+    background: #f9f9f9;
+}
+/*widget_product_categories*/
+.widget_product_tag_cloud .tagcloud {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.widget_product_tag_cloud .tagcloud  a {
+    font-size: 16px !important;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+    transition: .3s all;
+    color:#2c3145;
+}
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* footer widget */
+#footer-widgets ul li {
+    list-style: none;
+}
+.widget_nav_menu ul li {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.widget_nav_menu ul li.menu-item-has-children > a {
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.widget_nav_menu ul li.menu-item-has-children .sub-menu li:last-child,
+.widget_nav_menu ul li.menu-item-has-children {
+    padding-bottom: 0;
+}
+
+.widget_media_image img {
+    width: 100%;
+}
+
+
+.widget_block ul li a{
+	color: #2c3145;
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+    transition: .3s all;
+}
+
+
+.wp-block-archives {
+    list-style: none;
+}
+
+.wp-block-calendar table caption {
+    text-align: center;
+}
+
+ul.wp-block-social-links li a {
+    line-height: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.widget_shopping_cart .cart-item {
+    padding: 10px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.widget_shopping_cart .cart-item .cart-item-description {
+    font-size: 16px;
+}
+
+.widget_shopping_cart .cart-item .cart-item-description h4 {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.post-content .wp-block-latest-comments {
+    padding: 0;
+}
+
+.wp-block-table {
+    word-break: break-all;
+}
+
+.footer-sidebar .wp-block-latest-comments {
+    padding: 0;
+}
+
+.logged-in.wp-block-loginout a {
+    border-radius: 50px;
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+    line-height: 32px;
+}
+
+.wp-block-calendar a {
+    text-decoration: none;
+}
+
+.site-content ol.wp-block-latest-comments {
+    padding: 0;
+}
+
+.wp-block-buttons {
+    margin: 15px 0px;
+}
+
+.wp-block-categories-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.blog-post input[type="submit"]:hover,
+.blog-post input[type="submit"]:focus{
+	color:#fff;
+}
+
+.wp-block-embed figcaption {
+    text-align: center;
+}
+
+.wp-block-code code img {
+    margin-left: 20px;
+}
+
+.wp-block-pullquote.has-background blockquote {
+    background: inherit;
+}
+
+.site-content .wp-block-loginout,
+.site-content form.wp-block-search {
+    padding: 20px 0;
+}
+
+pre.has-background code {
+    background-color: inherit;
+}
+
+p.has-text-color em {
+    color: inherit;
+}
+
+.has-text-color em,
+.has-text-color h2 {
+    color: inherit;
+}
+
+a.wp-block-file__button {
+    color: #fff;
+}
+
+.has-text-color * {
+    color: inherit;
+}
+
+.has-text-color a:hover, 
+.has-text-color a:focus {
+    color: inherit;
+}
+
+.wp-block-pullquote.has-text-color blockquote {
+    border-color: inherit;
+}
+
+blockquote {
+    border-color: inherit !important;
+}
+
+.has-background.wp-block-read-more {
+    padding: 5px 10px;
+}
+
+.wp-block-calendar table caption {
+    font-weight: 500;
+}
+
+.wp-block-avatar img {
+    border-radius: 50%;
+}
+
+.widget_block .alignleft {
+    text-align: left;
+    margin: auto;
+}
+
+.sidebar .wp-block-search__label{
+	box-shadow: none;
+	font-weight: 500;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+
+.wp-block-image figcaption {
+ 	margin-bottom: 0;
+}

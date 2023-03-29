@@ -1,0 +1,150 @@
+.has-primary-color {
+  color: #0088CC;
+}
+
+.has-primary-background-color {
+  background-color: #0088CC;
+}
+
+.has-secondary-color {
+  color: #233049;
+}
+
+.has-secondary-background-color {
+  background-color: #233049;
+}
+
+.has-yellow-color {
+  color: #ffbb44;
+}
+
+.has-yellow-background-color {
+  background-color: #ffbb44;
+}
+
+.has-green-color {
+  color: #4caf52;
+}
+
+.has-green-background-color {
+  background-color: #4caf52;
+}
+
+.has-grey-color {
+  color: #2196f3;
+}
+
+.has-grey-background-color {
+  background-color: #2196f3;
+}
+
+.alignleft {
+    float: left;
+    margin: 16px 16px 16px 0;
+}
+
+.alignright {
+    float: right;
+    margin: 16px 16px 16px 0;
+}
+
+.alignfull {
+  width: 100%;
+  max-width: 100%;
+}
+
+.alignwide {
+  width: 100%;
+  max-width: 100%;
+}
+
+.block-editor-block-list__block[data-type="core/embed"][data-align=left] .block-editor-block-list__block-edit, .block-editor-block-list__block[data-type="core/embed"][data-align=right] .block-editor-block-list__block-edit, .wp-block-embed.alignleft {
+    margin-right: 225px!important;
+	margin-top:40px;
+}
+.wp-block-embed.alignright {
+	margin-left: 225px!important;
+	margin-top:40px;
+}
+a.wp-block-button__link {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 15px 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.has-primary-color {
+  color: #0088CC;
+}
+
+.has-primary-background-color {
+  background-color: #0088CC;
+}
+
+.has-secondary-color {
+  color: #233049;
+}
+
+.has-secondary-background-color {
+  background-color: #233049;
+}
+
+.has-yellow-color {
+  color: #ffbb44;
+}
+
+.has-yellow-background-color {
+  background-color: #ffbb44;
+}
+
+.has-green-color {
+  color: #4caf52;
+}
+
+.has-green-background-color {
+  background-color: #4caf52;
+}
+
+.has-grey-color {
+  color: #2196f3;
+}
+
+.has-grey-background-color {
+  background-color: #2196f3;
+}
+
+.wp-block-embed-youtube iframe {
+  width: 100%;
+}
+
+.wp-block-image .alignright {
+    margin-left: 343px;
+}
+.wp-block-image .alignleft {
+    margin-right: 343px;
+}
+
+.wp-block-embed__wrapper iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+figure.wp-block-pullquote.alignleft {
+    margin-right: 290px;
+}
+figure.wp-block-pullquote.alignright {
+    margin-left: 290px;
+}
+
+.wp-block-calendar table {
+    table-layout: auto;
+}
+
+.wp-block-table.aligncenter{
+    margin: 0 auto;
+}
+.wp-block-calendar thead th {
+    color: #0088CC;
+}

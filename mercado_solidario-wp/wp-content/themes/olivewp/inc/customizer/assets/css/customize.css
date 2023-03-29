@@ -1,0 +1,97 @@
+#customize-control-theme_color input[type=radio], #customize-control-olivewp_layout_style input[type=radio] {
+    display: none;
+}
+#accordion-section-colors
+{
+    display: none;
+}
+#breadcrumbs-display-blog-page
+{
+    display: none;
+}   
+#customize-control-after_menu_btn_txt
+{
+    display: none;
+}
+#customize-control-after_menu_btn_link
+{
+    display: none;
+}
+#customize-control-after_menu_btn_new_tabl
+{
+    display: none;
+}       
+#customize-control-after_menu_btn_border
+{
+    display: none;
+}    
+#customize-control-after_menu_html
+{
+    display: none;
+}
+#customize-theme-controls .customize-pane-child.accordion-section-content {
+    background-color: #fff;
+}
+#sub-accordion-section-olivewp_header_typography .customize-control.customize-control-select .customize-control-title, #sub-accordion-section-olivewp_header_typography .slider-custom-control .customize-control-title,
+#sub-accordion-section-olivewp_content_typography .customize-control.customize-control-select .customize-control-title, #sub-accordion-section-olivewp_content_typography .slider-custom-control .customize-control-title,
+#sub-accordion-section-olivewp_post_typography .customize-control.customize-control-select .customize-control-title, #sub-accordion-section-olivewp_post_typography .slider-custom-control .customize-control-title,
+#sub-accordion-section-olivewp_shop_page_typography .customize-control.customize-control-select .customize-control-title, #sub-accordion-section-olivewp_shop_page_typography .slider-custom-control .customize-control-title,
+#sub-accordion-section-olivewp_sidebar_typography .customize-control.customize-control-select .customize-control-title, #sub-accordion-section-olivewp_sidebar_typography .slider-custom-control .customize-control-title,
+#sub-accordion-section-olivewp_footer_typography .customize-control.customize-control-select .customize-control-title, #sub-accordion-section-olivewp_footer_typography .slider-custom-control .customize-control-title
+{ font-weight: unset; }
+
+
+
+#sub-accordion-section-olivewp_header_color .customize-control-color .customize-control-title,
+#sub-accordion-section-olivewp_menu_color .customize-control-color .customize-control-title,
+#sub-accordion-section-olivewp_content_color .customize-control-color .customize-control-title,
+#sub-accordion-section-olivewp_sidebar_color .customize-control-color .customize-control-title,
+#sub-accordion-section-olivewp_footer_color .customize-control-color .customize-control-title
+{ 
+    font-weight: unset; 
+}
+
+
+/* Pro Deatils Customizer Tab */
+
+.olivewp-plus-features li { line-height: 24px; margin-bottom: 23px;
+ font-size: 14px; }
+.olivewp-plus-features .olivewp-plus-label {
+    font-weight: bold;
+    background: #a7a7a7;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 2px 6px 2px 7px;
+    letter-spacing: .1px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.olivewp-plus-button {
+    margin-right: 21px !important;
+    width: 95%;
+    text-align: center;
+    letter-spacing: .2px;   
+}
+.olivewp-plus-features-customizer hr {
+    margin-top: 22px;
+    margin-bottom: 16px;  
+}
+.olivewp-plus-content li {
+    line-height: 22px;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 12px;   
+}
+.olivewp-plus-content .olivewp-plus-des {
+    padding-left: 20px;
+    list-style: circle;
+}
+#customize-control-olivewp_blog_content.customize-control-radio {
+    padding: 5px 0 0;
+}
+#customize-control-bredcrumb_page_title h3{
+    background:#e5e5e5;
+    padding:10px 12px;
+    margin:0
+}

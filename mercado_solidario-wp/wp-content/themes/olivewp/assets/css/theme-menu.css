@@ -1,0 +1,933 @@
+/* Menu Section css---------------------------------------------------------------------------------------------------- */ 
+  @media (max-width: 1100px) {
+            .spice-custom .dropdown-menu {
+                border-top: none;
+                border-bottom: none;
+                box-shadow: none;
+                border: none;
+            }
+            .spice-classic .spice-nav .nav .open > a,
+            .spice-classic .spice-nav .nav .open > a:hover,
+            .spice-classic .spice-nav .nav .open > a:focus {
+                border-color: #106eea;
+            }
+
+        }
+
+        @media (max-width: 1100px) {
+            .spice-classic .spice-nav > li > a:hover,
+            .spice-classic .spice-nav > li > a:focus {
+                background-color: transparent;
+                color: #106eea;
+            }
+            .spice-classic .spice-nav > .open > a,
+            .spice-classic .spice-nav > .open > a:hover,
+            .spice-classic .spice-nav > .open > a:focus {
+                background-color: transparent;
+                color: #106eea;
+            }
+            .spice-classic .spice-nav > .active > a,
+            .spice-classic .spice-nav > .active > a:hover,
+            .spice-classic .spice-nav > .active > a:focus {
+                background-color: transparent;
+                color: #106eea;
+                border-top: none;
+            }
+        }
+
+        @media (min-width: 100px) and (max-width: 1100px) {
+            .spice .spice-nav > .active > a,
+            .spice .spice-nav > .active > a:hover,
+            .spice .spice-nav > .active > a:focus {
+                color: #106eea;
+                background-color: transparent;
+            }
+            .spice .spice-nav > .open > a,
+            .spice .spice-nav > .open > a:hover,
+            .spice .spice-nav > .open > a:focus {
+                background-color: transparent;
+                color: #106eea;
+                border-bottom: 1px dotted #4c4a5f;
+            }
+        }
+
+        /*===================================================================================*/
+        /*  spice
+        /*===================================================================================*/
+
+        .spice-custom {
+            background-color: #fff;
+            border: 0;
+            border-radius: 0;
+            z-index: 1000;
+            font-size: 1.000rem;
+            transition: background, padding 0.4s ease-in-out 0s;
+            margin: 0;
+            /*min-height: 90px;*/
+        }
+        .spice-custom.shrink.layout1, .spice-custom.shrink.layout2 {
+            background-color: #fff;
+        }
+        .spice a { transition: color 0.125s ease-in-out 0s; }
+        .spice-custom .spice-brand {
+            letter-spacing: 1px;
+            font-weight: 600;
+            font-size: 2.000rem;
+            line-height: 1.5;
+            color: #1b1b1b;
+            margin-left: 0px;
+            height: auto;
+            padding: 15px 10px 15px 0px;
+        }
+         .spice-brand{
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+        .site-branding-text { float: left; margin: 0; padding: 13px 50px 13px 0; }
+        .site-title, .woocommerce-page .site-title { height: auto; font-size: 1.875rem; line-height: 1.3; font-weight: 600; margin: 0; padding: 0px; }
+        .site-description { padding: 0; margin: 0; }
+        .spice-custom .spice-nav li { margin: 0px;  padding: 18px 17px; }
+        .spice-custom .spice-nav li > a {
+            position: relative;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 0.875rem;
+            padding: 0;
+            transition: all 0.3s ease-in-out 0s;
+            /*text-transform: uppercase;*/
+        }
+   
+            /*Dropdown Menu*/
+        .spice-custom .dropdown-menu {
+            border-radius: 0;
+            padding: 0;
+            min-width: 200px;
+            background-color: #21202e;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+            position: static;
+            float: none;
+            width: auto;
+            margin-top: 0;
+        }
+        .spice-custom .dropdown-menu > li { padding: 0 10px; margin: 0; }
+        .spice-custom .dropdown-menu > li > a {
+            color: #d5d5d5;
+            border-bottom: 1px dotted #363544;
+            font-weight: 600;
+            font-size: 0.875rem;
+            padding: 12px 15px;
+            transition: all 0.2s ease-in-out 0s;
+            letter-spacing: 0.7px;
+            white-space: normal;
+        }
+        .spice-custom .dropdown-menu > li > a:hover,
+        .spice-custom .dropdown-menu > li > a:focus {
+            padding: 12px 15px 12px 20px;
+        }
+        .spice-custom .dropdown-menu > li > a:hover,
+        .spice-custom .dropdown-menu > li > a:focus {
+            color: #ffffff;
+            background-color: #282737;
+        }
+        .spice-custom .dropdown-menu .dropdown-menu {
+            left: 100%;
+            right: auto;
+            top: 0;
+            margin-top: 0;
+        }
+        .spice-custom .dropdown-menu.left-side .dropdown-menu {
+            border: 0;
+            right: 100%;
+            left: auto;
+        }
+        .spice-custom .dropdown-menu .open > a,
+        .spice-custom .dropdown-menu .open > a:focus,
+        .spice-custom .dropdown-menu .open > a:hover {
+            background: #282737;
+            color: #fff;
+        }
+        .nav .open > a,
+        .nav .open > a:hover,
+        .nav .open > a:focus {
+            border-color: #363544;
+        }
+        .spice-custom .dropdown-menu > .active > a,
+        .spice-custom .dropdown-menu > .active > a:hover,
+        .spice-custom .dropdown-menu > .active > a:focus {
+            color: #fff;
+            background-color: transparent;
+        }
+        .spice-custom .spice-toggle .icon-bar { background: #121213; width: 40px; height: 2px; }
+        .spice-toggle .icon-bar + .icon-bar { margin-top: 8px; }
+
+
+        /*--------------------------------------------------------------
+                spice Overlapped & Stiky Header Css
+        --------------------------------------------------------------*/
+
+        body.page .header-overlapped ~ #slider-carousel,
+        body.woocommerce-page .header-overlapped ~ #slider-carousel { margin: -70px 0 70px; }
+        body.page-template.page-template-template-business .header-overlapped ~ #slider-carousel,
+        body.blog .header-overlapped,
+        body.page-template.page-template-template-overlapped .header-overlapped ~ #slider-carousel,body.page-template.page-template-template-overlaped .header-overlapped ~ #slider-carousel {
+            margin: 0px;
+        }
+        body.home.blog .header-overlapped,
+        body.page-template-template-business .header-overlapped,
+        body.page-template-template-overlaped .header-overlapped {
+            background-color: transparent;
+            margin: 0;
+            position: relative;
+            z-index: 99;
+        }
+        .header-overlapped { margin: 0 0 70px; }
+        .header-overlapped .page-title-section { background-color: transparent; }
+        .spice-overlapped {
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            z-index: 20;
+            background-color: rgba(0,0,0,0.2);
+        }
+        @media (min-width:500px) {
+            body.home.blog .spice-overlapped,
+            body.page-template-template-business .spice-overlapped,body.page-template-template-overlaped .spice-overlapped {
+                position: absolute;
+                right: 0;
+                left: 0;
+                top: 0;
+                z-index: 20;
+            }
+        }
+        .spice-overlapped { min-height: 90px; position: relative; }
+        .header-overlapped .page-seperate {display: none;}
+        .spice-overlapped .spice-brand { padding: 20px 0px; color: #ffffff; }
+        .spice-overlapped .spice-brand:hover,
+        .spice-overlapped .spice-brand:focus {
+            color: #ffffff;
+        }
+        .spice-overlapped .site-title a,
+        .spice-overlapped .site-title a:hover,
+        .spice-overlapped .site-title a:focus,
+        .spice-overlapped .site-description {
+            color: #fff;
+        }
+        .spice-overlapped .spice-nav > li > a {
+            color: #fff;
+            border-bottom: 2px solid transparent;
+            padding: 34px 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .spice-overlapped .spice-nav > li > a:hover,
+        .spice-overlapped .spice-nav > li > a:focus {
+            background-color: transparent;
+            color: #fff;
+            border-bottom: 2px solid rgba(255,255,255,1);
+        }
+        .spice-overlapped .spice-nav > .open > a,
+        .spice-overlapped .spice-nav > .open > a:hover,
+        .spice-overlapped .spice-nav > .open > a:focus {
+            background-color: transparent;
+            color: #fff;
+            border-bottom: 2px solid transparent;
+        }
+        .spice-overlapped .spice-nav > .active > a,
+        .spice-overlapped .spice-nav > .active > a:hover,
+        .spice-overlapped .spice-nav > .active > a:focus {
+            background-color: transparent;
+            color: #fff;
+            border-bottom: 2px solid rgba(255,255,255,1);
+        }
+        .spice-overlapped .cart-header { width: 25px; height: 25px; margin: 33px 7px 32px 20px; }
+        .spice-overlapped .cart-header > a.cart-icon { color: #fff; border: 1px solid #ffffff; }
+        .spice-overlapped .cart-header > a.cart-icon { width: auto; height: auto; border: 0 none; padding: 0; }
+        .spice-overlapped .cart-header > a .cart-total { right: -11px; top: -4px; }
+
+        /*Header Stiky Menu*/
+        .stiky-header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            background: #21202e;
+            transition: all 0.3s ease;
+            min-height: 70px;
+            box-shadow: 0 2px 3px rgba(0,0,0,.1)
+        }
+        .spice-overlapped.stiky-header .spice-brand { padding: 10px 0px; }
+        .spice-overlapped.stiky-header .site-branding-text { padding: 3px 50px 3px 15px; }
+        .spice-overlapped.stiky-header .spice-nav > li > a { padding: 24px 10px; }
+        .spice-overlapped.stiky-header .cart-header { margin: 23px 7px 22px 20px; }
+
+        /*--------------------------------------------------------------
+                spice Classic Header Css
+        --------------------------------------------------------------*/
+
+        .mobile-header { display: none; }
+        @media (max-width: 1100px) {
+            .desktop-header { display: none; }
+            #wrapper .mobile-header { display: block; }
+            .mobile-header .spice-classic { background-color: #fff; }
+        }
+        .spice-classic { z-index: 20; background-color: #21202e; }
+        .spice-classic { min-height: 60px; }
+        .spice-classic .spice-nav { float: none; }
+        .spice-classic .spice-nav > li > a { color: #fff; padding: 20px 25px; }
+        .spice-classic .spice-collapse { border-top: 1px solid #434158; }
+        .spice-classic .cart-header { width: 25px; height: 25px; margin: 18px 10px 17px 20px; }
+        .spice-classic .cart-header > a.cart-icon { color: #fff; border: 1px solid #ffffff; }
+        .spice-classic .cart-header > a.cart-icon { width: auto; height: auto; border: 0 none; padding: 0; }
+        .spice-classic .cart-header > a .cart-total { right: -11px; top: -4px; }
+        .header-widget-info .spice-brand { height: auto; padding: 15px 0px; }
+
+        @media (min-width: 1100px) and (max-width: 1101px) {
+            /*spice Classic*/
+            .spice-classic .spice-nav > li > a { padding: 20px 25px; }
+            .spice-classic .spice-nav .cart-header { margin: 18px 12px 18px 20px; }
+        }
+
+        /*--------------------------------------------------------------
+                Menubar - Media Queries
+        --------------------------------------------------------------*/
+
+        @media (min-width: 1100px){
+
+            .spice-collapse.collapse {
+                display: -webkit-box!important;
+                 display: -ms-flexbox!important;
+                     display: flex!important;
+                      -ms-flex-preferred-size: auto;
+                       flex-basis: auto;
+                  -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                 flex-grow: 1;
+                 -webkit-box-align: center;
+                 -ms-flex-align: center;
+                  align-items: center;
+                  padding: 20px 0 14px 0;
+            }
+            .spice-nav {
+                margin: 0;
+            }
+            .spice-custom .spice-nav > li {
+                float: left;
+            }
+            .spice-header {
+                float: left;
+            }
+            .spice-toggle {
+                display: none;
+            }
+            .spice-custom .spice-nav > li.menu-item-type-custom i{    padding-left: 6px;
+    line-height: 1;
+        }
+    }
+
+        @media (min-width: 768px){
+            /* spice Classic */
+            .spice-classic .spice-nav { float: none; }
+        }
+        @media (min-width: 1100px) {
+            .spice-transparent { background: transparent; padding-bottom: 0px; padding-top: 0px; margin: 0; }
+            .spice-custom .open > .dropdown-menu { visibility: visible; opacity: 1; }
+            .spice-right .dropdown-menu { right: auto; left: 0; }
+            .spice-classic .spice-collapse { padding-right: 5px; padding-left: 5px; }
+        }
+            @media (min-width: 1101px) {
+            .spice-custom .container-fluid {
+                width: 970px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+
+            .spice-custom .dropdown-menu > li > a { padding: 12px 15px; }
+            .spice-custom .dropdown-menu > li > a:hover,
+            .spice-custom .dropdown-menu > li > a:focus {
+                padding: 12px 15px 12px 20px;
+            }
+            .spice-custom .open .dropdown-menu { background-color: #21202e; }
+            .spice-custom .dropdown-menu { position: absolute; display: block; visibility: hidden; opacity: 0; }
+            .spice-custom .dropdown-menu > li > a i {
+                float: right;
+            }
+
+        }
+        @media (min-width: 1200px) {
+            .spice-custom .container-fluid {
+                width: 1170px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+        }
+        @media (min-width: 1200px) {
+            .spice-custom .container-fluid.fullwidth {
+                width: auto;
+            }
+        }
+
+
+        /** BELOW MAX-WIDTH MEDIA QUERIES **/
+
+        @media (max-width: 1100px) {
+            /* spice */
+            .spice-custom .spice-nav { letter-spacing: 0px; margin-top: 1px; margin-bottom: 0; }
+            .spice-custom .spice-nav li { margin: 0 15px; padding: 0; }
+            .spice-custom .spice-nav li > a { color: #bbb; padding: 12px 0px 12px 0px; }
+            .spice-custom .spice-nav > li > a:focus,
+            .spice-custom .spice-nav > li > a:hover {
+                background: transparent;
+                color: #fff;
+            }
+            .spice-custom .spice-nav li > a.search-icon {padding-top: 15px;}
+             .cart-header {height: 25px}
+            .spice-custom .dropdown-menu > li > a {
+                display: block;
+                clear: both;
+                font-weight: normal;
+            }
+            .spice-custom .dropdown-menu.search-panel {top: 53px;}
+            .spice-custom .dropdown-menu > li > a:hover,
+            .spice-custom .dropdown-menu > li > a:focus {
+                background-color: #21202F;
+                color: #fff;
+                padding: 12px 0px 12px 0px;
+            }
+            .spice-custom .open .dropdown-menu {
+                position: static;
+                float: none;
+                width: auto;
+                margin-top: 0;
+                background-color: transparent;
+                border: 0;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+            .spice-custom .open .dropdown-menu > li > a {
+                line-height: 20px;
+            }
+            .spice-custom .open .dropdown-menu .dropdown-header,
+            .spice-custom .open .dropdown-menu > li > a {
+                padding: 12px 0px;
+            }
+            .spice-custom .open .dropdown-menu .dropdown-menu .dropdown-header,
+            .spice-custom .open .dropdown-menu .dropdown-menu > li > a {
+                padding: 12px 0px;
+            }
+            .spice-custom li a,
+            .spice-custom .dropdown-search {
+                border-bottom: 1px dotted #4c4a5f;
+            }
+            .cart-header > a.cart-icon, .nav-item.html.menu-item.lite-html a { border-bottom: none; }
+            .spice-header { padding: 0px 15px; float: none; }
+            .spice-custom .spice-brand { padding: 20px 50px 20px 0px; }
+            .spice-toggle { display: block; margin: 24px 15px 24px 0; padding: 9px 12px;float: right; }
+            .spice-custom.spice5.hp-hc .spice-toggle { float: none; margin: 15px auto; }
+            .site-branding-text { padding: 17px 50px 17px 15px; }
+            .spice-collapse { border-top: 1px solid transparent; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+            .spice-collapse.collapse { display: none!important; }
+            .spice-custom .spice-nav { background-color: #21202e; float: none!important; margin: 0px }
+            .spice-custom .spice-nav > li { float: none; }
+            .spice-collapse.collapse.in { display: block!important; }
+            .collapsing { overflow: hidden!important; }
+            .spice-collapse,
+            .spice-collapse.collapse.in {
+                padding-right: 0px;
+                padding-left: 0px;
+            }
+
+            .spice-custom.hp-hc .spice-nav > li {
+                float: none;
+                display: block;
+            }
+            .spice-custom.hp-hc .spice-nav {text-align: left;}
+            .spice5.spice-custom .spice-nav > .active > a:after {content: none;}
+
+
+            /*spice Overlapped*/
+            .spice-overlapped.stiky-header .spice-toggle {
+                margin: 13px 15px 13px 0;
+            }
+            .spice-overlapped.stiky-header .spice-collapse.in {
+                max-height: 500px;
+                padding-right: 0px;
+            }
+
+        }
+        @media (max-width: 1100px) {
+            .spice-custom .dropdown a > i.fa {
+                font-size: 0.938rem;
+                position: absolute;
+                right: 0;
+                margin-top: -6px;
+                top: 50%;
+                padding-left: 7px;
+            }
+            /*spice Overlapped*/
+            .spice-overlapped.stiky-header .spice-brand { padding: 20px 0px; }
+            .spice-overlapped.stiky-header .spice-nav > li > a { padding: 12px 15px; }
+            .spice-overlapped .spice-nav > li > a:hover,
+            .spice-overlapped .spice-nav > li > a:focus {
+                border-bottom: 1px dotted #4c4a5f;
+            }
+            .spice-overlapped .spice-nav > .active > a,
+            .spice-overlapped .spice-nav > .active > a:hover,
+            .spice-overlapped .spice-nav > .active > a:focus {
+                border-bottom: 1px dotted #4c4a5f;
+            }
+            .spice-overlapped .spice-toggle { color: #fff; }
+            .spice-overlapped .spice-toggle .icon-bar { background-color: #fff; }
+
+        }
+        @media (max-width: 768px) {
+            .spice-header { padding: 0 15px; }
+            .spice-collapse,
+            .spice-collapse.collapse.in { padding-right: 15px; padding-left: 15px; }
+            .spice-custom .spice-brand { padding: 20px 50px 20px 15px; }
+        }
+        @media (max-width: 500px) {
+            .spice-custom .spice-brand { float: none; display: block; text-align: center; padding: 25px 15px 5px 15px; }
+            .spice-custom .spice-brand img { margin: 0 auto; }
+            .site-branding-text { padding: 17px 15px 17px 15px; float: none; text-align: center; }
+            .spice-toggle { float: none; margin: 10px auto 25px; }
+            /*spice Overlapped*/
+            .spice-overlapped { position: relative; background-color: #21202e; border-bottom: 1px solid #4c4a5f; }
+            .spice-overlapped .spice-collapse.in { bottom: 0px; }
+            .spice-overlapped .spice-collapse { bottom: 0px; }
+            .spice-overlapped.stiky-header .spice-toggle { float: none; margin: 10px auto 25px; }
+            .spice-overlapped.stiky-header .site-branding-text {
+                padding: 17px 15px 17px 15px;
+                float: none;
+                text-align: center;
+            }
+            body.blog .spice-overlapped { position: relative; }
+             .spice-header .custom-logo-link-url {display: block; text-align: center;padding: 5px 10px 10px 10px;;}
+
+        }
+
+        /*===================================================================================*/
+        /*  CART ICON
+        /*===================================================================================*/
+        .cart-header {
+          width: 30px;
+    height: 30px;
+    line-height: 1.6;
+    text-align: center;
+    background: transparent;
+    position: relative;
+    float: left;
+    margin: 0;
+    border-left: 1px solid #888;
+    display: inline-block;
+    padding-left: 12px;
+    }
+.spice-custom .spice-nav li > a.search-icon {
+    padding-right: 12px;
+    display: inline-block;
+    float: left;
+}
+        .cart-header > a.cart-icon {
+            -wekbit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            display: inline-block;
+            font-size: 1.125rem;
+            color: #ffffff;
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+        }
+        .cart-header > a .cart-total {
+            font-family: 'Open Sans', Sans-serif;
+            font-size: 0.688rem;
+            line-height: 1.7;
+            color: #ffffff;
+            font-weight: 600;
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 1px;
+            width: 1.225rem;
+            height: 1.225rem;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            -wekbit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        @media (min-width: 100px) and (max-width: 1100px) {
+            .cart-header { float: left;margin:8px;display: inline-block; }
+            .cart-header > a.cart-icon { color: #fff; }
+        }
+
+
+        /*-------------------------------------------------------------------------
+        /* spice - Logo Right Align with Menu
+        -------------------------------------------------------------------------*/
+
+        @media (min-width: 1101px) {
+            .spice-header.align-right {
+                float: right;
+            }
+            .spice-header.align-right ~ .spice-collapse { padding-left: 0; }
+        }
+        @media (max-width: 1100px) {
+            .spice-header.align-right .spice-toggle {
+                float: left;
+                margin-left: 15px;
+            }
+
+        }
+        .spice-brand.align-right, .site-branding-text.align-right {
+            float: right;
+            margin-right: 0px;
+            margin-left: 50px;
+            padding-right: 0px;
+        }
+        @media (max-width: 768px) {
+            .spice-brand.align-right, .site-branding-text.align-right {
+                padding-right: 15px;
+            }
+        }
+        @media (max-width: 500px) {
+            .spice-brand.align-right{
+                float: none;
+                padding: 10px 15px 30px 15px;
+            }
+            .site-branding-text.align-right {
+                float: none;
+                padding: 10px 15px 30px 15px;
+                margin-left: 0;
+            }
+            .spice-header.align-right .spice-toggle {
+                float: none;
+                margin: 30px auto 10px;
+            }
+        }
+        .p-lef-right-0 { padding-left: 0; padding-right: 0; }
+
+
+        /*-------------------------------------------------------------------------
+        /* spice - Logo Center Align with Menu
+        -------------------------------------------------------------------------*/
+
+        .mobile-header { display: none; }
+        @media (max-width: 1100px){
+            .desktop-header {
+                display: none;
+            }
+            .mobile-header {
+                display: block;
+            }
+        }
+        .spice-center-fullwidth .container-fluid {
+            padding-left: 0px;
+            padding-right: 0px;
+            width: auto;
+        }
+        @media (min-width: 1101px) {
+            .spice-center-fullwidth .logo-area {
+                margin: 0 auto;
+                padding: 40px 0;
+                text-align: center;
+            }
+            .spice-brand.align-center, .site-branding-text.align-center{
+                float: none;
+                padding: 0px;
+                display: inline-block;
+            }
+            .spice-center-fullwidth .spice-nav {
+                float: none;
+                margin: 0 auto;
+                display: table;
+            }
+        }
+        .spice-center-fullwidth .spice-collapse {
+            border-top: 1px solid #e9e9e9;
+            border-bottom: 1px solid #e9e9e9;
+        }
+        .spice-center-fullwidth .spice-nav > .active > a,
+        .spice-center-fullwidth .spice-nav > .active > a:hover,
+        .spice-center-fullwidth .spice-nav > .active > a:focus {
+            color: #106eea;
+            background-color: transparent;
+        }
+        .spice-center-fullwidth .spice-nav li > a {
+            padding: 20px;
+        }
+        .spice-center-fullwidth .dropdown-menu > li > a {
+            padding: 12px 15px;
+        }
+        .spice-center-fullwidth .sp-search-area {
+            margin-top: 10px;
+            margin-bottom: 8px;
+        }
+        @media (min-width: 1100px) {
+            .spice-nav ul.dropdown-menu .fa-angle-down:before {
+                content: "\f105";
+                font-family: "Font Awesome 5 Free";
+                font-size: 12px;
+            }
+        }
+        @media (min-width: 1101px) {
+          .spice-custom .dropdown-menu > li > a i {
+              padding-top: 2px;
+          }
+        }
+    </style>
+    <style>body.boxed{ background-image:url("#");}</style>  <noscript><style>.woocommerce-product-gallery{ opacity: 1; }</style></noscript>
+            <style type="text/css" id="header-css">
+         .site-title,
+                .site-description {
+                    clip: rect(1px 1px 1px 1px); /* IE7 */
+                    clip: rect(1px, 1px, 1px, 1px);
+                    position: absolute;
+                }
+                    </style>
+                <style type="text/css" id="wp-custom-css">
+            .page-template-template-center .index-logo.index5 .col-xs-12,.page-template-template-center .index-logo.index5 .col-md-4,.page-template-template-center .index-logo.index5 .col-sm-5{margin:0 auto;float:none;}
+.spice-custom .dropdown-menu > li {
+    padding: 0 5px;}
+.dark_layout {
+    background-color: #222222;
+    box-shadow: 0 2px 0 0 #000000;
+    color: #ffffff;
+    border-radius: 2px;
+    border: 0px none;
+    display: inline-block;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    margin: 5px 2px;
+    padding: 5px 13px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+}
+.dark_layout:hover {
+    color: #fff;
+}
+.spice-custom .dropdown-menu.search-panel {
+    top: 60px;
+    left: auto;
+    right: 0px;
+    padding: 12px 3px 12px;
+    width: 315px;
+}
+.spice.spice-custom .header-button a{
+    /*border: 0;*/
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.6;
+    padding: 0.75rem 1.3rem;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    margin: 5px 17px;
+}
+.header-sidebar {
+    /*background-color: rgba(255 ,255, 255,0.10);*/
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+  }
+  @media (min-width: 768px){
+.spice-nav {
+    float: left;
+    margin: 0;
+}
+.spice-nav > li {
+    float: left;
+}
+}
+.spice-custom ul { list-style: none; }
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+.dropup, .dropdown {
+    position: relative;
+}
+
+.clrfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.clrfix:before, .clrfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .spice-container:before, .spice-container:after, .spice-container-fluid:before, .spice-container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .spice:before, .spice:after, .spice-header:before, .spice-header:after, .spice-collapse:before, .spice-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+.clrfix:after, .dl-horizontal dd:after, .spice-container:after, .spice-container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .spice:after, .spice-header:after, .spice-collapse:after, .pager:after, .panel-body:after, .modal-footer:after {
+    clear: both;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+}
+.dropdown-menu {
+     margin: 2px 0 0;
+     position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+   }
+
+   .spice-toggle{color: #fff;font-size: 1rem;font-weight: 400;}
+.trsprnt-menu{
+background-color: transparent;
+    border-color: transparent;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+  }
+ .header-sidebar .widget .head-contact-info.time-info li {
+    border-right: none;
+}
+.custom-logo-link-url{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 10px 10px 10px;}
+.custom-logo-link-url .site-title a{color: #fff;}
+.custom-logo-link-url .site-description{color: #c5c5c5;}
+@media (max-width: 767px){
+.header-sidebar .widget .custom-social-icons {
+    display: block;
+    padding: 0 0 10px;
+}}
+@media (max-width: 1100px){
+.spice-custom .dropdown-menu.search-panel {
+    position: absolute;
+    left: 0;
+    width: 250px;
+}
+.spice-custom .dropdown-menu.search-panel {
+    top: 50px;
+}
+.post .entry-content .more-link {
+    float: none;
+}
+}
+.footer-meta.entry-meta .tag-links a{
+    background: #e5e5e5;
+    border-radius: 50px;
+    padding: 0.25rem 0.854rem;
+  }
+@media (min-width: 1100px){
+    .spice-collapse.collapse .ml-auto{
+        margin-left: auto;
+    }
+    .header-rgt .spice-collapse.collapse .ml-auto{
+        margin-right: 0 auto;
+    }
+     .content-center .spice-collapse.collapse .ml-auto { margin: 0 auto; }
+}
+
+/*--------------------------------------------------------------
+                Menu With Right Logo Header
+        --------------------------------------------------------------*/
+@media (min-width: 1100px) {
+    .header-rgt .spice-header {
+        float: right;
+    }
+}
+/*--------------------------------------------------------------
+                Menu With Center Logo Header
+        --------------------------------------------------------------*/
+.spice-row.content-center .spice-header {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+/*--------------------------------------------------------------
+                Menu With Full Logo Header
+        --------------------------------------------------------------*/
+.spice-container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-item.html.menu-item.lite-html p {
+    padding: 0.85rem 0;
+}
+.nav-item.html.menu-item.lite-html a {
+    display: inline-block;
+}
+@media (max-width: 1100px) {
+    .open>.dropdown-menu {
+        display: block;
+    }
+}
+
+.spice-custom .dropdown-menu.leftauto .dropdown-menu {
+    border: 0;
+    right: 100%;
+    left: auto;
+}
+.spice-custom .open .dropdown-menu.search-panel {
+    background-color: #21202e;
+}
+.spice-custom .spice-nav li.search_exists {
+    padding-right: 5px;
+}
+.spice-custom .spice-nav li.cart-item {
+    padding-left: 0px;
+}
+@media (max-width: 1100px) {
+    .content-center .spice-collapse, .content-center .spice-collapse.collapse.in {
+        margin-top: 15px;
+    }  
+}
+@media (min-width: 1100px) {
+    .spice-custom .spice-nav li > a.search-icon {
+        padding-top: 3px;
+    }
+}
+body .stickymenu.spice-custom .spice-nav li.header-button a, 
+body .stickymenu.spice-custom .spice-nav li.header-button a:hover, 
+body .stickymenu1.spice-custom .spice-nav li.header-button a, 
+body .stickymenu1.spice-custom .spice-nav li.header-button a:hover,
+body .shrink1.spice-custom .spice-nav li.header-button a, 
+body .shrink1.spice-custom .spice-nav li.header-button a:hover,
+body .spice-custom.layout1 .spice-nav li.header-button a:hover,
+body .spice-custom.layout2 .spice-nav li.header-button a:hover {
+    color: #ffffff;
+}
+.spice-topbar {
+    position: relative;
+    border-bottom: 1px solid #f3f3f326;
+}

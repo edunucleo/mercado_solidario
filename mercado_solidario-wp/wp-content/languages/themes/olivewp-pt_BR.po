@@ -1,0 +1,1378 @@
+# Translation of Themes - OliveWP in Portuguese (Brazil)
+# This file is distributed under the same license as the Themes - OliveWP package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-15 11:34:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Themes - OliveWP\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "OliveWP"
+msgstr "OliveWP"
+
+#: inc/customizer/settings/general-settings.php:626 inc/helpers.php:365
+msgid "Proudly powered by <a href=\"https://wordpress.org\">WordPress</a> | Theme: OliveWP by <a href=\"https://olivewp.org\" rel=\"nofollow\">olivewp.org</a>"
+msgstr "Orgulhosamente desenvolvido por <a href=\"https://wordpress.org\">WordPress</a> | Tema: OliveWP <a href=\"https://olivewp.org\" rel=\"nofollow\">olivewp.org</a>"
+
+#: partials/widgets/register-sidebars.php:90
+msgid "Add widgets in WooCommerce sidebar widget area"
+msgstr "Adicionar widgets na área de widgets da barra lateral do WooCommerce"
+
+#: partials/widgets/register-sidebars.php:75
+msgid "Add widgets in footer widget area 4"
+msgstr "Adicionar widgets na área de widget de rodapé 4"
+
+#: partials/widgets/register-sidebars.php:60
+msgid "Add widgets in footer widget area 3"
+msgstr "Adicionar widgets na área de widget de rodapé 3"
+
+#: partials/widgets/register-sidebars.php:45
+msgid "Add widgets in footer widget area 2"
+msgstr "Adicionar widgets na área de widget de rodapé 2"
+
+#: partials/widgets/register-sidebars.php:30
+msgid "Add widgets in footer widget area 1"
+msgstr "Adicionar widgets na área de widget de rodapé 1"
+
+#: inc/customizer/settings/pro-details.php:118
+msgid "Dedicated support, widget and sidebar management."
+msgstr "Suporte dedicado, gerenciamento de widgets e barras laterais."
+
+#: inc/customizer/settings/pro-details.php:105
+msgid "The theme comes with advanced starter sites having mutiple options."
+msgstr "O tema vem com sites iniciais avançados com várias opções."
+
+#: inc/customizer/settings/general-settings.php:633
+msgid "Copyright Text"
+msgstr "Texto de Copyright"
+
+#: inc/customizer/settings/color-background.php:546
+msgid "Button Background Hover Color"
+msgstr "Cor de fundo do botão ao passar o mouse"
+
+#: inc/customizer/settings/color-background.php:531
+msgid "Button Text Hover Color"
+msgstr "Cor do texto do botão ao passar o mouse"
+
+#: inc/customizer/settings/color-background.php:516
+msgid "Button Background Color"
+msgstr "Cor de fundo do botão"
+
+#: inc/customizer/settings/color-background.php:501
+msgid "Button Text Color"
+msgstr "Cor do texto do botão"
+
+#: inc/customizer/settings/color-background.php:171
+#: inc/customizer/settings/typography.php:158
+msgid "Site Tagline"
+msgstr "Resumo do site"
+
+#: inc/helpers.php:579 inc/helpers.php:596
+msgid "Tag:&nbsp;"
+msgstr "Tag:"
+
+#. translators: %s: theme name
+#: admin/tab-pages/getting-started.php:130
+msgid "%s Plus Details"
+msgstr "Detalhes do %s Plus"
+
+#. translators: %s: theme name
+#: admin/tab-pages/getting-started.php:120
+msgid "%s Theme Support"
+msgstr "Suporte do tema %s"
+
+#: admin/tab-pages/getting-started.php:115
+msgid "Starter Sites"
+msgstr "Sites iniciais"
+
+#. translators: %s: theme name
+#: admin/tab-pages/getting-started.php:33
+msgid "Additional features in %s Plus"
+msgstr "Recursos adicionais no %s Plus"
+
+#. translators: %s: theme name
+#: admin/tab-pages/getting-started.php:13
+msgid "%s Theme Configuration"
+msgstr "Configuração do tema %s"
+
+#. translators: %s: theme name
+#: admin/inc/class-spicethemes-about-page.php:142
+msgid "Get started with %s theme"
+msgstr "Comece com o tema %s"
+
+#. translators: %d: count for number of products in cart
+#: partials/header/layout.php:96
+msgid "%d <span>item</span>"
+msgid_plural "%d <span>items</span>"
+msgstr[0] "%d <span>item</span>"
+msgstr[1] "%d <span>itens</span>"
+
+#: template-parts/content-search.php:113 template-parts/content.php:114
+msgid "Read More"
+msgstr "Consulte mais informação"
+
+#: template-parts/content-search.php:80 template-parts/content-search.php:81
+#: template-parts/content-single.php:81 template-parts/content-single.php:82
+#: template-parts/content.php:81 template-parts/content.php:82
+msgid "Comments"
+msgstr "Comentários"
+
+#: template-parts/content-search.php:50 template-parts/content-single.php:50
+#: template-parts/content.php:51
+msgid "date-time"
+msgstr "data hora"
+
+#: template-parts/content-none.php:14
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Desculpe, mas nada corresponde aos seus critérios de busca. Por favor, tente novamente com algumas palavras-chave diferentes."
+
+#: template-parts/content-none.php:13
+msgid "Nothing found"
+msgstr "Nada encontrado"
+
+#: searchform.php:8
+msgctxt "placeholder"
+msgid "Search"
+msgstr "Pesquisa"
+
+#: partials/widgets/register-sidebars.php:88
+msgid "WooCommerce sidebar widget area"
+msgstr "Área de widget WooCommerce da lateral"
+
+#: inc/meta-boxes/olivewp-meta-box-page-settings.php:55
+#: partials/widgets/register-sidebars.php:73
+msgid "Footer 4"
+msgstr "Rodapé 4"
+
+#: inc/meta-boxes/olivewp-meta-box-page-settings.php:54
+#: partials/widgets/register-sidebars.php:58
+msgid "Footer 3"
+msgstr "Rodapé 3"
+
+#: inc/meta-boxes/olivewp-meta-box-page-settings.php:53
+#: partials/widgets/register-sidebars.php:43
+msgid "Footer 2"
+msgstr "Rodapé 2"
+
+#: inc/meta-boxes/olivewp-meta-box-page-settings.php:52
+#: partials/widgets/register-sidebars.php:28
+msgid "Footer 1"
+msgstr "Rodapé 1"
+
+#: partials/header/layout.php:59 partials/header/layout.php:65
+#: partials/header/layout.php:66 searchform.php:10
+msgid "Search"
+msgstr "Pesquisa"
+
+#: inc/helpers.php:452
+msgid "Next"
+msgstr "Próximo"
+
+#: inc/helpers.php:451
+msgid "Previous"
+msgstr "Anterior"
+
+#. translators: %1$s: comment date and %2$s: comment time
+#: inc/helpers.php:427
+msgid "%1$s  %2$s"
+msgstr "%1$s  %2$s"
+
+#: inc/helpers.php:190
+msgid "View All Posts"
+msgstr "Ver todos os posts"
+
+#: inc/helpers.php:179
+msgid "Written by:"
+msgstr "Escrito por: "
+
+#: inc/customizer/settings/typography.php:1525
+#: inc/customizer/settings/typography.php:1713
+msgid "Widget Content"
+msgstr "Conteúdo de widget"
+
+#: inc/customizer/settings/typography.php:1445
+#: inc/customizer/settings/typography.php:1633
+msgid "Widget Title"
+msgstr "Título do Widget"
+
+#: inc/customizer/settings/typography.php:1422
+msgid "Sidebar Widgets"
+msgstr "Widgets da lateral"
+
+#: inc/customizer/settings/typography.php:1154
+msgid "Shop Page"
+msgstr "Página da loja"
+
+#: inc/customizer/settings/typography.php:1067
+msgid " Blog/Archive/Single Post"
+msgstr "Blog/Arquivo/Postagem única"
+
+#: inc/customizer/settings/general-settings.php:347
+#: inc/customizer/settings/typography.php:902
+msgid "Paragraph"
+msgstr "Parágrafo"
+
+#: inc/customizer/settings/typography.php:822
+msgid "Heading 6 (H6)"
+msgstr "Título 6 (H6)"
+
+#: inc/customizer/settings/typography.php:742
+msgid "Heading 5 (H5)"
+msgstr "Título 5 (H5)"
+
+#: inc/customizer/settings/typography.php:662
+msgid "Heading 4 (H4)"
+msgstr "Título 4 (H4)"
+
+#: inc/customizer/settings/typography.php:582
+#: inc/customizer/settings/typography.php:1337
+msgid "Heading 3 (H3)"
+msgstr "Título 3 (H3)"
+
+#: inc/customizer/settings/typography.php:503
+#: inc/customizer/settings/typography.php:1257
+msgid "Heading 2 (H2)"
+msgstr "Título 2 (H2)"
+
+#: inc/customizer/settings/typography.php:423
+#: inc/customizer/settings/typography.php:1177
+msgid "Heading 1 (H1)"
+msgstr "Título 1 (H1)"
+
+#: inc/customizer/settings/color-background.php:233
+#: inc/customizer/settings/typography.php:237
+msgid "Menus"
+msgstr "Menus"
+
+#: inc/customizer/settings/theme-style.php:74
+msgid "Layout style"
+msgstr "Estilo do layout"
+
+#: inc/customizer/settings/theme-style.php:53
+msgid "Skin Color"
+msgstr "Cor do estilo"
+
+#: inc/customizer/settings/theme-style.php:34
+msgid "Enable custom color skin"
+msgstr "Ativar cor personalizada do skin"
+
+#: inc/customizer/settings/single-blog-options.php:42
+msgid "Hide/Show Author Details"
+msgstr "Ocultar/mostrar detalhes do autor"
+
+#: inc/customizer/settings/single-blog-options.php:27
+msgid "Hide/Show Tag"
+msgstr "Ocultar / Mostrar Tag"
+
+#: inc/customizer/settings/general-settings.php:559
+#: inc/customizer/settings/single-blog-options.php:12
+msgid "Single Post"
+msgstr "Post único"
+
+#: inc/customizer/settings/pro-details.php:117
+msgid "The theme comes with additional color settings like you can change the color of the sticky header, post meta, etc."
+msgstr "O tema vem com configurações de cores adicionais, como você pode alterar a cor do cabeçalho, meta do post, etc."
+
+#: inc/customizer/settings/pro-details.php:116
+msgid "With the help of additional typography settings, you can use the font-weight, font-transform and line-height."
+msgstr "Com a ajuda de configurações de tipografia adicionais, você pode usar o peso da fonte, a transformação da fonte e a altura da linha."
+
+#: inc/customizer/settings/typography.php:143
+#: inc/customizer/settings/typography.php:222
+#: inc/customizer/settings/typography.php:301
+#: inc/customizer/settings/typography.php:381
+#: inc/customizer/settings/typography.php:488
+#: inc/customizer/settings/typography.php:567
+#: inc/customizer/settings/typography.php:647
+#: inc/customizer/settings/typography.php:727
+#: inc/customizer/settings/typography.php:807
+#: inc/customizer/settings/typography.php:887
+#: inc/customizer/settings/typography.php:967
+#: inc/customizer/settings/typography.php:1047
+#: inc/customizer/settings/typography.php:1135
+#: inc/customizer/settings/typography.php:1242
+#: inc/customizer/settings/typography.php:1322
+#: inc/customizer/settings/typography.php:1402
+#: inc/customizer/settings/typography.php:1510
+#: inc/customizer/settings/typography.php:1590
+#: inc/customizer/settings/typography.php:1698
+#: inc/customizer/settings/typography.php:1778
+msgid "Line height (px)"
+msgstr "Altura da linha (px)"
+
+#: inc/customizer/settings/typography.php:122
+#: inc/customizer/settings/typography.php:201
+#: inc/customizer/settings/typography.php:280
+#: inc/customizer/settings/typography.php:360
+#: inc/customizer/settings/typography.php:467
+#: inc/customizer/settings/typography.php:546
+#: inc/customizer/settings/typography.php:626
+#: inc/customizer/settings/typography.php:706
+#: inc/customizer/settings/typography.php:786
+#: inc/customizer/settings/typography.php:866
+#: inc/customizer/settings/typography.php:946
+#: inc/customizer/settings/typography.php:1026
+#: inc/customizer/settings/typography.php:1114
+#: inc/customizer/settings/typography.php:1221
+#: inc/customizer/settings/typography.php:1301
+#: inc/customizer/settings/typography.php:1381
+#: inc/customizer/settings/typography.php:1489
+#: inc/customizer/settings/typography.php:1569
+#: inc/customizer/settings/typography.php:1677
+#: inc/customizer/settings/typography.php:1757
+msgid "Font size (px)"
+msgstr "Tamanho da fonte (px)"
+
+#: inc/customizer/settings/typography.php:105
+#: inc/customizer/settings/typography.php:184
+#: inc/customizer/settings/typography.php:263
+#: inc/customizer/settings/typography.php:343
+#: inc/customizer/settings/typography.php:450
+#: inc/customizer/settings/typography.php:529
+#: inc/customizer/settings/typography.php:609
+#: inc/customizer/settings/typography.php:689
+#: inc/customizer/settings/typography.php:769
+#: inc/customizer/settings/typography.php:849
+#: inc/customizer/settings/typography.php:929
+#: inc/customizer/settings/typography.php:1009
+#: inc/customizer/settings/typography.php:1097
+#: inc/customizer/settings/typography.php:1204
+#: inc/customizer/settings/typography.php:1284
+#: inc/customizer/settings/typography.php:1364
+#: inc/customizer/settings/typography.php:1472
+#: inc/customizer/settings/typography.php:1552
+#: inc/customizer/settings/typography.php:1660
+#: inc/customizer/settings/typography.php:1740
+msgid "Font family"
+msgstr "Família de letras"
+
+#: inc/customizer/settings/pro-details.php:115
+msgid "You can use the column layouts in the footer bar and there are options of content you want to show like copyright text, footer menu and widget."
+msgstr "Você pode usar os layouts de coluna na barra de rodapé e há opções de conteúdo que deseja mostrar como texto de direitos autorais, menu de rodapé e widget."
+
+#: inc/customizer/settings/pro-details.php:114
+msgid "With the help of footer widget settings, you can change the background image of the footer, select widget column layout, change the background image overlay color, etc."
+msgstr "Com a ajuda das configurações do widget de rodapé, você pode alterar a imagem de fundo do rodapé, selecionar o layout da coluna do widget, alterar a cor da sobreposição da imagem de fundo, etc."
+
+#: inc/customizer/settings/pro-details.php:113
+msgid "You can use different types of navigation styles like pagination, load more and infinite scroll."
+msgstr "Você pode usar diferentes tipos de estilos de navegação, como paginação, carregar mais e rolagem infinita."
+
+#: inc/customizer/settings/pro-details.php:112
+msgid "You can set the post and page width with the help of the container layout setting."
+msgstr "Você pode definir a largura da postagem e da página com a ajuda da configuração de layout do contêiner."
+
+#: inc/customizer/settings/pro-details.php:111
+msgid "With the help of additional breadcrumb settings, you can enable/disable the breadcrumb section, change the background image, change the overlay color, etc."
+msgstr "Com a ajuda de configurações adicionais do breadcrumb, você pode ativar/desativar a seção breadcrumb, alterar a imagem de fundo, alterar a cor da sobreposição, etc."
+
+#: inc/customizer/settings/pro-details.php:110
+msgid "There are two more search effects: pop-up dark and pop-up light."
+msgstr "Existem mais dois efeitos de pesquisa: pop-up escuro e pop-up claro."
+
+#: inc/customizer/settings/pro-details.php:109
+msgid "With the help of multiple preloader designs, you can show any preloader animation on your theme."
+msgstr "Com a ajuda de vários designs de pré-carregador, você pode mostrar qualquer animação de pré-carregador em seu tema."
+
+#: inc/customizer/settings/pro-details.php:108
+msgid "You can use our predefined color schemes or any color of your choice."
+msgstr "Você pode usar nossos esquemas de cores predefinidos ou qualquer cor de sua escolha."
+
+#: inc/customizer/settings/pro-details.php:107
+msgid "The theme comes with multiple blog templates like blog full-width, grid blog, switcher blog, etc."
+msgstr "O tema vem com vários modelos de blog, como blog de largura total, blog em grade, blog alternador, etc."
+
+#: inc/customizer/settings/pro-details.php:106
+msgid "The theme comes with multiple header layouts like center, full-width, etc."
+msgstr "O tema vem com vários layouts de cabeçalho, como centro, largura total, etc."
+
+#: inc/customizer/settings/pro-details.php:81
+msgid "View PRO Details"
+msgstr "Ver detalhes do PRO"
+
+#: inc/customizer/settings/pro-details.php:74
+msgid "UPGRADE TO PRO"
+msgstr "ATUALIZE PARA PRO"
+
+#: inc/customizer/settings/pro-details.php:71
+msgid "Quality Support"
+msgstr "Suporte de qualidade"
+
+#: inc/customizer/settings/pro-details.php:19
+msgid "Advanced Starter Sites"
+msgstr "Sites avançados para iniciantes"
+
+#: inc/customizer/settings/pro-details.php:18
+#: inc/customizer/settings/pro-details.php:22
+#: inc/customizer/settings/pro-details.php:26
+#: inc/customizer/settings/pro-details.php:30
+#: inc/customizer/settings/pro-details.php:34
+#: inc/customizer/settings/pro-details.php:38
+#: inc/customizer/settings/pro-details.php:42
+#: inc/customizer/settings/pro-details.php:46
+#: inc/customizer/settings/pro-details.php:50
+#: inc/customizer/settings/pro-details.php:54
+#: inc/customizer/settings/pro-details.php:58
+#: inc/customizer/settings/pro-details.php:62
+#: inc/customizer/settings/pro-details.php:66
+#: inc/customizer/settings/pro-details.php:70
+msgid "PRO"
+msgstr "PRO"
+
+#: inc/customizer/settings/general-settings.php:668
+msgid "Widgets Layout"
+msgstr "Esquema de widgets"
+
+#: inc/customizer/settings/general-settings.php:617
+msgid "Enable/Disable Copyright Text"
+msgstr "Ativar/Desativar texto de direitos autorais"
+
+#: inc/customizer/settings/general-settings.php:505
+msgid "Enable/Disable Scroll to Top"
+msgstr "Ativar/desativar Rolar para cima"
+
+#: inc/customizer/settings/general-settings.php:492
+msgid "Scroll to Top"
+msgstr "Voltar ao topo"
+
+#: inc/customizer/settings/general-settings.php:414
+msgid "Container Width"
+msgstr "Largura do contentor"
+
+#: inc/customizer/settings/general-settings.php:399
+msgid "Enable/Disable Sticky Header"
+msgstr "Ativar/desativar cabeçalho aderente"
+
+#: inc/customizer/settings/general-settings.php:386
+msgid "Sticky Header"
+msgstr "Cabeçalho fixo"
+
+#: inc/customizer/settings/general-settings.php:206
+msgid "Enable/Disable Cart Icon"
+msgstr "Ativar / desativar ícone do carrinho"
+
+#: inc/customizer/settings/general-settings.php:189
+msgid "Enable/Disable Search Icon"
+msgstr "Ativar / desativar ícone de pesquisa"
+
+#: inc/customizer/settings/general-settings.php:150
+msgid "Button Border Radius"
+msgstr "Raio da borda do botão"
+
+#: inc/customizer/settings/general-settings.php:130
+msgid "Open link in a new tab"
+msgstr "Abrir link em nova aba"
+
+#: inc/customizer/settings/general-settings.php:112
+msgid "Button Link"
+msgstr "Link do botão"
+
+#: inc/customizer/settings/general-settings.php:94
+#: inc/customizer/settings/typography.php:982
+msgid "Button Text"
+msgstr "Texto do botão"
+
+#: inc/customizer/settings/general-settings.php:77
+#: inc/customizer/settings/general-settings.php:172
+msgid "HTML"
+msgstr "HTML"
+
+#: inc/customizer/settings/general-settings.php:76
+msgid "Button"
+msgstr "Botão"
+
+#: inc/customizer/settings/general-settings.php:75
+msgid "None"
+msgstr "Nenhum"
+
+#: inc/customizer/settings/general-settings.php:51
+#: inc/customizer/settings/general-settings.php:69
+msgid "After Menu"
+msgstr "Depois do Menu"
+
+#: inc/customizer/settings/general-settings.php:37
+msgid "Enable/Disable Preloader"
+msgstr "Ativar/desativar preloader"
+
+#: inc/customizer/settings/general-settings.php:24
+msgid "Preloader"
+msgstr "Pré-carregar"
+
+#: inc/customizer/settings/custom-logo-width.php:19
+msgid "Logo Width"
+msgstr "Largura do Logo"
+
+#: inc/customizer/settings/color-background.php:649
+#: inc/customizer/settings/general-settings.php:602
+msgid "Footer"
+msgstr "Rodapé"
+
+#: inc/customizer/settings/color-background.php:589
+#: inc/customizer/settings/color-background.php:703
+msgid "Title Color"
+msgstr "Cor do Título"
+
+#: inc/customizer/settings/color-background.php:560
+#: inc/meta-boxes/olivewp-meta-box-page-settings.php:48
+msgid "Sidebar"
+msgstr "Lateral"
+
+#: inc/customizer/settings/color-background.php:486
+msgid "Paragraph Text Color"
+msgstr "Cor do texto do parágrafo"
+
+#: inc/customizer/settings/color-background.php:471
+msgid "H6 Color"
+msgstr "Cor H6"
+
+#: inc/customizer/settings/color-background.php:456
+msgid "H5 Color"
+msgstr "Cor H5"
+
+#: inc/customizer/settings/color-background.php:441
+msgid "H4 Color"
+msgstr "Cor H4"
+
+#: inc/customizer/settings/color-background.php:426
+msgid "H3 Color"
+msgstr "Cor H3"
+
+#: inc/customizer/settings/color-background.php:411
+msgid "H2 Color"
+msgstr "Cor H2"
+
+#: inc/customizer/settings/color-background.php:396
+msgid "H1 Color"
+msgstr "Cor H1"
+
+#: inc/customizer/settings/blog-options.php:107
+#: inc/customizer/settings/color-background.php:367
+#: inc/customizer/settings/single-blog-options.php:73
+#: inc/customizer/settings/typography.php:400
+msgid "Content"
+msgstr "Conteúdo"
+
+#: inc/customizer/settings/color-background.php:298
+#: inc/customizer/settings/typography.php:316
+msgid "Submenus"
+msgstr "Submenus"
+
+#: inc/customizer/settings/color-background.php:288
+msgid "Active Link Color"
+msgstr "Cor do link ativo"
+
+#: inc/customizer/settings/color-background.php:258
+#: inc/customizer/settings/color-background.php:338
+msgid "Text/Link Color"
+msgstr "Texto/Cor do Link"
+
+#: inc/customizer/settings/color-background.php:196
+#: inc/customizer/settings/color-background.php:604
+#: inc/customizer/settings/color-background.php:718
+msgid "Text Color"
+msgstr "Cor do texto"
+
+#: inc/customizer/settings/color-background.php:161
+#: inc/customizer/settings/color-background.php:273
+#: inc/customizer/settings/color-background.php:353
+#: inc/customizer/settings/color-background.php:634
+#: inc/customizer/settings/color-background.php:748
+msgid "Link Hover Color"
+msgstr "Cor das ligações ao passar com o rato"
+
+#: inc/customizer/settings/color-background.php:146
+#: inc/customizer/settings/color-background.php:619
+#: inc/customizer/settings/color-background.php:733
+msgid "Link Color"
+msgstr "Cor do link"
+
+#: inc/customizer/settings/color-background.php:121
+#: inc/customizer/settings/typography.php:79
+msgid "Site Title"
+msgstr "Título do site"
+
+#: inc/customizer/settings/color-background.php:111
+#: inc/customizer/settings/color-background.php:225
+#: inc/customizer/settings/color-background.php:382
+#: inc/customizer/settings/color-background.php:575
+#: inc/customizer/settings/color-background.php:674
+#: inc/customizer/settings/typography.php:71
+#: inc/customizer/settings/typography.php:415
+#: inc/customizer/settings/typography.php:1082
+#: inc/customizer/settings/typography.php:1169
+#: inc/customizer/settings/typography.php:1437
+#: inc/customizer/settings/typography.php:1625
+msgid "Enable to apply the settings"
+msgstr "Ative para aplicar as configurações"
+
+#: inc/customizer/settings/color-background.php:96
+#: inc/customizer/settings/typography.php:56
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: inc/customizer/settings/color-background.php:72
+#: inc/customizer/settings/color-background.php:323
+#: inc/customizer/settings/color-background.php:688
+msgid "Background Color"
+msgstr "Cor de fundo"
+
+#: inc/customizer/settings/color-background.php:65
+msgid "Note: This setting will only work with the Boxed layout"
+msgstr "Nota: Esta configuração só funcionará com o layout em caixa"
+
+#: inc/customizer/settings/color-background.php:39
+msgid "Background Image"
+msgstr "Imagem de fundo"
+
+#: inc/customizer/settings/color-background.php:32
+msgid "Note: This setting will only work with the boxed layout"
+msgstr "Nota: Esta configuração só funcionará com o layout em caixa"
+
+#: inc/customizer/settings/blog-options.php:121
+#: inc/customizer/settings/blog-options.php:152
+#: inc/customizer/settings/single-blog-options.php:87
+#: inc/customizer/settings/single-blog-options.php:118
+msgid "Drag And Drop To Rearrange"
+msgstr "Arraste e solte para reorganizar"
+
+#: inc/customizer/settings/blog-options.php:139
+#: inc/customizer/settings/single-blog-options.php:104
+msgid "Comment"
+msgstr "Comentário"
+
+#: inc/customizer/settings/blog-options.php:138
+#: inc/customizer/settings/single-blog-options.php:103
+msgid "Category"
+msgstr "Categoria"
+
+#: inc/customizer/settings/blog-options.php:137
+#: inc/customizer/settings/single-blog-options.php:102
+msgid "Date"
+msgstr "Data"
+
+#: inc/customizer/settings/blog-options.php:84
+msgid "Excerpt Length"
+msgstr "Tamanho do resumo"
+
+#: inc/customizer/settings/blog-options.php:66
+msgid "Full Content"
+msgstr "Conteúdo completo"
+
+#: inc/customizer/settings/blog-options.php:65
+msgid "Excerpt"
+msgstr "Resumo"
+
+#: inc/customizer/settings/blog-options.php:59
+msgid "Choose Options"
+msgstr "Escolha as opções"
+
+#: inc/customizer/settings/blog-options.php:52
+msgid "excerpt"
+msgstr "resumo"
+
+#: inc/customizer/settings/blog-options.php:39
+msgid "Main Title"
+msgstr "Título principal"
+
+#: inc/customizer/settings/blog-options.php:20
+msgid "Blog Page"
+msgstr "Página do Blog"
+
+#: inc/customizer/controls/customizer-style-layout/customizer-style-layout.php:19
+msgid "Theme Layout"
+msgstr "Layout do tema"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando Plugin %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Todas as instalações foram concluído."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado com sucesso."
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "O processo de instalação e ativação está iniciando. Este processo pode demorar um pouco em alguns servidores, tenha paciência."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando e ativando os plugins %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Todas as instalações e ativações foram completadas."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Ocultar detalhes"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Mostrar Detalhes"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado e ativado com sucesso."
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "O processo de instalação e ativação está iniciando. Este processo pode demorar um pouco em alguns servidores, tenha paciência."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "A instalação do %1$s falhou."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ocorreu um erro ao instalar %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Atualizando o plugin %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Ativação do plugin falhou."
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Não há plugins disponíveis para serem ativados nesse momento."
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Nenhum plugin foi selecionado para ser ativado. Nenhuma ação foi tomada."
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Não há plugins disponíveis para serem atualizados nesse momento."
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Não há plugins disponíveis para serem instalados nesse momento."
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Nenhum plugin foi selecionado para ser atualizado. Nenhuma ação foi tomada."
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Nenhum plugin selecionado para ser instalado. Nenhuma ação tomada."
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Atualizar"
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Instalar"
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Atualização mensagem do autor do plugin:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Ativar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Atualizar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Instalar %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Versão"
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Tipo"
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "origem"
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Não há plugins para instalar, atualizar ou ativar."
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Versão disponível:"
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Versão mínima requerida:"
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Versão instalada:"
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "desconhecido"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Para ativar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para ativar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2396
+msgid "Updates Available <span class=\"count\">(%s)</span>"
+msgid_plural "Updates Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Atualizações disponíveis <span class=\"count\">(%s)</span>"
+msgstr[1] "Atualizações disponíveis <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Para instalar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para instalar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Todos <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Atualização recomendada"
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Atualização exigida"
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update Not Available"
+msgstr "Atualização necessária não disponível"
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Instalado mas não Ativado"
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Não instalado"
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Pre-empacotado"
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Fonte externa"
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Repositório do WordPress"
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Obrigatório"
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "e"
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "O pacote remoto de plugin consiste em mais de um arquivo, mas os arquivos não estão empacotados em uma pasta."
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Contate o provedor do plugin e peça a eles para empacotar seu plugin de acordo com as diretrizes do WordPress."
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "O pacote remoto do plugin não contém uma pasta com o slug desejado e a renomeação não funcionou."
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Atualização necessária"
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Esse plugin precisa ser atualizado para ser compatível com o seu tema."
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Contate o administrador deste site para qualquer ajuda."
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Há um ou mais plugins necessários ou recomendados para instalar, atualizar ou ativar."
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Dispensar essa notificação"
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos os plug-ins foram instalados e ativados com sucesso. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin não ativado. É necessário uma versão mais recente do %s para este tema. Atualize o plugin."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nenhuma ação tomada. o plugin %1$s já está ativo."
+
+#: inc/class-tgm-plugin-activation.php:388
+#: inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "O seguinte plugin foi ativado com sucesso:"
+msgstr[1] "Os seguintes plugins foram ativados com sucesso:"
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Plugin ativado com sucesso."
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Voltar para o Painel"
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Voltar para a instalação dos plugins necessários"
+
+#: inc/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Comece a ativar o plugin"
+msgstr[1] "Comece a ativar os plugins"
+
+#: inc/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Atualizando plugin"
+msgstr[1] "Atualizando plugins"
+
+#: inc/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Comece a instalar plugin"
+msgstr[1] "Comece a instalar os plugins"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "O seguinte plugin recomendado está inativo no momento: %1$s."
+msgstr[1] "Os seguintes plugins recomendados estão inativos no momento: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "O seguinte plugin necessário, está inativo no momento: %1$s."
+msgstr[1] "Os seguintes plugins necessários, estão inativos no momento: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:352
+msgid "There is an update available for %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Há uma atualização disponível para: %1$s."
+msgstr[1] "Existem atualizações disponíveis para os seguintes plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "O seguinte plugin precisa ser atualizado para sua versão mais recente para garantir a máxima compatibilidade com este tema: %1$s."
+msgstr[1] "Os seguintes plugins precisam ser atualizados para a versão mais recente para garantir a máxima compatibilidade com este tema: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Este tema recomenda o seguinte plugin: %1$s."
+msgstr[1] "Este tema recomenda os seguintes plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Este tema requer o seguinte plugin: %1$s."
+msgstr[1] "Este tema requer os seguintes plugins: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Alguma coisa deu errado com a API do plugin."
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Atualizando o plugin: %s"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Instalando plugin: %s"
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Instalar plugins"
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Instalar plugin obrigatório"
+
+#: inc/helpers.php:566 inc/helpers.php:576 inc/helpers.php:587
+#: inc/helpers.php:591
+msgid "Category:&nbsp;"
+msgstr "Categoria:"
+
+#: inc/helpers.php:563
+msgid "Error 404"
+msgstr "Erro 404"
+
+#: inc/customizer/settings/blog-options.php:32 inc/helpers.php:552
+#: inc/menu/default_menu_walker.php:20
+msgid "Home"
+msgstr "Página inicial"
+
+#: header.php:21
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
+
+#: functions.php:229 inc/customizer/settings/general-settings.php:582
+msgid "Page"
+msgstr "Página"
+
+#: functions.php:118 inc/customizer/settings/color-background.php:210
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#. Template Name of the theme
+msgid "Full Width Page"
+msgstr "Página de Largura Completa"
+
+#: comments.php:94
+msgid "Leave a Reply"
+msgstr "Deixe uma resposta"
+
+#: comments.php:91
+msgid "Post Comment"
+msgstr "Publicar comentário"
+
+#: comments.php:89
+msgid "Log out"
+msgstr "Sair"
+
+#: comments.php:89
+msgid "Log out from this Account"
+msgstr "Sair desta conta"
+
+#: comments.php:89
+msgid "Logged in as"
+msgstr "Autenticado como"
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr "Os comentários estão fechados."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] "%1$s comentário"
+msgstr[1] "%1$s comentários"
+
+#. translators: 1: title.
+#: comments.php:29
+msgid "1 comment"
+msgstr "1 comentário"
+
+#: admin/tab-pages/getting-started.php:146
+msgid "Changelog"
+msgstr "Registro de alterações"
+
+#: admin/tab-pages/getting-started.php:138
+msgid "Free vs Plus"
+msgstr "Grátis vs Plus"
+
+#: admin/tab-pages/getting-started.php:134
+msgid "Pre-sales enquiry"
+msgstr "Consulta pré-venda"
+
+#: admin/tab-pages/getting-started.php:124
+msgid "Your feedback is valuable to us"
+msgstr "O seu feedback é valioso para nós"
+
+#: admin/tab-pages/getting-started.php:111
+msgid "Useful Links"
+msgstr "Links úteis"
+
+#: admin/tab-pages/getting-started.php:104
+#: inc/customizer/settings/theme-style.php:16
+msgid "Theme Style Settings"
+msgstr "Configurações de estilo de tema"
+
+#: admin/tab-pages/getting-started.php:101
+#: inc/customizer/settings/typography.php:13
+msgid "Typography Settings"
+msgstr "Configurações de tipografia"
+
+#: admin/tab-pages/getting-started.php:98
+#: inc/customizer/settings/color-background.php:19
+msgid "Colors & Background"
+msgstr "Cores"
+
+#: admin/tab-pages/getting-started.php:95
+#: inc/customizer/settings/general-settings.php:15
+msgid "General Settings"
+msgstr "Configurações gerais"
+
+#: admin/tab-pages/getting-started.php:92
+#: inc/customizer/settings/color-background.php:658
+#: inc/customizer/settings/typography.php:1610
+msgid "Footer Widgets"
+msgstr "Widgets do rodapé"
+
+#: admin/tab-pages/getting-started.php:89
+#: inc/customizer/settings/blog-options.php:14
+msgid "Blog Options"
+msgstr "Opções de blog"
+
+#: admin/tab-pages/getting-started.php:86
+msgid "Site Logo"
+msgstr "Logo do site"
+
+#: admin/tab-pages/getting-started.php:82
+msgid "Links to Customizer Settings"
+msgstr "Links para configurações do personalizador"
+
+#: admin/tab-pages/getting-started.php:73
+#: inc/customizer/settings/pro-details.php:47
+msgid "Enhanced Container Width Settings"
+msgstr "Configurações de largura de contêiner aprimoradas"
+
+#: admin/tab-pages/getting-started.php:70
+#: inc/customizer/settings/pro-details.php:67
+msgid "Additional Colors & Background Features"
+msgstr "Cores adicionais e recursos de fundo"
+
+#: admin/tab-pages/getting-started.php:67
+#: inc/customizer/settings/pro-details.php:63
+msgid "Additional Typography Features"
+msgstr "Recursos de tipografia adicionais"
+
+#: admin/tab-pages/getting-started.php:63
+#: inc/customizer/settings/pro-details.php:59
+msgid "Enhanced Footer Bar Settings"
+msgstr "Configurações aprimoradas da barra de rodapé"
+
+#: admin/tab-pages/getting-started.php:59
+#: inc/customizer/settings/pro-details.php:55
+msgid "Enhanced Footer Widgets Settings"
+msgstr "Configurações aprimoradas de widgets de rodapé"
+
+#: admin/tab-pages/getting-started.php:55
+#: inc/customizer/settings/pro-details.php:51
+msgid "Post Navigation Styles"
+msgstr "Estilos de pós-navegação"
+
+#: admin/tab-pages/getting-started.php:52
+#: inc/customizer/settings/pro-details.php:43
+msgid "Breadcrumb Settings"
+msgstr "Configurações de trilha"
+
+#: admin/tab-pages/getting-started.php:49
+#: inc/customizer/settings/pro-details.php:39
+msgid "Multiple Search Effects"
+msgstr "Vários efeitos de pesquisa"
+
+#: admin/tab-pages/getting-started.php:46
+#: inc/customizer/settings/pro-details.php:35
+msgid "Multiple Preloader Designs"
+msgstr "Vários designs de pré-carregador"
+
+#: admin/tab-pages/getting-started.php:43
+#: inc/customizer/settings/pro-details.php:31
+msgid "Predefined Color Schemes"
+msgstr "Esquemas de cores predefinidos"
+
+#: admin/tab-pages/getting-started.php:40
+#: inc/customizer/settings/pro-details.php:27
+msgid "Multiple Blog Templates"
+msgstr "Vários modelos de blog"
+
+#: admin/tab-pages/getting-started.php:37
+#: inc/customizer/settings/pro-details.php:23
+msgid "Header Presets"
+msgstr "Predefinições de cabeçalho"
+
+#: admin/inc/class-spicethemes-about-page.php:541
+msgid "To display the posts in a beautiful slider with multiple options, install & activate this plugin."
+msgstr "Para exibir as postagens em um belo controle deslizante com várias opções, instale e ative este plugin."
+
+#: admin/inc/class-spicethemes-about-page.php:535
+msgid "To import the Elementor starter sites, install & activate this plugin."
+msgstr "Para importar os sites iniciais do Elementor, instale e ative este plug-in."
+
+#: admin/inc/class-spicethemes-about-page.php:529
+msgid "To add a different banner image for a different page or post, install & activate this plugin."
+msgstr "Para adicionar uma imagem de banner diferente para uma página ou postagem diferente, instale e ative este plug-in."
+
+#: admin/inc/class-spicethemes-about-page.php:523
+msgid "To display breadcrumbs, install & activate this plugin."
+msgstr "Para exibir breadcrumbs, instale e ative este plugin."
+
+#: admin/inc/class-spicethemes-about-page.php:517
+msgid "To create a shop page you just need to install & activate this plugin."
+msgstr "Para criar uma página de loja, você só precisa instalar e ativar este plugin."
+
+#: admin/inc/class-spicethemes-about-page.php:511
+msgid "To import the default demo data and starter sites, install & activate this plugin."
+msgstr "Para importar os dados de demonstração padrão e sites iniciais, instale e ative este plugin."
+
+#: admin/inc/class-spicethemes-about-page.php:505
+msgid "To display the contact form, install & activate this plugin."
+msgstr "Para exibir o formulário de contato, instale e ative este plugin."
+
+#: admin/inc/class-spicethemes-about-page.php:342
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Ativo"
+
+#: admin/inc/class-spicethemes-about-page.php:338
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Ativar"
+
+#. translators: %s: theme name
+#: admin/inc/class-spicethemes-about-page.php:336
+msgid "Activate %s now"
+msgstr "Ativar %s agora"
+
+#: admin/inc/class-spicethemes-about-page.php:317
+msgid "Install and activate"
+msgstr "Instalar e ativar"
+
+#. translators: %s: theme name
+#: admin/inc/class-spicethemes-about-page.php:315
+msgid "Install %s now"
+msgstr "Instale %s agora"
+
+#. translators: %1$s: theme name and %2$ %3$s: url of the options page
+#: admin/inc/class-spicethemes-about-page.php:139
+msgid "%1$s theme is installed. To take full advantage of the features this theme has to offer visit our %2$swelcome page%3$s"
+msgstr "O tema %1$s está instalado. Para aproveitar ao máximo os recursos que este tema tem a oferecer, visite nossa %2$spágina de boas-vindas%3$s"
+
+#: admin/inc/class-spicethemes-about-page.php:121
+msgid "Welcome to %1$s %2$s"
+msgstr "Bem-vindo ao %1$s %2$s"
+
+#. translators: %1$s: theme name and %2$s: count of recommended plugins
+#: admin/inc/class-spicethemes-about-page.php:118
+msgid "About %1$s %2$s"
+msgstr "Perto %1$s %2$s"
+
+#: admin/inc/class-spicethemes-about-page.php:109
+msgid "View Theme Info"
+msgstr "Veja informações do tema"
+
+#: admin/inc/class-spicethemes-about-page.php:72
+msgid "Error"
+msgstr "Erro"
+
+#: admin/inc/class-spicethemes-about-page.php:71
+msgid "Activating"
+msgstr "Ativar"
+
+#: admin/inc/class-spicethemes-about-page.php:70
+msgid "Installing"
+msgstr "Instalando"
+
+#: 404.php:33
+msgid "Error! Page Not Found"
+msgstr "Erro! Página não encontrada"
+
+#: 404.php:32
+msgid "404"
+msgstr "404"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://olivewp.org"
+msgstr "https://olivewp.org"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://spicethemes.com"
+msgstr "https://spicethemes.com"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "spicethemes"
+msgstr "spicethemes"

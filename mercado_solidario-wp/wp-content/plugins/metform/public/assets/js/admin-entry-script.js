@@ -1,0 +1,1 @@
+jQuery(document).ready((function(e){var t=e("#metform-formlist");e("#post-query-submit").before(t.html()),t.remove();let o=new URL(window.location.href).searchParams.get("mf_form_id");o&&e("#metform-form_id").val(o),e(".row-actions .edit a, .page-title-action").html("View")}));

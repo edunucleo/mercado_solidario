@@ -1,0 +1,71 @@
+.hantus-getting-started-notice {
+    padding: 20px 10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.hantus-theme-screenshot img {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+.hantus-theme-notice-content {
+    width: 70%;
+    display: block;
+    vertical-align: top;
+    padding: 0 20px;
+}
+
+h2.hantus-notice-h2 {
+    margin: 0 0 10px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.hantus-push-down {
+    padding-top: 15px;
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.hantus-button-padding.updating-message::before {
+  margin-top: 12px;
+}
+
+
+.customize-control-hidden {
+    margin: 0 -12px;
+    margin-bottom: 12px;
+    display: block;
+    padding: 13px 12px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: uppercase;
+	color: #3292db;
+	border-left: 5px solid #0073aa;
+}
+
+.customize-control-hidden label {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 11.5px;
+    cursor: default;
+}
+
+#accordion-section-header_image {
+    margin-top: 12px;
+}

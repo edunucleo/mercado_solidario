@@ -1,0 +1,537 @@
+/*
+Theme Name: Cosmics
+Theme URI: https://www.nayrathemes.com/cosmics-free/
+Author: Nayra Themes
+Author URI: https://www.nayrathemes.com/
+Description: Cosmics is an elegant and modern WordPress theme for spa and wellness centers but it is also very easy to customize it for other business like hairdressing, ayurvedic, manicures, pedicures, makeup, mashups, nails, detox, tanning, male grooming, facials, waxing, spa and body treatments, massages or other Hair & Barber related services. View the demo of Cosmics Pro https://www.nayrathemes.com/demo/pro/?theme=cosmics 
+Template: hantus
+Version: 1.7
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: cosmics
+Slug: cosmics
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/* Header */
+
+a {
+    color: #ec5598;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #242526;
+}
+
+.blog-post ul:not(.meta-info) li a,
+.blog-post ol:not(.meta-info) li a,
+.blog-post table a, strong a, blockquote a, code a, p a,
+span a {
+    color: #ec5598;
+}
+
+.post-comment-area h2,
+.blog-post .post-title a:focus {
+	color: #ec5598;
+}
+
+.header-slider .theme-slider .theme-content h1 {
+    color: #ec5598;
+}
+
+.cosmics-theme #header-top {
+	color: #fff;
+}
+
+.cosmics-theme #header-top li a,
+.cosmics-theme #header-top ul:not(.header-social) li i,
+.cosmics-theme #header-top p i {
+    color: #fff;
+}
+
+.cosmics-theme #header-top .header-social a{
+	background: #fff;
+}
+
+.cosmics-theme .main-menu li a {
+    padding: 12px 15px;
+}
+
+
+.cosmics-theme .main-menu li {
+    margin-right: 5px;
+}
+
+
+/* Cosmics-Info */
+.single-info-cosmics > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    -webkit-transition: all ease-in .28s;
+    transition: all ease-in .28s;
+}
+
+
+
+
+.single-info-cosmics > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    -webkit-transition: all ease-in .28s;
+    transition: all ease-in .28s;
+}
+.single-info-cosmics {
+    position: relative;
+    z-index: 0;
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-box-shadow: 0 12px 20px rgb(0 0 0 / 8%);
+    box-shadow: 0 12px 20px rgb(0 0 0 / 8%);
+}
+
+.single-info-cosmics:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.info-cosmics .info-wrapper:not(.contact-wrapper) .info-area {
+    justify-content: end;
+    text-align: center;
+}
+
+.info-cosmics .info-caption {
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.info-cosmics .btn-info {
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 7px 15px;
+    font-size: 20px;
+}	
+
+.single-info-cosmics::before {
+    content: "";
+    background: #ec5598;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    top: 50%;
+    transition: all 0.4s ease-in-out;
+	opacity: 0.6;
+}
+
+.single-info-cosmics:hover::before {
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.single-info-cosmics:hover .btn-info{
+	background: #ffffff;
+	color: #2c3145;
+}
+
+.single-info-cosmics .info-caption p {
+    font-size: 22px;
+}
+
+.single-info-cosmics .info-caption h4 {
+    font-size: 22px;
+	font-weight: 600;
+    line-height: 1.8;
+}
+
+
+
+/* ripple social */
+.cosmics-theme #header-top .header-social a:hover{
+	background-color: #ffffff;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	animation: social_ripple 1.5s linear infinite;
+}
+
+@keyframes social_ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 4px rgba(255, 255, 255, 0.3), 0 0 0 8px rgba(255, 255, 255, 0.3), 0 0 0 12px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.3), 0 0 0 8px rgba(255, 255, 255, 0.3), 0 0 0 12px rgba(255, 255, 255, 0.3), 0 0 0 16px rgba(255, 255, 255, 0);
+  }
+}
+/* Blog */
+.blog-post a.more-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #242526;
+    border-radius: 20px;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+}
+
+.blog-post a.more-link:hover,
+.blog-post a.more-link:focus {
+	background-color: #ec5598;
+}
+
+.post-content {
+    position: relative;
+    z-index: 0;
+}
+
+.meta-info li.post-date:after {
+	display: none;
+}
+
+.meta-info li.post-date a {
+    color: #ffffff !important;
+    background-color: #ec5598;
+    padding: 12px 15px 11px;
+}
+
+.meta-info li.post-date {
+    position: absolute;
+    bottom: 103%;
+}
+
+.single-product .meta-info li.post-date{
+	 bottom: 100%;
+}
+
+#footer-copyright {
+    border-top: 1px solid #e2e2e2;
+	background-color: #fbfbfb;
+}
+
+section#testimonial {
+    box-shadow: 0px 1px 4px 0px rgb(44 49 59 / 15%);
+}
+
+ul.mbl li:last-child:not(:first-child) {
+    border-left: 1px solid rgb(230 230 230 / 20%);
+}
+
+
+.shop-product h5 a:hover{
+	color:#242526;
+}
+
+.wp-block-tag-cloud a {
+    font-size: 16px !important;
+}
+
+.blog-post .wp-block-search {
+    margin-bottom: 20px;
+}
+
+.wp-block-table figcaption {
+    text-align: center;
+}
+
+.sidebar .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link {
+    color: #fff;
+}
+
+.wp-block-search .wp-block-search__input{
+	outline: none;
+    border: 1px solid #e5e5e5;
+    min-height: 40px;
+    box-shadow: none;
+}
+
+.wp-block-tag-cloud a, 
+.wp-block-tag-cloud a:hover,
+.wp-block-tag-cloud a:focus  {
+    border: none;
+}
+
+.wp-block-image figcaption {
+    text-align: center;
+}
+
+.wp-block-calendar table caption {
+    text-align: center;
+}
+
+ul.wp-block-social-links li a {
+    line-height: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+
+.sidebar ol.wp-block-latest-comments {
+    padding: 0;
+}
+
+.footer-sidebar .widget_media_image figcaption,
+.footer-sidebar .wp-block-table figcaption {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+
+.footer-sidebar .widget_shopping_cart .cart-buttons a {
+    padding: 11px 30px;
+}
+
+.widget_shopping_cart .cart-item {
+    padding: 10px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.widget_shopping_cart .cart-item .cart-item-description {
+    font-size: 16px;
+}
+
+.widget_shopping_cart .cart-item .cart-item-description h4 {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.widget_shopping_cart .cart-item .cart-item-description {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.post-content .wp-block-latest-comments {
+    padding: 0;
+}
+
+.wp-block-table {
+    word-break: break-all;
+}
+
+.footer-sidebar .wp-block-latest-comments {
+    padding: 0;
+}
+
+.logged-in.wp-block-loginout a {
+    border-radius: 50px;
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+    line-height: 32px;
+}
+
+.wp-block-calendar a {
+    text-decoration: none;
+}
+
+.site-content ol.wp-block-latest-comments {
+    padding: 0;
+}
+
+a.button.add_to_cart_button.added {
+    padding: 15px;
+}
+
+.wp-block-buttons {
+    margin: 15px 0px;
+}
+
+.wp-block-categories-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.comment-respond {
+    width: 100%;
+}
+
+.wp-block-embed figcaption {
+    text-align: center;
+}
+
+.wp-block-code code img {
+    margin-left: 20px;
+}
+
+.wp-block-pullquote.has-background blockquote {
+    background: inherit;
+}
+
+.site-content .wp-block-loginout,
+.site-content form.wp-block-search {
+    padding: 20px 0;
+}
+
+pre.has-background code {
+    background-color: inherit;
+}
+
+p.has-text-color em {
+    color: inherit;
+}
+
+.site-content .wp-block-group {
+    padding: 0 20px;
+}
+
+.wp-block-group em {
+    color: inherit;
+}
+
+.has-text-color em,
+.has-text-color h2 {
+    color: inherit;
+}
+
+a.wp-block-file__button {
+    color: #fff;
+}
+
+.has-text-color * {
+    color: inherit;
+}
+
+.has-text-color a:hover, 
+.has-text-color a:focus {
+    color: inherit;
+}
+
+
+.sidebar .wp-block-search__label{
+	box-shadow: none;
+	font-weight: 500;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+
+.wp-block-image figcaption {
+ 	margin-bottom: 0;
+}
+
+/* gallery cross buttom style */
+button.featherlight-close-icon.featherlight-close {
+    background-color: #f22853;
+    border: 1px solid #f22853;
+    top: 40px;
+    right: 40px;
+    border-radius: 0;
+}
+
+
+/* circle hover */
+.is-style-circle figure.tiled-gallery__item:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #000;
+    border-radius: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.65s;
+}
+.is-style-circle figure.tiled-gallery__item:hover:before,
+.is-style-circle figure.tiled-gallery__item:focus:before{
+    visibility: visible;
+    opacity: 0.5;
+}
+
+/* circle spacing */
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row{
+	margin-right: calc(-.4 * var(--bs-gutter-x));
+    margin-left: calc(-.4 * var(--bs-gutter-x));
+    --bs-gutter-x: 1.5rem;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row>* {
+    padding-right: calc(var(--bs-gutter-x) * .4);
+    padding-left: calc(var(--bs-gutter-x) * .4);
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__row+.tiled-gallery__row {
+    margin-top: 0px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__col+.tiled-gallery__col {
+    margin-left: 0px;
+}
+
+/* circle box shadow */
+.wp-block-jetpack-tiled-gallery.is-style-circle .tiled-gallery__item {
+    border-radius: 50%;
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.wp-block-jetpack-tiled-gallery.is-style-rectangular .tiled-gallery__item {
+    width: 100%!important;
+    height: 100%!important;
+	box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__item {
+	box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.wp-block-jetpack-tiled-gallery .tiled-gallery__gallery{
+	justify-content: center;
+}
+
+.wp-block-jetpack-tiled-gallery.is-style-columns .tiled-gallery__item{
+	width: 100%!important;
+	margin-bottom: 20px
+}
+.wp-block-jetpack-tiled-gallery.is-style-columns .tiled-gallery__item:last-child{
+	margin-bottom: 0px
+}
+.wp-block-jetpack-tiled-gallery.is-style-columns .tiled-gallery__item {
+    margin-top: 0px;
+}
+
+blockquote.wp-block-quote.has-text-color p,blockquote.wp-block-quote.has-text-color p var,blockquote.wp-block-quote.has-text-color p cite,blockquote.wp-block-quote.has-text-color cite {
+	color: inherit;
+}
+
+.wp-block-table figcaption {
+	text-align: center;
+}
+
+.sidebar .widget .wp-block-group .wp-block-image {
+	margin-bottom: 0;
+}

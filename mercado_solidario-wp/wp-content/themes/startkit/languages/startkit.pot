@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StartKit\n"
+"POT-Creation-Date: 2019-07-09 16:19+0530\n"
+"PO-Revision-Date: 2019-07-09 16:19+0530\n"
+"Last-Translator: \n"
+"Language-Team: Nayra Themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\startkit-free\\wp-content\\themes"
+"\\startkit\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\startkit-free\\wp-content\\themes"
+"\\startkit\n"
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/archive.php:22
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/sections/startkit-breadcrumb.php:15
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/archive.php:24
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/sections/startkit-breadcrumb.php:19
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/archive.php:26
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/sections/startkit-breadcrumb.php:23
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/archive.php:28
+msgid "Archives"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/single.php:42
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/template-tags.php:192
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/sections/startkit-blog.php:69
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/template-parts/content-page.php:45
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/template-parts/content-page_grid.php:62
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/template-parts/content-search.php:46
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/template-parts/content.php:33
+msgid "Read More"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/admin/startkit-about-page.php:94
+msgid "Get started with StartKit"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/custom-controls/helper-plugin-install/class-startkit-plugin-install-helper.php:105
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/custom-controls/install_plugin/startkit_plugin_helper.php:60
+msgid "Install and activate"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/custom-controls/install_plugin/startkit_plugin_helper.php:80
+msgid "Activate"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/customize/startkit-blog.php:91
+msgid "Select number of Posts"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/customize/startkit-breadcrumb.php:12
+msgid "Page Breadcrumb"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/customize/startkit-header.php:12
+msgid "Header Section"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/customize/startkit-header.php:25
+msgid "Header Style"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/customize/startkit-premium.php:14
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/customize/startkit-premium.php:31
+msgid "Need Help ?"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/customize/startkit-premium.php:29
+msgid "View Documentation"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/customize/startkit-premium.php:33
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/customizer-notify/startkit-customizer-notify.php:111
+msgid "Activating"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/inc/customizer-repeater/class/customizer-repeater-control.php:401
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/sections/startkit-breadcrumb.php:27
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/sections/startkit-breadcrumb.php:31
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/sections/startkit-breadcrumb.php:35
+msgid "Error 404"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/sections/startkit-breadcrumb.php:39
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: D:\xampp\htdocs\startkit-free\wp-content\themes\startkit/template-parts/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""

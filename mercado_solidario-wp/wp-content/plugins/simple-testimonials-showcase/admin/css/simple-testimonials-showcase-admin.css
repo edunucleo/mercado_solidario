@@ -1,0 +1,71 @@
+/* 
+*  Testimonial Meta Box CSS File
+*  v1.0.0
+*/
+
+.sts-metabox {
+    padding: 10px 10px 0px 10px;
+}
+.sts-metabox-field {
+    margin-bottom: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+.sts-metabox-field label {
+    float: left;
+    width: 15%;
+    line-height: 26px;
+}
+.sts-metabox-field .field {
+    float: left; width: 75%;
+}
+.sts-metabox-field input[type=text],
+.sts-metabox-field textarea {
+    width: 100%;
+}
+.mce-toolbar .mce-ico.mce-i-icon.sts-icon {
+    background-image: url(../images/sts-icon.png);
+}
+
+/* Settings */
+.sts-section {
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+}
+.sts-color-option {
+    float: left;
+    margin: 5px;
+    width: 100%;
+}
+.sts-color-option-label {
+    float: left;
+    width: 300px;
+    cursor: default;
+}
+.sts-color-option-label label {
+    cursor: default;
+    display: inline-block;
+    min-width: 300px;
+}
+.sts-color-option-input {
+    float: left;
+}
+
+/*
+* Color Picker WP 4.9 Compatibility
+*/
+.wp-picker-container .wp-color-result.button{
+    height: 26px;
+    background: no-repeat;
+    border: 1px solid #ccc;
+}
+.wp-color-result-text{
+    line-height: 24px;
+}
+@media screen and (max-width: 782px){
+    .wp-picker-container .wp-color-result-text {
+        line-height: 24px; 
+    }
+}

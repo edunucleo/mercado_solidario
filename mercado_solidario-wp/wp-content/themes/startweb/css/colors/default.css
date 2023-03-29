@@ -1,0 +1,435 @@
+/*=========================================
+    Primary Color
+=========================================*/
+/* 00. Theme Reset Css */
+h2.site-title::first-letter,
+#blog-content .post-content:hover .post-title a,
+#recent-blog .post-content .post-title a,
+.footer-sidebar .widget.widget_products ul li a:hover,
+.footer-sidebar .widget.widget_products ul li a:focus,
+.woocommerce ul.products li.product .price,
+.sidebar .widget_info i {
+    color: #ffd200;
+}
+
+.startweb .startweb-slider #carousel-custom-indicator li.active button,
+.startweb .startweb-slider #carousel-custom-indicator li button:hover,
+.startweb .startweb-slider #carousel-custom-indicator li button:focus {
+    background: #ffd200;
+    color: #242424;
+}
+
+.startweb .startweb-slider #carousel-custom-indicator button {
+    color: #242424;
+}
+
+.wp-block-file .wp-block-file__button,
+.boxed-btn, .wp-block-loginout a,
+.footer-sidebar .widget_product_search button:hover,
+.footer-sidebar .widget_product_search button:focus,
+.wp-block-button a, .startweb-btn a.boxed-btn i, .startweb-btn .boxed-btn i, .startweb-btn a.book-now i {
+    background: #ffd200 ;    
+}
+
+.startweb-btn a.boxed-btn i, .startweb-btn .boxed-btn i, .startweb-btn a.book-now i {
+    color: #242424 ;    
+}
+
+.sidebar .widget table th,
+.wp-block-calendar thead th {
+    background: #ffd200;
+    color: #ffffff;
+}
+
+.wp-block-post-terms a:before,
+.boxed-btn:hover, .breadcrumb-nav li a:hover,
+.boxed-btn:focus, .breadcrumb-nav li a:focus {
+    color: #ffd200 ;    
+}
+
+.startkit-btn .boxed-btn,
+.startkit-btn .slide-bg h4,
+.startkit-btn .boxed-btn:hover,
+.startkit-btn .boxed-btn:focus,
+.startkit-btn .posts-navigation .nav-links a:hover,
+.startkit-btn .posts-navigation .nav-links a:focus, .sidebar .widget_search button,
+.wp-block-search .wp-block-search__button {
+    background-color: #ffd200 !important
+}
+
+/* 03. Custom Navigation */
+.mean-container a.meanmenu-reveal {
+   border-color: #ffd200 !important;
+    color: #ffd200 !important;
+}
+
+.mean-container a.meanmenu-reveal span {
+    background-color: #ffd200 !important;
+}
+
+.mean-container .mean-nav {
+    background: #ffd200 !important;    
+}
+
+.search-button a {
+    color: #ffd200 ;
+}
+
+.search-button a.nav-link {
+    color: #ffd200 ;
+}
+
+/* 05. Features */
+
+.view-more {
+    color: #ffd200 ;
+}
+
+/* Recent Blog */
+#recent-blog .blog-post:hover .read-more-link,
+.blog-post:hover .post-content .post-title a,
+#recent-blog .blog-post:focus-within .read-more-link,
+.blog-post:focus-within .post-content .post-title a {
+    color: #ffd200 ;
+}
+
+#footer-copyright {
+    background: #ffd200 ;
+}
+
+.scrollup {
+    background-color: #ffd200 ;
+    border-color: #ffd200 ;
+
+}
+
+.scrollup:hover,
+.scrollup:focus {
+    color: #ffd200 ;
+    border-color: #ffd200 ;
+}
+
+/*------------------------
+    Blog
+-------------------------*/
+.blog-post:focus-within h4.post-title a,
+.blog-post:hover h4.post-title a {
+    color: #ffd200  !important;
+}
+
+.post-content .continue-reading:focus,
+.post-content .continue-reading:hover {
+    color: #ffd200  !important;
+}
+
+#blog-content ul.meta-info li:focus-within i,
+#blog-content ul.meta-info li a:focus,
+#blog-content ul.meta-info li a:hover {
+    color: #ffd200 ;
+}
+
+.blog-post .post-thumb {
+    background: #ffd200 ;    
+}
+
+.post-new-comment input,
+.post-new-comment textarea {
+    border-color: #ffd200 ;
+}
+
+.single-blog-area ul.share-icon li a:focus,
+.single-blog-area ul.share-icon li a:hover {
+    color: #ffd200 ;
+}
+
+/* Widget Color */
+
+.widget_pages ul li a:hover,
+.widget_pages ul li a:focus {
+    color: #ffd200 ;
+}
+
+.sidebar .widget_search input[type=button],
+.sidebar .widget_search input[type=submit] {
+    background: #ffd200 ;
+}
+
+.sidebar .widget_recent_entries ul li a:hover,
+.sidebar .widget_recent_comments ul li a:hover,
+.sidebar .widget_archive ul li a:hover,
+.sidebar .widget_categories ul li a:hover,
+.sidebar .widget_meta ul li a:hover,
+.sidebar .widget_recent_entries ul li a:focus,
+.sidebar .widget_recent_comments ul li a:focus,
+.sidebar .widget_archive ul li a:focus,
+.sidebar .widget_categories ul li a:focus,
+.sidebar .widget_meta ul li a:focus {
+	color: #ffd200 ;
+}
+
+.footer-sidebar .widget_search input[type=button],
+.footer-sidebar .widget_search input[type=button]:hover,
+.footer-sidebar .widget_search input[type=button]:focus,
+.footer-sidebar .widget_search input[type=submit],
+.footer-sidebar .widget_search input[type=submit]:hover,
+.footer-sidebar .widget_search input[type=submit]:focus {
+    background: #ffd200 ;
+}
+.footer-sidebar .widget_recent_entries ul li a:hover,
+.footer-sidebar .widget_recent_comments ul li a:hover,
+.footer-sidebar .widget_archive ul li a:hover,
+.footer-sidebar .widget_categories ul li a:hover,
+.footer-sidebar .widget_meta ul li a:hover,
+.footer-sidebar .widget_recent_entries ul li a:focus,
+.footer-sidebar .widget_recent_comments ul li a:focus,
+.footer-sidebar .widget_archive ul li a:focus,
+.footer-sidebar .widget_categories ul li a:focus,
+.footer-sidebar .widget_meta ul li a:focus {
+	color: #ffd200 ;
+}
+
+.recent-post h6:hover,
+.recent-post h6:focus-within {
+    color: #ffd200 ;
+}
+
+ul.recent-meta-info li a:hover,
+ul.recent-meta-info li a:focus {
+    color: #ffd200 ;
+}
+
+.days li .active {
+    color: #ffd200 ;
+    border-color: #ffd200 ;
+}
+
+ul.widget-social li a:hover,
+ul.widget-social li a:focus {
+    color: #ffd200 ;
+}
+
+ul.tags li a:hover,
+ul.tags li a:focus {    
+    background: #ffd200 ;
+}
+em, cite, q {
+    color: #ffd200 ;
+}
+a {
+    color: #ffd200 ;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"] {
+    border: 1px solid #ffd200 ;
+}
+table th {
+    background: #ffd200 ;
+}
+blockquote {
+    border-left: 5px solid #ffd200  !important;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background: #ffd200;
+}
+
+.sidebar .widget table tbody a {
+    color: #ffd200 ;
+    border-color: #ffd200 ;
+}
+.widget_tag_cloud a:hover,
+.widget_tag_cloud a:focus {
+    background: #ffd200 ;
+}
+.footer-sidebar .widget table tbody a { 
+	color: #ffd200 ;
+    border-color: #ffd200 ;
+}
+
+textarea {
+	border: 1px solid #ffd200 ;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"] {
+    border: 1px solid #ffd200 ;
+}
+
+.paginations a:hover, .paginations a:focus, .paginations a.active, span.page-numbers.current {
+	background:#ffd200 ;
+}
+a.page-numbers {
+    color: #ffd200 ;
+}
+
+.textwidget a:hover,
+.textwidget a:focus {
+    color: #ffd200 ;
+}
+
+.boxed-btn:hover,
+.boxed-btn:focus {
+    color: #ffd200 ;
+}
+.search-area.search-open #close-btn:focus,
+.search-area.search-open #close-btn:hover,
+.search-result .posts-navigation .nav-links a {
+    background: #ffd200 ;
+}
+.view-more:hover, .view-more:focus {
+    color: #ffd200;
+}
+/*=========================================
+    Secondary Color
+=========================================*/
+/* Theme Reset css */
+button:hover, input[type="button"]:hover, input[type="reset"]:hover,
+button:focus, input[type="button"]:focus, input[type="reset"]:focus {
+    background: #242424;
+}
+p {
+    color: #242424;
+}
+
+.section-header p {
+    color: #242424;
+}
+
+/* Main Menu*/
+.mean-container .mean-nav ul li a.mean-expand:hover,
+.mean-container .mean-nav ul li a.mean-expand:focus {
+    background: #242424;
+}
+
+#recent-blog .read-more-link {
+    color: #242424;    
+}
+
+.gallery-item figure:hover figcaption,
+.gallery-item figure:focus-within figcaption {
+    background: #242424;
+}
+
+#blog-content ul.meta-info li {
+    color: #242424;
+}
+
+#blog-content ul.meta-info li a {
+    color: #242424;
+}
+
+.post-content .content {
+    color: #242424;
+}
+
+#blog-content .post-content .continue-reading {
+    color: #242424;
+}
+
+.single-blog-area .post-title {
+    color: #242424;
+}
+
+.single-blog-area ul.share-icon li a {
+    color: #242424;
+}
+
+.post-comment-area .comment-author a {
+    color: #242424;
+}
+
+#wrapper-404 .inner-content h1 {
+    color: #242424;
+}
+
+#wrapper-404 .inner-content p {
+    color: #242424;
+}
+
+/*Widget CSS */
+
+#footer-widgets,
+.widget-search input[type=button]:hover,
+.widget-search input[type=button]:focus {
+    background: #242424;
+}
+
+.widget_search .search-form,
+.search-form input[type="search"]::-webkit-input-placeholder,
+.sidebar .widget-title,
+.widget_categories ul li a,
+.recent-post h6,
+ul.recent-meta-info li,
+ul.recent-meta-info li a,
+ul.tags li a,
+.widget-calender .widget-title .plus a,
+.weekdays li,
+.days li.disable,
+.days li {
+    color: #242424;
+
+}
+
+/* new */
+.sidebar .widget table caption { 
+    color: #242424; 
+}
+.sidebar .widget table td, .widget table th { 
+	color: #242424;
+}
+.sidebar .widget-title {
+	color: #242424;
+}
+.sidebar .widget_meta ul li a {
+	color: #242424;
+}
+.sidebar .widget_recent_entries ul li a {
+	color: #242424; 
+}
+.sidebar .widget_recent_comments ul li a {
+	color: #242424; 
+}
+.footer-sidebar .widget table caption { 
+    color: #242424; 
+}
+.footer-sidebar .widget table th { 
+    color:#242424; 
+}
+.footer-sidebar .widget table td, .widget table th { 
+	color: #242424;
+} 
+.gallery-item .gallery-caption {
+    color: #242424;
+}
+.pagination a {
+    background: #242424;
+}
+
+.sidebar .widget_pages ul li a {
+    color: #242424;
+}
+
+.footer-widgets .wp-block-latest-comments li a:hover, 
+.footer-widgets .wp-block-latest-comments li a:focus {
+    color: #fff;
+}
+
+.footer-sidebar .widget_calendar caption {
+    background: #fff;
+}
+
+.wp-block-button a.wp-block-button__link,
+.wp-block-button a.wp-block-button__link:hover,
+.wp-block-button a.wp-block-button__link:focus {
+    color: #fff;
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link {
+    color: #ffd200;
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link:hover, 
+.wp-block-button.is-style-outline a.wp-block-button__link:focus {
+    background: #ffd200;
+    color: #fff;
+}
+
+#header-top {
+    color: #242424;
+}

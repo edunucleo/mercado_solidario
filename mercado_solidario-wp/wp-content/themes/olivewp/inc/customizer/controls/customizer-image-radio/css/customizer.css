@@ -1,0 +1,25 @@
+/* ==========================================================================
+   Image Radio Buttons
+   ========================================================================== */
+.image_radio_button_control .radio-button-label > input {
+	display: none;
+}
+
+.image_radio_button_control .radio-button-label > img {
+	cursor: pointer;
+	border: 3px solid #ddd;
+	width: 25%;
+	background-color: #2271b1;
+}
+#customize-control-bredcrumb_alignment .image_radio_button_control .radio-button-label > img {
+	width: 47%;
+}
+
+.image_radio_button_control .radio-button-label > input:checked + img {
+	border: 3px solid #2885bb;
+}
+#customize-control-blog_sidebar_layout .image_radio_button_control .radio-button-label > img,
+#customize-control-single_blog_sidebar_layout .image_radio_button_control .radio-button-label > img,
+#customize-control-page_sidebar_layout .image_radio_button_control .radio-button-label > img{
+width: 22%;
+}

@@ -1,0 +1,26 @@
+==== Changelog ====
+
+@Version 1.1.2
+* Updated OliveWP Companion plugin options page.
+* Added premium starter sites.
+
+@Version 1.1.1
+* Added notice after activating the OliveWP Companion plugin.
+* Added starter sites option into the OliveWP Companion menu.
+* Added notice after activating the starter sites extension.
+* Added add-on in extensions tab when we activated the OliveWP Plus plugin.
+
+@Version 1.1
+* Added premium starter sites.
+
+@Version 1.0
+* Fixed the issue plugin activation through TGMPA.
+
+@Version 0.9
+* Added theme options page and Spice Starter Site extensions.
+
+@Version 0.2
+* Resolved issues mentioned by the reviewer.
+
+@Version 0.1
+* Initial Release.

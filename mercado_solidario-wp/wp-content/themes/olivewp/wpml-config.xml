@@ -1,0 +1,22 @@
+<wpml-config>
+  <taxonomies>
+    <taxonomy translate="0">translation_priority</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="current_theme"/>
+    <key name="theme_mods_olivewp">
+      <key name="0"/>
+      <key name="nav_menu_locations"/>
+      <key name="custom_css_post_id"/>
+      <key name="blog_button_title"/>
+      <key name="blog_page_title_option"/>
+      <key name="after_menu_multiple_option"/>
+      <key name="after_menu_btn_txt"/>
+      <key name="after_menu_btn_link"/>
+      <key name="after_menu_btn_new_tabl"/>
+      <key name="after_menu_html"/>
+      <key name="sticky_header_enable"/>
+      <key name="footer_copyright"/>
+    </key>
+  </admin-texts>
+</wpml-config>

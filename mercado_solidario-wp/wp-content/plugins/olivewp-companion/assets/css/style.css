@@ -1,0 +1,91 @@
+.page-section-space.trending-post .owl-carousel .owl-prev{left: auto;right: 40px;}
+.page-section-space.trending-post  .owl-carousel .owl-next {right: 0;}
+.blog.trending-post #trending-posts-carousel .post-thumbnail img.img-fluid{
+    width: 100%;
+    height: 100px;
+}
+.page-section-space.trending-post .comment-title h4{font-weight: 600;}
+.page-section-space.trending-post .owl-carousel .owl-prev,  
+.page-section-space.trending-post  .owl-carousel .owl-next {
+    font-size: 0.75rem;
+    top: -31%;
+    width: 1.75rem;
+    height: 1.75rem;
+    opacity: 1;
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    line-height: 2.3;
+ }
+.page-section-space.trending-post {background-color:#f0f4f7;padding: 2.2rem 0 0.375rem;}
+.blog.trending-post .post:hover .post-thumbnail img, .trending-post.blog .post:focus .post-thumbnail img {
+    transform: unset; 
+}
+.blog.trending-post .post {
+    box-shadow: 0 0px 25px 0 rgb(54 53 76 / 8%);
+    transition: all .3s linear;
+    transition: all .8s cubic-bezier(.39,.01,.36,.9);
+    transform: translateY(0px);
+    background-color: #f8fbfd;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    --linkInitialColor: var(--color);
+}
+.blog.trending-post .post .post-thumbnail {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+    flex: 0 0 60px;
+    border-radius: 100%;
+    -webkit-margin-end: 20px;
+    margin-inline-end: 20px;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+.blog.trending-post .post-content {
+    padding: 0.75rem;
+}
+.blog.trending-post .post .post-thumbnail {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+    flex: 0 0 100px;
+    border-radius: 5%;
+    -webkit-margin-end: 10px;
+    margin-inline-end: 10px;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+.blog.trending-post span.entry-title {
+    font-weight: 500;
+    font-size: 0.875rem;
+    margin-bottom: 5px;
+}
+.blog.trending-post .post .post-thumbnail a{
+    margin: 0;
+}
+.blog.trending-post article.post{
+    padding: 0;
+}
+.blog.trending-post .removed-image .entry-title{
+    margin-inline-start: 15px;
+    display: block;
+}
+.blog.trending-post .spice-row {
+   padding-right: 15px;
+   padding-left: 15px;
+}
+.blog.trending-post .spice-container {
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+.blog.trending-post .post:hover, .blog.trending-post .post:focus{
+    transform: translateY(0px);
+}
+#trending-posts-carousel .post{
+    padding: 0;
+}

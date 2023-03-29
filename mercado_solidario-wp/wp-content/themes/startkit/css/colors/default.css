@@ -1,0 +1,415 @@
+/*=========================================
+    Primary Color
+=========================================*/
+/* 00. Theme Reset Css */
+h2.site-title::first-letter,
+#blog-content .post-content:hover .post-title a,
+#recent-blog .post-content .post-title a,
+.footer-sidebar .widget.widget_products ul li a:hover,
+.footer-sidebar .widget.widget_products ul li a:focus,
+.sidebar .widget_info i {
+    color: #0088CC;
+}
+
+.wp-block-file .wp-block-file__button,
+.boxed-btn, .wp-block-loginout a,
+.widget_block.widget_calendar table th,
+.footer-sidebar .widget_product_search button,
+.wp-block-button a, .wp-block-calendar table thead th {
+    background: #0088CC ;    
+}
+
+.boxed-btn:hover, .breadcrumb-nav li a:hover,
+.boxed-btn:focus, .breadcrumb-nav li a:focus {
+    color: #0088CC ;    
+}
+
+.startkit-btn .boxed-btn,
+.startkit-btn .slide-bg h4,
+.startkit-btn .boxed-btn:hover,
+.startkit-btn .boxed-btn:focus,
+.startkit-btn .posts-navigation .nav-links a:hover,
+.startkit-btn .posts-navigation .nav-links a:focus, .sidebar .widget_search button,
+.wp-block-search .wp-block-search__button, .sidebar .widget table th {
+    background-color: #0088CC !important
+}
+
+/* 03. Custom Navigation */
+.mean-container a.meanmenu-reveal {
+   border-color: #0088CC !important;
+    color: #0088CC !important;
+}
+
+.mean-container a.meanmenu-reveal span {
+    background-color: #0088CC !important;
+}
+
+.mean-container .mean-nav {
+    background: #0088CC !important;    
+}
+
+.search-button a {
+    color: #0088CC ;
+}
+
+.search-button a.nav-link {
+    color: #0088CC ;
+}
+
+/* 05. Features */
+
+.view-more {
+    color: #0088CC ;
+}
+
+/* Recent Blog */
+#recent-blog .blog-post:hover .read-more-link,
+.blog-post:hover .post-content .post-title a,
+#recent-blog .blog-post:focus-within .read-more-link,
+.blog-post:focus-within .post-content .post-title a {
+    color: #0088CC ;
+}
+
+#footer-copyright {
+    background: #0088CC ;
+}
+
+.scrollup {
+    background-color: #0088CC ;
+    border-color: #0088CC ;
+
+}
+
+.scrollup:hover,
+.scrollup:focus {
+    color: #0088CC ;
+    border-color: #0088CC ;
+}
+
+/*------------------------
+    Blog
+-------------------------*/
+.blog-post:focus-within h4.post-title a,
+.blog-post:hover h4.post-title a {
+    color: #0088CC  !important;
+}
+
+.post-content .continue-reading:focus,
+.post-content .continue-reading:hover {
+    color: #0088CC  !important;
+}
+
+#blog-content ul.meta-info li:focus-within i,
+#blog-content ul.meta-info li a:focus,
+#blog-content ul.meta-info li a:hover {
+    color: #0088CC ;
+}
+
+.blog-post .post-thumb {
+    background: #0088CC ;    
+}
+
+.post-new-comment input,
+.post-new-comment textarea {
+    border-color: #0088CC ;
+}
+
+.single-blog-area ul.share-icon li a:focus,
+.single-blog-area ul.share-icon li a:hover {
+    color: #0088CC ;
+}
+
+/* Widget Color */
+
+.widget_pages ul li a:hover,
+.widget_pages ul li a:focus {
+    color: #0088CC ;
+}
+
+.sidebar .widget_search input[type=button],
+.sidebar .widget_search input[type=submit] {
+    background: #0088CC ;
+}
+
+.sidebar .widget_recent_entries ul li a:hover,
+.sidebar .widget_recent_comments ul li a:hover,
+.sidebar .widget_archive ul li a:hover,
+.sidebar .widget_categories ul li a:hover,
+.sidebar .widget_meta ul li a:hover,
+.sidebar .widget_recent_entries ul li a:focus,
+.sidebar .widget_recent_comments ul li a:focus,
+.sidebar .widget_archive ul li a:focus,
+.sidebar .widget_categories ul li a:focus,
+.sidebar .widget_meta ul li a:focus {
+	color: #0088CC ;
+}
+
+.footer-sidebar .widget_search input[type=button],
+.footer-sidebar .widget_search input[type=button]:hover,
+.footer-sidebar .widget_search input[type=button]:focus,
+.footer-sidebar .widget_search input[type=submit],
+.footer-sidebar .widget_search input[type=submit]:hover,
+.footer-sidebar .widget_search input[type=submit]:focus {
+    background: #0088CC ;
+}
+.footer-sidebar .widget_recent_entries ul li a:hover,
+.footer-sidebar .widget_recent_comments ul li a:hover,
+.footer-sidebar .widget_archive ul li a:hover,
+.footer-sidebar .widget_categories ul li a:hover,
+.footer-sidebar .widget_meta ul li a:hover,
+.footer-sidebar .widget_recent_entries ul li a:focus,
+.footer-sidebar .widget_recent_comments ul li a:focus,
+.footer-sidebar .widget_archive ul li a:focus,
+.footer-sidebar .widget_categories ul li a:focus,
+.footer-sidebar .widget_meta ul li a:focus {
+	color: #0088CC ;
+}
+
+.recent-post h6:hover,
+.recent-post h6:focus-within {
+    color: #0088CC ;
+}
+
+ul.recent-meta-info li a:hover,
+ul.recent-meta-info li a:focus {
+    color: #0088CC ;
+}
+
+.days li .active {
+    color: #0088CC ;
+    border-color: #0088CC ;
+}
+
+ul.widget-social li a:hover,
+ul.widget-social li a:focus {
+    color: #0088CC ;
+}
+
+ul.tags li a:hover,
+ul.tags li a:focus {    
+    background: #0088CC ;
+}
+em, cite, q {
+    color: #0088CC ;
+}
+a {
+    color: #0088CC ;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"] {
+    border: 1px solid #0088CC ;
+}
+table th {
+    background: #0088CC ;
+}
+blockquote {
+    border-left: 5px solid #0088CC  !important;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background: #0088CC;
+}
+
+.sidebar .widget table tbody a {
+    color: #0088CC ;
+    border-color: #0088CC ;
+}
+.widget_tag_cloud a:hover,
+.widget_tag_cloud a:focus,
+.wp-block-tag-cloud a:hover,
+.wp-block-tag-cloud a:focus {
+    background: #0088CC ;
+}
+.footer-sidebar .widget table tbody a { 
+	color: #0088CC ;
+    border-color: #0088CC ;
+}
+
+textarea {
+	border: 1px solid #0088CC ;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"] {
+    border: 1px solid #0088CC ;
+}
+
+.paginations a:hover, .paginations a:focus, .paginations a.active, span.page-numbers.current {
+	background:#0088CC ;
+}
+a.page-numbers {
+    color: #0088CC ;
+}
+
+.textwidget a:hover,
+.textwidget a:focus {
+    color: #0088CC ;
+}
+
+.boxed-btn:hover,
+.boxed-btn:focus {
+    color: #0088CC ;
+}
+.search-area.search-open #close-btn:focus,
+.search-area.search-open #close-btn:hover,
+.search-result .posts-navigation .nav-links a {
+    background: #0088CC ;
+}
+.view-more:hover, .view-more:focus {
+    color: #0088CC;
+}
+/*=========================================
+    Secondary Color
+=========================================*/
+/* Theme Reset css */
+button:hover, input[type="button"]:hover, input[type="reset"]:hover,
+button:focus, input[type="button"]:focus, input[type="reset"]:focus {
+    background: #242424;
+}
+p {
+    color: #242424;
+}
+
+.section-header p {
+    color: #242424;
+}
+
+/* Main Menu*/
+.mean-container .mean-nav ul li a.mean-expand:hover,
+.mean-container .mean-nav ul li a.mean-expand:focus {
+    background: #242424;
+}
+
+#recent-blog .read-more-link {
+    color: #242424;    
+}
+
+.gallery-item figure:hover figcaption,
+.gallery-item figure:focus-within figcaption {
+    background: #242424;
+}
+
+#blog-content ul.meta-info li {
+    color: #242424;
+}
+
+#blog-content ul.meta-info li a {
+    color: #242424;
+}
+
+.post-content .content {
+    color: #242424;
+}
+
+#blog-content .post-content .continue-reading {
+    color: #242424;
+}
+
+.single-blog-area .post-title {
+    color: #242424;
+}
+
+.single-blog-area ul.share-icon li a {
+    color: #242424;
+}
+
+.post-comment-area .comment-author a {
+    color: #242424;
+}
+
+#wrapper-404 .inner-content h1 {
+    color: #242424;
+}
+
+#wrapper-404 .inner-content p {
+    color: #242424;
+}
+
+/*Widget CSS */
+
+#footer-widgets,
+.widget-search input[type=button]:hover,
+.widget-search input[type=button]:focus {
+    background: #242424;
+}
+
+.widget_search .search-form,
+.search-form input[type="search"]::-webkit-input-placeholder,
+.sidebar .widget-title,
+.widget_categories ul li a,
+.recent-post h6,
+ul.recent-meta-info li,
+ul.recent-meta-info li a,
+ul.tags li a,
+.widget-calender .widget-title .plus a,
+.weekdays li,
+.days li.disable,
+.days li {
+    color: #242424;
+
+}
+
+/* new */
+.sidebar .widget table caption { 
+    color: #242424; 
+}
+.sidebar .widget table td, .widget table th { 
+	color: #242424;
+}
+.sidebar .widget-title {
+	color: #242424;
+}
+.sidebar .widget_meta ul li a {
+	color: #242424;
+}
+.sidebar .widget_recent_entries ul li a {
+	color: #242424; 
+}
+.sidebar .widget_recent_comments ul li a {
+	color: #242424; 
+}
+.widget_tag_cloud a {
+    color: #242424;
+}
+.footer-sidebar .widget table caption { 
+    color: #242424; 
+}
+.footer-sidebar .widget table th { 
+    color:#242424; 
+}
+.footer-sidebar .widget table td, .widget table th { 
+	color: #242424;
+} 
+.gallery-item .gallery-caption {
+    color: #242424;
+}
+.pagination a {
+    background: #242424;
+}
+
+.widget_block.widget_calendar table th {
+    color: #fff;
+}
+
+
+.footer-widgets .wp-block-latest-comments li a:hover, 
+.footer-widgets .wp-block-latest-comments li a:focus {
+    color: #fff;
+}
+
+.footer-sidebar .widget_calendar caption {
+    background: #fff;
+}
+
+
+.wp-block-button a.wp-block-button__link,
+.wp-block-button a.wp-block-button__link:hover,
+.wp-block-button a.wp-block-button__link:focus {
+    color: #fff;
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link {
+    color: #0088CC;
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link:hover, 
+.wp-block-button.is-style-outline a.wp-block-button__link:focus {
+    background: #0088CC;
+    color: #fff;
+}

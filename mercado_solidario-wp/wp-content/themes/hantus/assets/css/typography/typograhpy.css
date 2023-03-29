@@ -1,0 +1,517 @@
+body, body a {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    word-break: break-word;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+a, area, button, input, label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+a:hover,
+a:focus,
+a:active,
+button:focus {
+    text-decoration: none;
+}
+
+a,
+a:hover,
+a:active,
+button:focus {
+    outline: none;
+    color: inherit;
+    word-break: break-word;
+}
+
+a:focus {
+    color: inherit;
+}
+
+a:focus, button:focus, input[type="button"]:focus, input[type="reset"]:focus,
+input[type="submit"]:focus, button:active, input[type="button"]:active,
+input[type="reset"]:active, input[type="submit"]:active {
+    outline: 1px dotted;
+    outline-offset: -2px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+em, cite, q {
+    color: #f22853;
+    font-style: italic;
+    font-weight: 600;
+}
+
+code, kbd, tt, var, samp, pre {
+    font-family: inherit;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    background: #212529;
+    color: #ffffff;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 88%;
+}
+
+pre {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    word-break: break-all;
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+table {
+    border: 1px solid #e9e9e9;
+    background-color: #fcfcfc;
+    border-spacing: 0;
+    margin: 0;
+    text-align: left;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #e9e9ea;
+    padding: 8px 10px;
+}
+
+table th {
+    background-color: #f22853;
+}
+
+table th a,
+table th {
+    color: #ffffff;
+}
+
+table th a:focus,
+table th a:hover {
+    color: #e9e9ea;
+}
+
+p {
+    margin: 0 0 10px;
+    word-break: break-word;
+}
+
+figure {
+    margin: 0;
+}
+
+address,
+table,
+pre {
+    width: 100%;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub, sup {
+    font-size: 75%;
+    font-weight: 600;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+fieldset {
+    border: 1px solid #e9e9ea;
+    margin: 1.5rem 2px;
+    padding: 10px 25px 20px;
+    border-radius: 3px;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+select {
+    width: 100%;
+    padding: 10px 15px;
+    outline: 0;
+}
+
+#header-top ul li a {
+    font-family: 'Rubik', sans-serif;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    line-height: 1;
+	font-weight:500;
+}
+
+.section-title p {
+    font-size: 16px;
+}
+#contact .single-contact h4 {
+    font-weight: 400;
+}
+
+.boxed-btn {
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.input__label {
+    font-weight: bold;
+    font-size: 70.25%;
+}
+
+.input__label--hantus {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;    
+}
+
+.header-social li a {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.main-menu li a {
+    font-weight: 500;
+	font-family: 'Rubik', sans-serif;
+}
+
+.cart-icon-wrapper {
+    font-size: 16px;
+}
+
+.cart-count {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.sidenav .sidenav-header h3 {
+    font-size: 20px;
+}
+
+.sidenav .cart-item-description h4,
+.cart-remove,
+.sidenav .cart-item-description p {
+   font-size: 14px;
+}
+
+.sidenav .cart-item-description h4 {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.sidenav .cart-item-description {
+    font-size: 16px;
+}
+
+.sidenav.active .cart-item {
+    font-size: 0;
+}
+
+.sb-search-input {
+    font-size: 17px;
+}
+
+.sb-icon-search,
+.sb-search-submit {
+    line-height: 56px;
+}
+
+.theme-content h3 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 2.1em;
+}
+
+.theme-content h1 {
+    font-size: 3.4em;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.header-slider .owl-next,
+.header-slider .owl-prev {
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.single-contact h4 {
+     font-size: 20px;
+}
+
+.contact-wrapper i {
+    font-size: 40px;
+}
+
+.contact-wrapper .single-contact:hover h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-wrapper .single-contact:hover p {
+    font-size: 16px;
+    font-weight: 500;
+}
+#services .service-box h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.service-box p.price {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.feature-icon {
+    line-height: 85px;
+}
+
+.feature-icon i {
+    font-size: 40px;
+    line-height: 85px;
+}
+
+.feature-box h4 {
+    font-weight: 400;
+}
+
+.feature-box h4 {
+    font-weight: 400;
+}
+
+.single-product h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.woocommerce ul.products .single-product div.price {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 0.75em;
+}
+
+.single-product .overlay li a {
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.single-testimonial p {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.single-testimonial h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.single-testimonial p.title {
+    font-size: 14px;
+}
+
+.testimonial-carousel .owl-next,
+.testimonial-carousel .owl-prev {
+    font-size: 36px;
+}
+
+.payment-method li a {
+    font-size: 18px;
+    line-height: 30px;
+}
+.scrollup {
+    line-height: 50px;
+}
+
+#breadcrumb-area h2 {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+#breadcrumb-area ul li,
+#breadcrumb-area ul li a {
+    font-size: 18px;
+}
+
+#wcu h2 {
+   font-size: 40px;
+   font-weight: 500;
+}
+
+#wcu p b {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#contact h2 {
+    font-size: 40px;
+}
+
+.contact-form label {
+    font-size: 18px;
+}
+
+.info-box i {
+    font-size: 30px;
+}
+
+.info-box h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.info-box p {
+    line-height:  26px;
+}
+
+li.page-item .page-link {
+    font-size: 18px;
+}
+
+.meta-info li a {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blog-post .post-title a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.blog-post a.read-more {
+    font-size: 14px;
+}
+
+.single-post .post-title a {
+    font-size: 24px;
+}
+
+.media ul li {
+    font-size: 12px;
+}
+
+#page-404 h2 {
+   font-size: 140px;
+    font-weight: 600;
+}
+
+.subscribe-wrapper button {
+    font-size: 16px;
+}
+
+.copyright a {
+    font-size: 16px;
+}
+
+li.latest-news h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+li.latest-news p {
+    font-size: 12px;
+}
+
+.widget-search input[type=button] {
+    font-size: 14px;
+}
+
+.recent-post h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.widdget-instagram li .instagram-overlay a {    
+    font-size: 36px;
+}
+
+.widget_acrhives li a {
+    font-size: 16px;
+}
+
+#blog-content .widget-calender .widget-title li {
+    font-size: 22px;
+}
+
+.calendar_wrap thead {
+    font-size: 18px;
+}
+
+#page-404 h3 {
+   font-size: 24px;
+}

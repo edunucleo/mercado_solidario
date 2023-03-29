@@ -1,0 +1,205 @@
+h1, .h1, .site-content h1 {
+    font-weight:600 !important;
+    font-size: 36px !important;
+    line-height: 42px !important;
+    margin: 0 0 20px !important;
+}
+h2, .h2, .site-content h2 {
+    font-weight:600 !important;
+    font-size: 32px !important;
+    line-height: 38px !important;
+    margin: 0 0 20px !important;
+}
+h3, .h3, .site-content h3 {
+    font-weight:600 !important;
+    font-size: 28px !important;
+    line-height: 34px !important;
+    margin: 0 0 20px !important;
+}
+h4, .h4, .site-content h4 {
+    font-weight:600 !important;
+    font-size: 24px !important;
+    line-height: 30px !important;
+    margin: 0 0 20px !important;
+}
+h5, .h5, .site-content h5 {
+    font-weight:600 !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+    margin: 0 0 20px !important;
+}
+h6, .h6, .site-content h6 {
+    font-weight:600 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    margin: 0 0 20px !important;
+}
+
+.post-content a {
+    word-break: break-all !important;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    background: #f7f9fc;
+    border-left: 5px solid #f22853 !important;
+}
+blockquote, blockquote p {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 1px;
+}
+blockquote em, blockquote i, blockquote cite {
+    font-style: normal;
+}
+blockquote cite, blockquote small {
+    font-size: 15px;
+    display: block;
+    line-height: 20px;
+    padding-top: 15px;
+}
+em, cite, q {
+    font-style: italic;
+    font-weight: 600;
+    color: #f22853;
+}
+table {
+    border: 1px solid #e9e9e9;
+    background-color: #fcfcfc;
+    border-spacing: 0;
+    letter-spacing: 0.5px;
+    margin: 0 0 20px;
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+}
+table th {
+    padding: 10px 10px;
+    color: #ffffff;
+    background: #f22853;
+}
+table td {
+    border: 1px solid #e8e7e7;
+    padding: 8px 10px;
+}
+a {
+    text-decoration: none;
+    color: #f22853;
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+	color:#212529;
+}
+dl {
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+dl dd {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+dl dt {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #212529;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li > ul, li > ol, blockquote > ul, blockquote > ol {
+    margin-left: 1.3333em;
+}
+
+address {
+    margin: 0 0 20px;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+}
+acronym {
+    border-bottom: 0 none;
+}
+abbr, tla, acronym {
+    text-decoration: underline!important;
+    cursor: help;
+}
+big {
+    font-size: large;
+    font-weight: 600;
+}
+code, kbd, tt, var, samp, pre {
+    color: #ffffff!important;
+    padding: 2px 5px!important;
+    background: #212529!important;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px!important;
+}
+s, strike, del {
+    text-decoration: line-through;
+}
+ins {
+    text-decoration: none;
+    padding: 0 3px;
+}
+.comments-title, .comment-reply-title {
+    font-family: 'Poppins', sans-serif!important;
+    font-size: 20px!important;
+    background: #fefefe;
+    padding: 5px 20px;
+}
+.comment-reply-title small {
+    font-size: 100%;
+}
+.comment-reply-title small a {
+    border: 0;
+    float: right;
+}
+.comment-form {
+    padding-top: 1.75em;
+}
+.comment-notes, .comment-awaiting-moderation, .logged-in-as, .no-comments {
+    border-top: 1px solid #d1d1d1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 1.75em;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+/* form css*/
+textarea {
+    padding-left: 3px;
+    width: 100%;
+    height: 150px;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"] {
+	 width: calc(80% - 2em);
+    margin-right: 10px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    margin-bottom: 0;
+}
+.form-submit {
+    margin-top: 30px;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+     border-radius: 4px;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    color: #fff;
+    border: 0;
+    padding: 10px 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+	background: #f22853;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"]:hover{
+	background: #fff;
+	color:#f22853;
+}

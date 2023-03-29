@@ -1,0 +1,133 @@
+.woocommerce #respond input#submit.alt.disabled,.woocommerce #respond input#submit.alt:disabled,.woocommerce #respond input#submit.alt:disabled[disabled],.woocommerce a.button.alt.disabled,.woocommerce a.button.alt:disabled,.woocommerce a.button.alt:disabled[disabled],.woocommerce button.button.alt.disabled,.woocommerce button.button.alt:disabled,.woocommerce button.button.alt:disabled[disabled],.woocommerce input.button.alt.disabled,.woocommerce input.button.alt:disabled,.woocommerce input.button.alt:disabled[disabled], .widget_block.widget_search .wp-block-search__button, .wp-block-calendar table th, .wp-block-search .wp-block-search__button,.wp-block-file .wp-block-file__button, .wp-block-loginout a, .wp-block-button a.wp-block-button__link, .blog-post input[type="submit"] {
+background:#f22853
+}
+
+.woocommerce #respond input#submit.alt.disabled:focus, .woocommerce #respond input#submit.alt:disabled:focus, .woocommerce #respond input#submit.alt:disabled[disabled]:focus, .woocommerce a.button.alt.disabled:focus, .woocommerce a.button.alt:disabled:focus, .woocommerce a.button.alt:disabled[disabled]:focus, .woocommerce button.button.alt.disabled:focus, .woocommerce button.button.alt:disabled:focus, .woocommerce button.button.alt:disabled[disabled]:focus, .woocommerce input.button.alt.disabled:focus, .woocommerce input.button.alt:disabled:focus, .woocommerce input.button.alt:disabled[disabled]:focus,.woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt:disabled[disabled]:hover, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled]:hover, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled]:hover, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt:disabled[disabled]:hover,.widget_block ul li a:hover, .widget_block ul li a:focus, .woocommerce ul.products li.product .price, .wp-block-button a.wp-block-button__link:hover,
+.wp-block-button a.wp-block-button__link:focus, .woocommerce div.product p.price {
+color:#f22853
+}
+
+
+.navigation.posts-navigation .nav-links a,
+.btn-info,.section-title h2:before,
+.section-title h2:after,.service-box h4:before,.service-box h4:after,.contact-wrapper,
+#footer-widgets .widget-title:after,.boxed-btn,.days li .active,
+.feature-box:hover .feature-icon,.feature-box:hover .feature-icon:after,
+.gallery-page .gallery-item figcaption ul li a:hover,.gallery-tab-sorting li a:after,
+.header-slider .boxed-btn,.header-slider .owl-next:hover,.header-slider .owl-prev:hover,
+.header-social li a:hover,.header-social li a:focus,.main-menu>ul>li a:before,.main-menu>ul>li.active>a,
+.main-menu>ul>li.focus>a,.main-menu>ul>li:hover>a,.mean-container a.meanmenu-reveal,
+.nav-tabs .nav-link.active,
+.product-carousel .owl-next:hover,
+.product-carousel .owl-prev:hover,.scrollup,.search-result .posts-navigation .nav-links a,
+.section-title hr:after,.section-title hr:before,.service-box figure figcaption .boxed-btn,
+.shop-product .overlay li a:hover,.shop-product .sale:not(.product),
+.subscribe-wrapper button,.weekdays,.widget-search input[type=button],.widget-tag li a:hover,
+.widget_search input[type=submit],li.page-item .page-link:hover,li.page-item.active .page-link,
+.calendar_wrap thead tr,.pagination a:hover,.pagination span,.widget_product_search button[type=submit],
+.widget_product_tag_cloud .tagcloud a:hover,.widget_search input[type=button],
+.widget_tag_cloud .tagcloud a:hover,.woocommerce #payment #place_order,.woocommerce #respond input#submit,
+.woocommerce .price_slider_wrapper .ui-slider .ui-slider-handle,
+.woocommerce .price_slider_wrapper .ui-slider-horizontal .ui-slider-range,.woocommerce a.button,
+.woocommerce button.button,.woocommerce button.button.alt,.woocommerce input.button,
+.woocommerce input.button.alt,.woocommerce input.button:disabled,.woocommerce input.button:disabled[disabled],
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,.woocommerce-cart table.cart input.button,
+.woocommerce-page #payment #place_order,a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart,
+button,input.search-btn,input[type=button],input[type=reset],p.form-submit .submit,table th,
+table#wp-calendar tfoot,td#today,.recomended .boxed-btn,.wpcf7-form .wpcf7-submit, .wp-block-tag-cloud a:hover,.wp-block-tag-cloud a:focus {
+background:#f22853
+}
+
+.main-menu>ul>li.active>a,.main-menu>ul>li.focus>a,.main-menu>ul>li:hover>a {
+color:#fff!important
+}
+
+.blog-author-social a,.meta-info li a:hover,.meta-info li a:focus,
+.widget_product_search button[type=submit]:hover,.widget_product_search button[type=submit]:focus,
+.service-box figure figcaption .boxed-btn:hover,.service-box figure figcaption .boxed-btn:focus,
+.contact-wrapper a.btn-info,#slider .theme-content h1,.header-info-text .icons-info .icons,
+.header-info-text .info .info-subtitle .dot,#breadcrumb-area ul li a,#counter .single-box i,
+#header-top p i,#header-top ul:not(.header-social) li i,#wcu ul li:before,
+#welcome .section-title h3,.blog-post .post-title a:hover,.blog-post:hover a.read-more-link,
+.cart-remove:hover,.coming-soon-wrapper h1 span,.comment-date:hover,.comment-metadata a:hover,
+.copyright a,.copyright-text a:hover,.count-area ul li,.gallery-page .gallery-item figcaption ul li a,
+.gallery-tab-sorting li a.active,.gallery-tab-sorting li a:hover,.header-slider h3,.info-box i,
+.main-menu li.c-dropdowns.active li>a:hover,.main-menu li.c-dropdowns.focus li>a:hover,
+.main-menu ul li ul.cr-dropdown-menu li.active>a,.main-menu ul li ul.cr-dropdown-menu li.focus>a,
+.mc4wp-form input[type=submit],.media ul li.comment-replay,.meta-data ul li a:hover,
+.nav-tabs a.nav-link:hover,.recent-post h6:hover,.sb-search-input,.scrollup:hover,
+.search-result .posts-navigation .nav-links a:hover,.service-box p.price,.sidenav .cart-item-description p,
+.sidenav .close-sidenav,
+.single-post .post-header .text-right li a:hover,.shop-product .overlay li a:not(:hover),
+.shop-product .price,.tab-content .tab-list h4 .price,.tab-content .tab-list h4:hover,
+.testimonial-carousel .owl-next:hover,.testimonial-carousel .owl-prev:hover,.welcome-box:hover a,
+.widget-acrhives li a:hover,.widget-search input[type=button]:hover,.widget_archive li a:hover,.widget_archive li a:focus,
+.widget_links ul li a:hover,.widget_search input[type=submit]:hover,.widget_search input[type=submit]:focus,
+.woo-container .button-cart .added_to_cart,.wp-calendar-nav a,div#calendar_wrap tbody a,
+li.latest-news h6:hover,#recent-posts-2 ul li a:hover,
+.product_meta a:hover,.widget_categories ul li a:hover,.widget_categories ul li a:focus,.widget_meta ul li a:hover,.widget_meta ul li a:focus,
+.widget_nav_menu ul li a:hover,.widget_pages ul li a:hover,.widget_pages ul li a:focus,.widget_product_categories ul li a:hover,
+.widget_product_tag_cloud .tagcloud a:hover,.widget_products ul li a:hover,.widget_recent_comments ul li a:hover,
+.widget_recent_entries ul li a:hover,.widget_recent_entries ul li a:focus,.widget_recently_viewed_products ul li a:hover,
+.widget_top_rated_products ul li a:hover,cite,em,h1.page-title,input.search-btn:hover,input[type=button],input[type=reset],
+input[type=submit]:hover,p.form-submit .submit:hover,p.form-submit .submit:focus,q,.beautician-footer-text h5,
+.boxed-btn:hover,.boxed-btn:focus,.navigation.posts-navigation .nav-links a:hover,.navigation.posts-navigation .nav-links a:focus,.wpcf7-form .wpcf7-submit:hover,.logged-in-as a,
+.woocommerce #payment #place_order:hover,
+.woocommerce a.button:hover,.woocommerce button.button.alt:hover,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,.woocommerce-page #payment #place_order:hover,
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover,
+.woocommerce #payment #place_order:focus,
+.woocommerce a.button:hover,.woocommerce button.button.alt:focus,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:focus,.woocommerce-page #payment #place_order:focus,
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:focus,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,.woocommerce-cart-form__cart-item .product-name a,
+.boxed-btn:focus:before,.boxed-btn:focus:after,.wpcf7-form .wpcf7-submit:focus:before,
+.wpcf7-form .wpcf7-submit:focus:after,.form-submit .submit:focus:before,.form-submit .submit:focus:after,
+.header-slider .boxed-btn:focus,
+.main-menu ul.cr-dropdown-menu li.focus > a,.main-menu ul.cr-dropdown-menu li:hover > a,
+.wpcf7-form .wpcf7-submit:focus {
+color:#f22853
+}
+
+.input--filled .graphic--hantus,.input__field--hantus:focus+.input__label--hantus .graphic--hantus {
+stroke:#f22853
+}
+
+.feature-box:hover .feature-icon,.pagination span,
+.woocommerce #payment #place_order:hover,.woocommerce a.button:hover,
+.woocommerce button.button.alt:hover,.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
+.woocommerce-page #payment #place_order:hover,
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover,
+.woocommerce #payment #place_order:focus,.woocommerce a.button:focus,
+.woocommerce button.button.alt:focus,.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:focus,
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:focus,
+.woocommerce-page #payment #place_order:focus,
+.wpcf7-form input:focus,.wpcf7-form textarea:focus,
+input[type=email]:focus,input[type=text]:focus,input[type=url]:focus,
+li.page-item .page-link:hover,li.page-item.active .page-link,p.form-submit .submit:hover,p.form-submit .submit:focus,textarea:focus {
+border-color:#f22853
+}
+
+blockquote {
+border-left:5px solid #f22853
+}
+
+.coupon input[type=text] {
+border-bottom:#f22853
+}
+
+.shop-product h5 a {
+    color: #2c3145;
+}
+
+
+.woocommerce button.button:hover,
+.woocommerce button.button:focus{
+	color: #2c3145;
+}
+
+.wp-block-button.is-style-outline a:hover, 
+.wp-block-button.is-style-outline a:focus {
+    background: #f22853;
+    color: #fff;
+}
