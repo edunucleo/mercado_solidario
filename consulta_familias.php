@@ -33,21 +33,20 @@
 
         <div class="d-flex flex-column flex-shrink-0  p-3 text-bg-dark" style="width: 280px; height: 100vh;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                <span class="fs-4">Administrativo</span>
+
+                <span class="fs-4"><i class="bi bi-bag-heart-fill"></i> Administrativo</span>
             </a>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
                     <a href="#" class="nav-link active" aria-current="page">
-
+                        <i class="bi bi-people-fill"></i>
                         Lista de Famílias
                     </a>
                 </li>
                 <li>
                     <a href="#" class="nav-link text-white">
-                        <svg class="bi pe-none me-2" width="16" height="16">
-                            <use xlink:href="#speedometer2"></use>
-                        </svg>
+                        <i class="bi bi-basket-fill"></i>
                         Lista de Produtos/Estoque
                     </a>
                 </li>
@@ -95,8 +94,8 @@
                             Eduardo Vieira
                         </td>
                         <td>
-                            <button class="btn btn-danger d-inline-flex align-items-center" type="button" data-bs-toggle="modal" data-bs-target="#aprova">
-                                Não Aprovado
+                            <button class="btn btn-danger d-inline-flex align-items-center " type="button" data-bs-toggle="modal" data-bs-target="#aprova">
+                                <i class="bi bi-cart-x-fill"></i>
                             </button>
                         </td>
                         <td class="align-itens-center">
@@ -115,7 +114,7 @@
                             01/04/2023
                         </td>
                         <td>
-                            <a href="" class="btn btn-danger">
+                            <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exclui">
                                 <i class="bi bi-x-circle-fill"></i>
                             </a>
                         </td>
@@ -264,6 +263,26 @@
             </div>
         </div>
     </div>
+
+        <!-- MODAL DE exclusao-->
+        <div class="modal fade" id="exclui" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Aprovação</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Deseja excluir esta Família?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Excluir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </body>
 
 </html>
