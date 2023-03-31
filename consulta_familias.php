@@ -12,6 +12,8 @@
     <!-- Bootstrap 5 links -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
     <!-- fim dos links do Bootstrap 5-->
 
     <!-- integrando o datatable -->
@@ -25,14 +27,13 @@
 </head>
 
 <body>
-
     <div class="d-flex flex-nowrap ">
 
         <!--Sidebar-->
 
         <div class="d-flex flex-column flex-shrink-0  p-3 text-bg-dark" style="width: 280px; height: 100vh;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                <span class="fs-4">Lista de Famílias</span>
+                <span class="fs-4">Administrativo</span>
             </a>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
@@ -82,6 +83,7 @@
                         <th>Aprovar</th>
                         <th>Pontos</th>
                         <th>Cadastrado em</th>
+                        <th>Aprovado em</th>
                         <th>Excluir</th>
                         <th>Editar</th>
                         <th>Visualizar</th>
@@ -93,33 +95,41 @@
                             Eduardo Vieira
                         </td>
                         <td>
-                            <button class="btn btn-danger d-inline-flex align-items-center" type="button">
+                            <button class="btn btn-danger d-inline-flex align-items-center" type="button" data-bs-toggle="modal" data-bs-target="#aprova">
                                 Não Aprovado
                             </button>
                         </td>
-                        <td>
+                        <td class="align-itens-center">
                             <button class="btn btn-primary d-inline-flex align-items-center" type="button">
-                                +
+                                <i class="bi bi-plus-circle-fill"></i>
                             </button>
-                            350
+                            <input type="text" class="col-sm-3 col-form-label form-control-sm" aria-label="pontos" aria-describedby="ponto" value=350>
                             <button class="btn btn-danger d-inline-flex align-items-center" type="button">
-                                -
+                                <i class="bi bi-dash-circle-fill"></i>
                             </button>
                         </td>
                         <td>
                             31/03/2023
                         </td>
                         <td>
-                            <a href="" class="btn btn-danger">Excluir</a>
+                            01/04/2023
                         </td>
                         <td>
-                            <a href="" class="btn btn-primary">Editar</a>
+                            <a href="" class="btn btn-danger">
+                                <i class="bi bi-x-circle-fill"></i>
+                            </a>
                         </td>
                         <td>
-                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Visualizar</a>
+                            <a href="" class="btn btn-primary">
+                                <i class="bi bi-pencil-square"></i>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                                <i class="bi bi-eye-fill"></i>
+                            </a>
                         </td>
                     </tr>
-
                 </tbody>
                 <tfoot>
                     <tr>
@@ -127,6 +137,7 @@
                         <th>Aprovar</th>
                         <th>Pontos</th>
                         <th>Cadastrado em</th>
+                        <th>Aprovado em</th>
                         <th>Excluir</th>
                         <th>Editar</th>
                         <th>Visualizar</th>
@@ -232,8 +243,27 @@
 
     </div>
 
-
     </div><!--fim da principal-->
+
+
+    <!-- MODAL DE APROVAÇÃO DE CADASTRO-->
+    <div class="modal fade" id="aprova" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Aprovação</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Deseja aprovar esta Família?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Aprovar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
