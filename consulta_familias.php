@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <!-- jquery -->
     <script defer src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
@@ -22,34 +23,36 @@
     <title>Listagem de Famílias</title>
 
 </head>
+
 <body>
 
     <div class="d-flex flex-nowrap ">
 
         <!--Sidebar-->
-     
-            <div class="d-flex flex-column flex-shrink-0  p-3 text-bg-dark" style="width: 280px; height: 100vh;">
-                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                <i class="bi bi-people"></i>
+
+        <div class="d-flex flex-column flex-shrink-0  p-3 text-bg-dark" style="width: 280px; height: 100vh;">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                 <span class="fs-4">Lista de Famílias</span>
-                </a>
-                <hr>
-                <ul class="nav nav-pills flex-column mb-auto">
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
                     <a href="#" class="nav-link active" aria-current="page">
-                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#familias"></use></svg>
-                    Lista de Famílias
+
+                        Lista de Famílias
                     </a>
                 </li>
                 <li>
                     <a href="#" class="nav-link text-white">
-                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-                    Lista de produtos/Estoque
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="#speedometer2"></use>
+                        </svg>
+                        Lista de Produtos/Estoque
                     </a>
                 </li>
-                </ul>
-                <hr>
-                <div class="dropdown">
+            </ul>
+            <hr>
+            <div class="dropdown">
                 <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
                     <strong>Eduardo</strong>
@@ -58,63 +61,185 @@
                     <li><a class="dropdown-item" href="#">New project...</a></li>
                     <li><a class="dropdown-item" href="#">Settings</a></li>
                     <li><a class="dropdown-item" href="#">Profile</a></li>
-                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
                     <li><a class="dropdown-item" href="#">Sign out</a></li>
                 </ul>
-                </div>
             </div>
-        
+        </div>
+
         <!--fim da div sidebar-->
 
         <!--inicio div tabela-->
-        
-            <div class="container w-60 pt-5">
-              <!-- Início da DataTable -->
+
+        <div class="container w-60 pt-5">
+            <!-- Início da DataTable -->
             <table id="tabela" class="table table-striped" style="width:100%">
-            <thead>
-                <tr>
-                    <th>Nome</th>
-                    <th>Aprovar</th>
-                    <th>Pontos</th>
-                    <th>Editar</th>
-                    <th>Excluir</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Eduardo Vieira</td>
-                    <td><button class="btn btn-primary d-inline-flex align-items-center" type="button">
-                            <svg class="bi ms-1" width="20" height="20"><use xlink:href="#arrow-right-short"></use></svg>
-                        </button></td>
-                    <td>
-                        <button class="btn btn-primary d-inline-flex align-items-center" type="button">
-                            <svg class="bi ms-1" width="20" height="20"><use xlink:href="#arrow-right-short"></use></svg>
-                        </button>
-                        350
-                        <button class="btn btn-primary d-inline-flex align-items-center" type="button">
-                            <svg class="bi ms-1" width="20" height="20"><use xlink:href="#arrow-right-short"></use></svg>
-                        </button>
-                    </td>
-                    <td><a href="" class="btn btn-danger">Excluir</a></td>
-                    <td><a href="" class="btn btn-primary">Editar</a></td>
-                </tr>
-                
-            </tbody>
-            <tfoot>
-            <tr>
-                    <th>Nome</th>
-                    <th>Aprovar</th>
-                    <th>Pontos</th>
-                    <th>Editar</th>
-                    <th>Excluir</th>
-                </tr>
-            </tfoot>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Aprovar</th>
+                        <th>Pontos</th>
+                        <th>Cadastrado em</th>
+                        <th>Excluir</th>
+                        <th>Editar</th>
+                        <th>Visualizar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Eduardo Vieira
+                        </td>
+                        <td>
+                            <button class="btn btn-danger d-inline-flex align-items-center" type="button">
+                                Não Aprovado
+                            </button>
+                        </td>
+                        <td>
+                            <button class="btn btn-primary d-inline-flex align-items-center" type="button">
+                                +
+                            </button>
+                            350
+                            <button class="btn btn-danger d-inline-flex align-items-center" type="button">
+                                -
+                            </button>
+                        </td>
+                        <td>
+                            31/03/2023
+                        </td>
+                        <td>
+                            <a href="" class="btn btn-danger">Excluir</a>
+                        </td>
+                        <td>
+                            <a href="" class="btn btn-primary">Editar</a>
+                        </td>
+                        <td>
+                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Visualizar</a>
+                        </td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Aprovar</th>
+                        <th>Pontos</th>
+                        <th>Cadastrado em</th>
+                        <th>Excluir</th>
+                        <th>Editar</th>
+                        <th>Visualizar</th>
+                    </tr>
+                </tfoot>
             </table>
             <!-- Fim da DataTable -->
-            </div>
-        
 
-</div><!--fim da principal-->
+            <!-- modal. ao clicar em visualizar ou editar aparece o modal com o cadastro completo-->
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Informações</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <table class="table table-striped table-bordered" >
+                                <tbody>
+                                    <tr >
+                                        <td><strong>Nome Completo</strong></td>
+                                    </tr>
+                                    <tr >
+
+                                        <td>edu4</td>
+                                    </tr>
+                                    <tr>
+                                        <td ><strong>E-mail</strong></td>
+                                    </tr>
+                                    <tr >
+                                        
+                                        <td>edunucleo@gmail.com</td>
+                                    </tr>
+                                    <tr >
+                                        <td colspan="2"><strong>Endereço</strong></td>
+                                    </tr>
+                                    <tr >
+                                       
+                                        <td>Rua Sto Antonio, 775 - cento - tatuí</td>
+                                    </tr>
+                                    <tr >
+                                        <td ><strong>Sua família participa de algum Programa Social de auxílio do governo? Qual?</strong></td>
+                                    </tr>
+                                    <tr >
+                                        
+                                        <td>Bolsa família</td>
+                                    </tr>
+                                    <tr >
+                                        <td ><strong>Data de Nascimento</strong></td>
+                                    </tr>
+                                    <tr >
+                                       
+                                        <td>02-03-2000</td>
+                                    </tr>
+                                    <tr >
+                                        <td ><strong>Celular</strong></td>
+                                    </tr>
+                                    <tr >
+                                        
+                                        <td>15996008878</td>
+                                    </tr>
+                                    <tr>
+                                        <td ><strong>Qual é a renda financeira mensal da família?</strong></td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td>&lt;1</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Quantas pessoas moram com você? Coloque o nome e idade: (inclusive crianças e bebês)</strong></td>
+                                    </tr>
+                                    <tr >
+                                        
+                                        <td>10</td>
+                                    </tr>
+                                    <tr >
+                                        <td ><strong>Ao preencher este formulário você concorda com os termos e política do Projeto Casa do Pão, e autoriza a divulgação da sua imagem para depoimentos e registros do Projeto?</strong></td>
+                                    </tr>
+                                    <tr >
+                                        
+                                        <td>sim</td>
+                                    </tr>
+                                    <tr class="">
+                                        <td ><strong>Pontos</strong></td>
+                                    </tr>
+                                    <tr >
+                                        
+                                        <td>0</td>
+                                    </tr>
+                                    <tr >
+                                        <td ><strong>Aprovado</strong></td>
+                                    </tr>
+                                    <tr >
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div><!--fim da principal-->
 </body>
 
 </html>
