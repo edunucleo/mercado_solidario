@@ -39,13 +39,13 @@
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active" aria-current="page">
+                    <a href="consulta_familias.php" class="nav-link active" aria-current="page">
                         <i class="bi bi-people-fill"></i>
                         Lista de Famílias
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link text-white">
+                    <a href="consulta_produtos.php" class="nav-link text-white">
                         <i class="bi bi-basket-fill"></i>
                         Lista de Produtos/Estoque
                     </a>
@@ -60,18 +60,9 @@
             <hr>
             <div class="dropdown">
                 <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <img src="https://avatars.githubusercontent.com/u/6980543?s=40&v=4" alt="" width="32" height="32" class="rounded-circle me-2">
                     <strong>Eduardo</strong>
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                    <li><a class="dropdown-item" href="#">New project...</a></li>
-                    <li><a class="dropdown-item" href="#">Settings</a></li>
-                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Sign out</a></li>
-                </ul>
             </div>
         </div>
 
@@ -125,7 +116,7 @@
                             </a>
                         </td>
                         <td>
-                            <a href="" class="btn btn-primary">
+                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
                                 <i class="bi bi-pencil-square"></i>
                             </a>
                         </td>
@@ -160,83 +151,14 @@
                             <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
                             <h4 class="modal-title">Informações</h4>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body" id="carrega_cadastro">
 
-                            <table class="table table-striped table-bordered">
-                                <tbody>
-                                    <tr>
-                                        <td><strong>Nome Completo</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>edu4</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>E-mail</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>edunucleo@gmail.com</td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2"><strong>Endereço</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Rua Sto Antonio, 775 - cento - tatuí</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Sua família participa de algum Programa Social de auxílio do governo? Qual?</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Bolsa família</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Data de Nascimento</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>02-03-2000</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Celular</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>15996008878</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Qual é a renda financeira mensal da família?</strong></td>
-                                    </tr>
-                                    <tr>
+<?php
+//agora ta improvisado. fazer isso com load do jquery com o id do cadastro
+//precisa enviar uma variavel para verificar se é vizualisar ou editar
+ include("mostra_edita_familia.php")
+ ?>
 
-                                        <td>&lt;1</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Quantas pessoas moram com você? Coloque o nome e idade: (inclusive crianças e bebês)</strong></td>
-                                    </tr>
-                                    <tr>
-
-                                        <td>10</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Ao preencher este formulário você concorda com os termos e política do Projeto Casa do Pão, e autoriza a divulgação da sua imagem para depoimentos e registros do Projeto?</strong></td>
-                                    </tr>
-                                    <tr>
-
-                                        <td>sim</td>
-                                    </tr>
-                                    <tr class="">
-                                        <td><strong>Pontos</strong></td>
-                                    </tr>
-                                    <tr>
-
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Aprovado</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>0</td>
-                                    </tr>
-                                </tbody>
-
-                            </table>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
