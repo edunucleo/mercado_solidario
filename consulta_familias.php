@@ -50,6 +50,12 @@
                         Lista de Produtos/Estoque
                     </a>
                 </li>
+                <li>
+            <a href="cadastro_produtos.php" class="nav-link text-white">
+                <i class="bi bi-basket-fill"></i>
+                Cadastrar Produtos
+            </a>
+        </li>
             </ul>
             <hr>
             <div class="dropdown">
