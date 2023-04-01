@@ -110,12 +110,12 @@
                             </a>
                         </td>
                         <td>
-                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregarCadastro(11)">
                                 <i class="bi bi-pencil-square"></i>
                             </a>
                         </td>
                         <td>
-                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregarCadastro(11)">
                                 <i class="bi bi-eye-fill"></i>
                             </a>
                         </td>
@@ -138,7 +138,7 @@
 
             <!-- modal. ao clicar em visualizar ou editar aparece o modal com o cadastro completo-->
             <!-- Modal -->
-            <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal fade" id="cadastroFamilia" role="dialog">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -150,7 +150,7 @@
 <?php
 //agora ta improvisado. fazer isso com load do jquery com o id do cadastro
 //precisa enviar uma variavel para verificar se é vizualisar ou editar
- include("mostra_edita_familia.php")
+// include("mostra_edita_familia.php")
  ?>
 
                         </div>
