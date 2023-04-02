@@ -13,7 +13,7 @@ class Cadastro
     }
     public function setId($id)
     {
-        return $this->id;
+        return $this->id = $id;
     }
 
     public function getNome()
@@ -22,7 +22,7 @@ class Cadastro
     }
     public function setNome($nome)
     {
-        return $this->nome;
+        return $this->nome = $nome;
     }
 
     public function getEmail()
@@ -31,7 +31,7 @@ class Cadastro
     }
     public function setEmail($email)
     {
-        return $this->email;
+        return $this->email = $email;
     }
 
     public function getEndereco()
@@ -40,7 +40,7 @@ class Cadastro
     }
     public function setEndereco($endereco)
     {
-        return $this->endereco;
+        return $this->endereco = $endereco;
     }
 
     public function getAuxilio()
@@ -49,16 +49,16 @@ class Cadastro
     }
     public function setAuxilio($auxilio)
     {
-        return $this->auxilio;
+        return $this->auxilio = $auxilio;
     }
 
     public function getDataNasc()
     {
-        return $this->nome;
+        return $this->data_nasc;
     }
     public function setDataNasc($data_nasc)
     {
-        return $this->data_nasc;
+        return $this->data_nasc = $data_nasc;
     }
 
     public function getTelefone()
@@ -67,7 +67,7 @@ class Cadastro
     }
     public function setTelefone($telefone)
     {
-        return $this->telefone;
+        return $this->telefone = $telefone;
     }
 
     public function getRenda()
@@ -76,7 +76,7 @@ class Cadastro
     }
     public function setRenda($renda)
     {
-        return $this->renda;
+        return $this->renda = $renda;
     }
 
     public function getMoradores()
@@ -85,7 +85,7 @@ class Cadastro
     }
     public function setMoradores($moradores)
     {
-        return $this->moradores;
+        return $this->moradores = $moradores;
     }
 
     public function getTermos()
@@ -94,7 +94,7 @@ class Cadastro
     }
     public function setTermos($termos)
     {
-        return $this->termos;
+        return $this->termos = $termos;
     }
 
     public function getDataCadastro()
@@ -103,7 +103,7 @@ class Cadastro
     }
     public function setDataCadastro($data_cadastro)
     {
-        return $this->data_cadastro;
+        return $this->data_cadastro = $data_cadastro;
     }
 
     public function getDataAprovacao()
@@ -112,7 +112,7 @@ class Cadastro
     }
     public function setDataAprovacao($data_aprovacao)
     {
-        return $this->nome;
+        return $this->data_aprovacao = $data_aprovacao;
     }
 
     public function getPontos()
@@ -121,6 +121,7 @@ class Cadastro
     }
     public function setPontos($pontos)
     {
-        return $this->pontos;
+        return $this->pontos = $pontos;
     }
 }
+

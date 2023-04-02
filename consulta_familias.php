@@ -1,3 +1,26 @@
+<?php
+require_once 'vendor/autoload.php';
+/* usar no cadastro de produtos e marcas Leticia
+$cadastro = new \app\model\Cadastro();
+$cadastro->setNome('teste pdo1');
+$cadastro->setEmail('teste@pdo');
+$cadastro->setEndereco('rua teste pdo');
+$cadastro->setAuxilio('sim');
+$cadastro->setDataNasc('2015/10/10');
+$cadastro->setTelefone('15-99600-8878');
+$cadastro->setRenda(500);
+$cadastro->setMoradores(2);
+$cadastro->setTermos(1);
+$cadastro->setDataCadastro('2015/10/10');
+$cadastro->setDataAprovacao('2015/10/10');
+$cadastro->setPontos(450);
+
+$cadastroDao = new \app\model\CadastroDao();
+$cadastroDao->create($cadastro);
+*/
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -86,9 +109,17 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <?php
+                    $cadastroDao = new \app\model\CadastroDao();
+                    $cadastroDao->read();
+                    
+                    foreach($cadastroDao->read() as $cadastro):
+                    
+                    
+                    ?>
                     <tr>
                         <td>
-                            Eduardo Vieira
+                           <?php echo $cadastro['nome']; ?>
                         </td>
                         <td>
                             <button class="btn btn-danger d-inline-flex align-items-center " type="button" data-bs-toggle="modal" data-bs-target="#aprova">
@@ -99,16 +130,16 @@
                             <button class="btn btn-primary d-inline-flex align-items-center" type="button">
                                 <i class="bi bi-plus-circle-fill"></i>
                             </button>
-                            <input type="text" class="col-sm-3 col-form-label form-control-sm" aria-label="pontos" aria-describedby="ponto" value=350>
+                            <input type="text" class="col-sm-3 col-form-label form-control-sm" aria-label="pontos" aria-describedby="ponto" value=<?php echo $cadastro['pontos']; ?>>
                             <button class="btn btn-danger d-inline-flex align-items-center" type="button">
                                 <i class="bi bi-dash-circle-fill"></i>
                             </button>
                         </td>
                         <td>
-                            31/03/2023
+                        <?php echo $cadastro['data_cadastro']; ?>
                         </td>
                         <td>
-                            01/04/2023
+                        <?php echo $cadastro['data_aprovacao']; ?>
                         </td>
                         <td>
                             <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exclui">
@@ -126,6 +157,9 @@
                             </a>
                         </td>
                     </tr>
+                <?php
+                endforeach;
+                ?>
                 </tbody>
                 <tfoot>
                     <tr>
