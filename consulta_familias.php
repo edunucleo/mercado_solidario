@@ -64,8 +64,9 @@ $cadastroDao->delete(1);
     <!-- integrando o datatable -->
     <script defer src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
     <script defer src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
-    <script defer src="js/script.js"></script>
     <!-- fim da integração do datatable -->
+
+    <script defer src="js/script.js"></script>
 
     <title>Listagem de Famílias</title>
 
