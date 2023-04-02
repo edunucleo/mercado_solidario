@@ -1,6 +1,6 @@
 <?php
 require_once 'vendor/autoload.php';
-/* usar no cadastro de produtos e marcas Leticia
+/* teste cadastro
 $cadastro = new \app\model\Cadastro();
 $cadastro->setNome('teste pdo1');
 $cadastro->setEmail('teste@pdo');
@@ -18,7 +18,29 @@ $cadastro->setPontos(450);
 $cadastroDao = new \app\model\CadastroDao();
 $cadastroDao->create($cadastro);
 */
+/* teste update
+$cadastro = new \app\model\Cadastro();
+$cadastro->setId(3);
+$cadastro->setNome('teste pdo333');
+$cadastro->setEmail('teste@pdo2333');
+$cadastro->setEndereco('rua teste pdo333');
+$cadastro->setAuxilio('333');
+$cadastro->setDataNasc('2015/10/13');
+$cadastro->setTelefone('15-99600-8873');
+$cadastro->setRenda(503);
+$cadastro->setMoradores(3);
+$cadastro->setTermos(3);
+$cadastro->setDataCadastro('2015/10/13');
+$cadastro->setDataAprovacao('2015/10/13');
+$cadastro->setPontos(453);
 
+$cadastroDao = new \app\model\CadastroDao();
+$cadastroDao->update($cadastro);
+*/
+/* delete
+$cadastroDao = new \app\model\CadastroDao();
+$cadastroDao->delete(1);
+*/
 ?>
 
 <!DOCTYPE html>
