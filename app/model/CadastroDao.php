@@ -26,7 +26,26 @@ class CadastroDao{
         $stmt->execute();
 
     }
-    public function read(){
+
+    public function read($id){
+
+        $sql = 'SELECT * FROM `cadastro` WHERE `cadastro`.`id` = ?;';
+        
+        $stmt = Conexao::conecta()->prepare($sql);
+        $stmt->bindValue(1, $id);
+        $stmt->execute();
+
+        if($stmt->rowCount() > 0):
+            $resultado = $stmt-> fetchAll(\PDO::FETCH_ASSOC);
+            return $resultado;
+        else:
+            return [];
+        endif;
+
+
+    }
+
+    public function listAll(){
 
         $sql = 'SELECT * FROM `cadastro`';
 
