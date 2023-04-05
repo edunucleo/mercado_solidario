@@ -1,3 +1,27 @@
+<?php
+require_once 'vendor/autoload.php';
+
+//teste marca
+$produto = new \app\model\Marca();
+$produto->setNome('união');
+
+
+$marcaDao = new \app\model\MarcaDao();
+$marcaDao->create($marca);
+
+// teste update marca
+$marca = new \app\model\Marca();
+$marca->setNome('União teste');
+
+
+$marcaDao = new \app\model\MarcaDao();
+$marcaDao->update($marca);
+
+ //delete
+$marcaDao = new \app\model\MarcaDao();
+$marcaDao->delete(1);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

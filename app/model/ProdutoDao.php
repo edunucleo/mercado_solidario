@@ -22,7 +22,7 @@ class ProdutoDao{
 
     public function read($idProduto){
 
-        $sql = 'SELECT * FROM `produto` WHERE `produto`.`idproduto` = ?;';
+        $sql = 'SELECT * FROM `produtos` WHERE `produto`.`idproduto` = ?;';
         
         $stmt = Conexao::conecta()->prepare($sql);
         $stmt->bindValue(1, $idProduto);
@@ -40,7 +40,7 @@ class ProdutoDao{
 
     public function listAll(){
 
-        $sql = 'SELECT * FROM `produto`';
+        $sql = 'SELECT * FROM `produtos`';
 
         $stmt = Conexao::conecta()->prepare($sql);
         $stmt->execute();
@@ -56,7 +56,7 @@ class ProdutoDao{
 
     public function update(Produto $p){
 
-        $sql = "UPDATE `produto` SET 
+        $sql = "UPDATE `produtos` SET 
         `nome` = ?, 
         `idmarca` = ?, 
         `quantidade_estoque` = ?, 
@@ -78,7 +78,7 @@ class ProdutoDao{
     }
     public function delete($idProduto){
 
-        $sql='DELETE FROM produto WHERE idproduto=?';
+        $sql='DELETE FROM produtos WHERE idproduto=?';
         
         $stmt = Conexao::conecta()->prepare($sql);
         $stmt->bindValue(1,$idProduto);
