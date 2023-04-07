@@ -172,12 +172,6 @@ $cadastroDao->delete(1);
                         </div>
                         <div class="modal-body" id="carrega_cadastro">
 
-<?php
-//agora ta improvisado. fazer isso com load do jquery com o id do cadastro
-//precisa enviar uma variavel para verificar se é vizualisar ou editar
-// include("mostra_edita_familia.php")
- ?>
-
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
