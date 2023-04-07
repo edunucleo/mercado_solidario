@@ -9,7 +9,7 @@ $(document).ready(function () {
 });
 
 function carregarCadastro(id) {
-  $("#carrega_cadastro").load(`mostra_edita_familia.php`,
+  $("#carrega_cadastro").load(`grava_mostra_edita_familia.php`,
    { idcadastro: id }
     );
 }

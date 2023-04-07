@@ -75,7 +75,7 @@ $produtoDao->delete(1);
                 </thead>
                 <tbody>
                     <?php
-                    $produtoDao = new \app\model\ProdutoDao();
+                    $produtoDao = new \app\DAO\ProdutoDao();
                     $produtoDao->listAll();
 
                     foreach ($produtoDao->listAll() as $produto) :

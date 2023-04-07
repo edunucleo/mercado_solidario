@@ -73,7 +73,7 @@ $produtoDao->delete(1);
                 </thead>
                 <tbody>
                     <?php
-                    $marcaDao = new \app\model\MarcaDao();
+                    $marcaDao = new \app\DAO\MarcaDao();
                     $marcaDao->listAll();
 
                     foreach ($marcaDao->listAll() as $marca) :
