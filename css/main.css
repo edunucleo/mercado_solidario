@@ -2667,3 +2667,49 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+      /* Altera a cor da borda quando o input está em foco */
+      .form-control:focus { box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); /* opcional: adiciona uma sombra ao redor do input */ }
+        
+      .form-label:focus { box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); }
+
+      .form-select:focus { box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); }
+
+      select option:hover {background-color: #fff; /* Substitua pela cor desejada */}
+
+
+
+      /* Altera a cor da bolinha do range */
+      .form-range::-webkit-slider-thumb {
+      background-color: #ffc107; /* substituir pela cor desejada */
+      border-color: #ffc107; /* substituir pela cor desejada */
+      box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); 
+      }
+
+      .form-range::-moz-range-thumb {
+      background-color: #ffc107; /* substituir pela cor desejada */
+      border-color: #ffc107; /* substituir pela cor desejada */
+      box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); 
+      }
+
+      .form-range::-ms-thumb {
+      background-color: #ffc107; /* substituir pela cor desejada */
+      border-color: #ffc107; /* substituir pela cor desejada */
+      box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); 
+      }
+
+       /* Altera a cor da sombra da borda da bolinha do form-range quando selecionado */
+      .form-range::-webkit-slider-thumb:active {
+      background-color: #ffc107;
+      box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);  /* substituir pela cor desejada */
+      }
+
+      .form-range::-moz-range-thumb:active {
+      background-color: #ffc107;
+      box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);  /* substituir pela cor desejada */
+      }
+
+      .form-range::-ms-thumb:active {
+      background-color: #ffc107;
+      box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); 
+      }

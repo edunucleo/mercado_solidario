@@ -8,8 +8,10 @@ $(document).ready(function () {
 
 });
 
-function carregarCadastro(idcadastro) {
-  $("#carrega_cadastro").load(`mostra_edita_familia.php?id=${idcadastro}`);
+function carregarCadastro(id) {
+  $("#carrega_cadastro").load(`mostra_edita_familia.php`,
+   { idcadastro: id }
+    );
 }
 
 

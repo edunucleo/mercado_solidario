@@ -96,11 +96,10 @@ $cadastroDao->delete(1);
                 </thead>
                 <tbody>
                     <?php
-                    $cadastroDao = new \app\model\CadastroDao();
+                    $cadastroDao = new \app\DAO\CadastroDao();
                     $cadastroDao->listAll();
                     
                     foreach($cadastroDao->listAll() as $cadastro):
-                    
                     
                     ?>
                     <tr>
@@ -133,12 +132,12 @@ $cadastroDao->delete(1);
                             </a>
                         </td>
                         <td>
-                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregarCadastro(11)">
+                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregarCadastro(<?php echo $cadastro['id']; ?>)">
                                 <i class="bi bi-pencil-square"></i>
                             </a>
                         </td>
                         <td>
-                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregarCadastro(11)">
+                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregarCadastro(<?php echo $cadastro['id']; ?>)">
                                 <i class="bi bi-eye-fill"></i>
                             </a>
                         </td>

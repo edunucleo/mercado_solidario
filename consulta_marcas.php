@@ -67,50 +67,39 @@ $produtoDao->delete(1);
                 <thead>
                     <tr>
                         <th>Nome</th>
-                        <th>Marca</th>
-                        <th>em Estoque</th>
-                        <th>Quantidade Mín.</th>
-                        <th>Pontos</th>
+                        <th>Status</th>
                     </tr>
+
                 </thead>
                 <tbody>
                     <?php
-                    $produtoDao = new \app\model\ProdutoDao();
-                    $produtoDao->listAll();
+                    $marcaDao = new \app\model\MarcaDao();
+                    $marcaDao->listAll();
 
-                    foreach ($produtoDao->listAll() as $produto) :
+                    foreach ($marcaDao->listAll() as $marca) :
 
                     ?>
+
                         <tr>
                             <td>
-                                <?php echo $produto['nome']; ?>
+                                <?php echo $marca['nome']; ?>
                             </td>
                             <td>
-                                <?php echo $produto['idmarca']; ?>
+                                <?php echo $marca['status']; ?>
                             </td>
-                            <td>
-                                <?php echo $produto['quantidade_estoque']; ?>
-                            </td>
-                            <td>
-                                <?php echo $produto['quantidade_minima']; ?>
-                            </td>
-                            <td>
-                                <?php echo $produto['quantidade_pontos']; ?>
-                            </td>
+                        </tr>
+
                     <?php
                     endforeach;
                     ?>
                 </tbody>
                 <tfoot>
-                    <tr>
+
                     <tr>
                         <th>Nome</th>
-                        <th>Marca</th>
-                        <th>em Estoque</th>
-                        <th>Quantidade Mín.</th>
-                        <th>Pontos</th>
+                        <th>Status</th>
                     </tr>
-                    </tr>
+
                 </tfoot>
             </table>
             <!-- Fim da DataTable -->
