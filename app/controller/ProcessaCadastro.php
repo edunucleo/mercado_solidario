@@ -1,7 +1,12 @@
 <?php
 
 namespace app\controller;
-/*não entendi porque não funcionou os uses */
+
+
+/*não entendi porque não funcionou os uses
+use app\model\Cadastro;
+use \app\DAO\Conexao;
+use \app\DAO\CadastroDao; */
 
 include_once"../model/Cadastro.php";
 include_once"../DAO/CadastroDao.php";
@@ -23,7 +28,7 @@ if (isset($_POST['idcadastro'])) {
     $dataAprovacao = null;
     $pontos = null;
 
-    $cadastro = new \app\model\Cadastro();
+    $cadastro = new \app\model\Cadastro;
 
     $cadastro->setId($id);
     $cadastro->setNome($nome);
@@ -39,7 +44,7 @@ if (isset($_POST['idcadastro'])) {
     $cadastro->setDataAprovacao($dataAprovacao);
     $cadastro->setPontos($pontos);
 
-    $cadastroDao = new \app\DAO\CadastroDao();
+    $cadastroDao = new \app\DAO\CadastroDao;
     $cadastroDao->update($cadastro);
     
 }

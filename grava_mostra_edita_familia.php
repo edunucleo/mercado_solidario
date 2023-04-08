@@ -12,7 +12,7 @@ if (isset($id)) {
     foreach ($cadastroDao->read($id) as $cadastro) :
 
 ?>
-        <form method="post" action="app/controller/processa_cadastro.php">
+        <form method="post" action="app/controller/ProcessaCadastro.php">
 
             <div class="form-floating mb-3">
                 <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['nome'];?>" name="nome">
