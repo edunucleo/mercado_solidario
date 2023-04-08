@@ -2,8 +2,9 @@
 
 namespace app\DAO;
 
+use app\model\Cadastro;
 
-class CadastroDao{
+class CadastroDao extends Cadastro{
 
     public function create(Cadastro $c){
 
