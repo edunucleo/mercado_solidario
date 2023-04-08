@@ -54,12 +54,18 @@ if (isset($id)) {
                 <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['data_aprovacao']; ?>"name="data_aprovacao">
                 <label for="nome">Aprovado</label>
             </div>
-
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['data_cadastro']; ?>"name="data_cadastro">
+                <label for="nome">Cadastrado em</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['pontos']; ?>"name="pontos">
+                <label for="nome">Pontos</label>
+            </div>
 
     <?php
     endforeach;
 }
-
     ?>
     <input type="hidden" name="idcadastro" value="<?php echo $id ?>">
     <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">

@@ -2,7 +2,6 @@
 
 namespace app\controller;
 
-
 /*não entendi porque não funcionou os uses
 use app\model\Cadastro;
 use \app\DAO\Conexao;
@@ -24,9 +23,9 @@ if (isset($_POST['idcadastro'])) {
     $renda = filter_var($_POST['renda'], FILTER_SANITIZE_NUMBER_INT);
     $moradores = filter_var($_POST['moradores'], FILTER_SANITIZE_NUMBER_INT);
     $termos = filter_var($_POST['termos'], FILTER_SANITIZE_NUMBER_INT);
-    $dataCadastro = date('Y-m-d');
-    $dataAprovacao = null;
-    $pontos = null;
+    $dataCadastro = preg_replace("([^0-9/])", "", $_POST['data_cadastro']);
+    $dataAprovacao = preg_replace("([^0-9/])", "", $_POST['data_aprovacao']);
+    $pontos = filter_var($_POST['pontos'], FILTER_SANITIZE_NUMBER_INT);
 
     $cadastro = new \app\model\Cadastro;
 
@@ -46,5 +45,5 @@ if (isset($_POST['idcadastro'])) {
 
     $cadastroDao = new \app\DAO\CadastroDao;
     $cadastroDao->update($cadastro);
-    
+
 }

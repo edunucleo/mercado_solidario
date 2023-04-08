@@ -75,11 +75,14 @@ $cadastroDao->delete(1);
 <body>
     <div class="d-flex flex-nowrap ">
 
-<?php include_once('sidebar.php'); ?>
+        <?php include_once('sidebar.php'); ?>
 
         <!--inicio div tabela-->
 
         <div class="container w-60 pt-5">
+
+            <button type="button" class="btn btn-primary">Cadastrar Família</button>
+
             <!-- Início da DataTable -->
             <table id="tabela" class="table table-striped" style="width:100%">
                 <thead>
@@ -90,61 +93,56 @@ $cadastroDao->delete(1);
                         <th>Cadastrado em</th>
                         <th>Aprovado em</th>
                         <th>Excluir</th>
-                        <th>Editar</th>
-                        <th>Visualizar</th>
+                        <th>Editar/Ver</th>
+
                     </tr>
                 </thead>
                 <tbody>
                     <?php
+
                     $cadastroDao = new \app\DAO\CadastroDao();
                     $cadastroDao->listAll();
-                    
-                    foreach($cadastroDao->listAll() as $cadastro):
-                    
+
+                    foreach ($cadastroDao->listAll() as $cadastro) :
+
                     ?>
-                    <tr>
-                        <td>
-                           <?php echo $cadastro['nome']; ?>
-                        </td>
-                        <td>
-                            <button class="btn btn-danger d-inline-flex align-items-center " type="button" data-bs-toggle="modal" data-bs-target="#aprova">
-                                <i class="bi bi-cart-x-fill"></i>
-                            </button>
-                        </td>
-                        <td class="align-itens-center">
-                            <button class="btn btn-primary d-inline-flex align-items-center" type="button">
-                                <i class="bi bi-plus-circle-fill"></i>
-                            </button>
-                            <input type="text" class="col-sm-3 col-form-label form-control-sm" aria-label="pontos" aria-describedby="ponto" value=<?php echo $cadastro['pontos']; ?>>
-                            <button class="btn btn-danger d-inline-flex align-items-center" type="button">
-                                <i class="bi bi-dash-circle-fill"></i>
-                            </button>
-                        </td>
-                        <td>
-                        <?php echo $cadastro['data_cadastro']; ?>
-                        </td>
-                        <td>
-                        <?php echo $cadastro['data_aprovacao']; ?>
-                        </td>
-                        <td>
-                            <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exclui">
-                                <i class="bi bi-x-circle-fill"></i>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregarCadastro(<?php echo $cadastro['id']; ?>)">
-                                <i class="bi bi-pencil-square"></i>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregarCadastro(<?php echo $cadastro['id']; ?>)">
-                                <i class="bi bi-eye-fill"></i>
-                            </a>
-                        </td>
-                    </tr>
-                <?php
-                endforeach;
-                ?>
+                        <tr>
+                            <td>
+                                <?php echo $cadastro['nome']; ?>
+                            </td>
+                            <td>
+                                <button class="btn btn-danger d-inline-flex align-items-center " type="button" data-bs-toggle="modal" data-bs-target="#aprova">
+                                    <i class="bi bi-cart-x-fill"></i>
+                                </button>
+                            </td>
+                            <td>
+                                
+                                <input type="text" class="col-sm-3 col-form-label form-control-sm" aria-label="pontos" aria-describedby="ponto" value=<?php echo $cadastro['pontos']; ?>>
+                                <button class="btn btn-success d-inline-flex align-items-center" type="button">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                </button>
+
+                            </td>
+                            <td>
+                                <?php echo $cadastro['data_cadastro']; ?>
+                            </td>
+                            <td>
+                                <?php echo $cadastro['data_aprovacao']; ?>
+                            </td>
+                            <td>
+                                <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exclui">
+                                    <i class="bi bi-x-circle-fill"></i>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregarCadastro(<?php echo $cadastro['id']; ?>)">
+                                    <i class="bi bi-pencil-square"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    <?php
+                    endforeach;
+                    ?>
                 </tbody>
                 <tfoot>
                     <tr>
@@ -154,8 +152,7 @@ $cadastroDao->delete(1);
                         <th>Cadastrado em</th>
                         <th>Aprovado em</th>
                         <th>Excluir</th>
-                        <th>Editar</th>
-                        <th>Visualizar</th>
+                        <th>Editar/Ver</th>
                     </tr>
                 </tfoot>
             </table>
@@ -205,8 +202,8 @@ $cadastroDao->delete(1);
         </div>
     </div>
 
-        <!-- MODAL DE exclusao-->
-        <div class="modal fade" id="exclui" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- MODAL DE exclusao-->
+    <div class="modal fade" id="exclui" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
