@@ -1,11 +1,14 @@
 <?php
 
-use app\model\Cadastro;
-use app\DAO\CadastroDao;
+namespace app\controller;
+/*não entendi porque não funcionou os uses */
 
-echo 'nao entrou no if';
+include_once"../model/Cadastro.php";
+include_once"../DAO/CadastroDao.php";
+include_once"../DAO/Conexao.php";
+
 if (isset($_POST['idcadastro'])) {
-echo 'entrou no if';
+
     $id = filter_var($_POST['idcadastro'], FILTER_SANITIZE_NUMBER_INT);
     $nome = filter_var($_POST['nome'], FILTER_SANITIZE_SPECIAL_CHARS);
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
@@ -20,10 +23,9 @@ echo 'entrou no if';
     $dataAprovacao = null;
     $pontos = null;
 
-    $cadastro = new app\model\Cadastro;
+    $cadastro = new \app\model\Cadastro();
 
     $cadastro->setId($id);
-echo'entrou no model';
     $cadastro->setNome($nome);
     $cadastro->setEmail($email);
     $cadastro->setEndereco($endereco);
@@ -37,9 +39,7 @@ echo'entrou no model';
     $cadastro->setDataAprovacao($dataAprovacao);
     $cadastro->setPontos($pontos);
 
-    $cadastroDao = new app\DAO\CadastroDao();
-    echo'entrou no dao';
+    $cadastroDao = new \app\DAO\CadastroDao();
     $cadastroDao->update($cadastro);
     
-    echo 'nome->'.$nome;
 }
