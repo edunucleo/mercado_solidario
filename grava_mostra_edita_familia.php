@@ -1,8 +1,8 @@
 <?php
 require_once 'vendor/autoload.php';
 
-if (isset($_POST['idcadastro'])) {
-    $id = filter_var($_POST['idcadastro'], FILTER_SANITIZE_NUMBER_INT);
+if (isset($_POST['id'])) {
+    $id = filter_var($_POST['id'], FILTER_SANITIZE_NUMBER_INT);
 }
 
 $cadastroDao = new \app\DAO\CadastroDao();
@@ -12,7 +12,7 @@ if (isset($id)) {
     foreach ($cadastroDao->read($id) as $cadastro) :
 
 ?>
-        <form method="post" action="app/controller/ProcessaCadastro.php">
+        <form method="post" action="app/controller/ProcessaForm.php">
 
             <div class="form-floating mb-3">
                 <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['nome'];?>" name="nome">
@@ -67,7 +67,7 @@ if (isset($id)) {
     endforeach;
 }
     ?>
-    <input type="hidden" name="idcadastro" value="<?php echo $id ?>">
+    <input type="hidden" name="id" value="<?php echo $id ?>">
     <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
         Editar
     </button>

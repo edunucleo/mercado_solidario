@@ -135,7 +135,7 @@ $cadastroDao->delete(1);
                                 </a>
                             </td>
                             <td>
-                                <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregarCadastro(<?php echo $cadastro['id']; ?>)">
+                                <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregar(<?php echo $cadastro['id']; ?>,'cadastro')">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
                             </td>
