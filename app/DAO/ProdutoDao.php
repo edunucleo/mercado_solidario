@@ -2,6 +2,7 @@
 
 namespace app\DAO;
 
+use \app\model\Produto;
 
 class ProdutoDao{
 
