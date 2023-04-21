@@ -2,14 +2,18 @@
 
 namespace app\controller;
 
-/*não entendi porque não funcionou os uses
-use app\model\Cadastro;
-use \app\DAO\Conexao;
-use \app\DAO\CadastroDao; */
+require_once "../model/Cadastro.php";
+require_once "../model/Produto.php";
+require_once "../model/Marca.php";
+require_once "../DAO/Conexao.php";
+require_once "../DAO/CadastroDAO.php";
+require_once "../DAO/ProdutoDao.php";
+require_once "../DAO/MarcaDao.php";
 
-include_once "../model/Cadastro.php";
-include_once "../DAO/CadastroDao.php";
-include_once "../DAO/Conexao.php";
+/*use \app\model\Cadastro;
+use \app\DAO\Conexao;
+use \app\DAO\CadastroDao;*/
+
 
 switch ($_POST['formulario']) {
     case 'cadastro':
@@ -30,6 +34,7 @@ switch ($_POST['formulario']) {
 
 function editaCadastro()
 {
+
     if (isset($_POST['id'])) {
 
         $id = filter_var($_POST['id'], FILTER_SANITIZE_NUMBER_INT);
@@ -69,8 +74,43 @@ function editaCadastro()
 
 function editaProduto()
 {
+
+    if (isset($_POST['id'])) {
+
+        $id = filter_var($_POST['id'], FILTER_SANITIZE_NUMBER_INT);
+        $nome = filter_var($_POST['nome'], FILTER_SANITIZE_SPECIAL_CHARS);
+        $idMarca = filter_var($_POST['idMarca'], FILTER_SANITIZE_NUMBER_INT);
+        $qtdeEstoque = filter_var($_POST['qtdeEstoque'], FILTER_SANITIZE_NUMBER_INT);
+        $qtdeMinima = filter_var($_POST['qtdeMinima'], FILTER_SANITIZE_NUMBER_INT);
+        $pontos = filter_var($_POST['pontos'], FILTER_SANITIZE_NUMBER_INT);
+
+        $produto = new \app\model\Produto();
+        $produto->setIdProduto($id);
+        $produto->setNome($nome);
+        $produto->setIdMarca($idMarca);
+        $produto->setQtdeEstoque($qtdeEstoque);
+        $produto->setQtdeMinima($qtdeMinima);
+        $produto->setQtdePontos($pontos);
+
+        $produtoDao = new \app\DAO\ProdutoDao();
+        $produtoDao->update($produto);
+    }
 }
 
 function editaMarca()
 {
+    if (isset($_POST['id'])) {
+
+        $idMarca = filter_var($_POST['id'], FILTER_SANITIZE_NUMBER_INT);
+        $nome = filter_var($_POST['nome'], FILTER_SANITIZE_SPECIAL_CHARS);
+        $status = filter_var($_POST['status'], FILTER_SANITIZE_SPECIAL_CHARS);
+
+        $marca = new \app\model\Marca;
+        $marca->setIdMarca($idMarca);
+        $marca->setNome($nome);
+        $marca->setStatus($status);
+
+        $marcaDao = new \app\DAO\MarcaDao;
+        $marcaDao->update($marca);
+    }
 }

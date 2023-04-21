@@ -1,6 +1,6 @@
 <?php
 require_once 'vendor/autoload.php';
-
+/*
 //teste marca
 $produto = new \app\model\Marca();
 $produto->setNome('união');
@@ -20,7 +20,7 @@ $marcaDao->update($marca);
  //delete
 $marcaDao = new \app\model\MarcaDao();
 $marcaDao->delete(1);
-
+*/
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,78 +36,6 @@ $marcaDao->delete(1);
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/features/">
 
     <title>Cadastro de Marcas</title>
-
-     <!-- Css interno para alterar valores default do Bootstrap-->
-     <style type="text/css">
-     .voltar:hover {
-            
-            background-color: #ffc107;
-            border-radius: 5px;
-            transition: background-color 0.5s ease;
-            padding: 5px;
-        }
-        /* Para mudar a cor de fundo da seleção */
-        ::selection {
-        background-color: #ffc107;
-        }
-
-        /* Para mudar a cor do texto selecionado */
-        ::selection {
-        color: #ffc107;
-        }
-
-        /* Para mudar a cor de fundo e do texto da seleção ao mesmo tempo */
-        ::selection {
-        background-color: #ffc107;
-        color: #000;
-        }
-
-        /* Altera a cor da borda quando o input está em foco */
-        .form-control:focus { box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); /* opcional: adiciona uma sombra ao redor do input */ }
-
-        .form-label:focus { box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); }
-
-        .form-select:focus { box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); }
-
-        select option:hover {background-color: #fff; /* Substitua pela cor desejada */}
-
-
-        /* Altera a cor da bolinha do range */
-        .form-range::-webkit-slider-thumb {
-        background-color: #ffc107; /* substituir pela cor desejada */
-        border-color: #ffc107; /* substituir pela cor desejada */
-        box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); 
-        }
-
-        .form-range::-moz-range-thumb {
-        background-color: #ffc107; /* substituir pela cor desejada */
-        border-color: #ffc107; /* substituir pela cor desejada */
-        box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); 
-        }
-
-        .form-range::-ms-thumb {
-        background-color: #ffc107; /* substituir pela cor desejada */
-        border-color: #ffc107; /* substituir pela cor desejada */
-        box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); 
-        }
-
-        /* Altera a cor da sombra da borda da bolinha do form-range quando selecionado */
-        .form-range::-webkit-slider-thumb:active {
-        background-color: #ffc107;
-        box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);  /* substituir pela cor desejada */
-        }
-
-        .form-range::-moz-range-thumb:active {
-        background-color: #ffc107;
-        box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);  /* substituir pela cor desejada */
-        }
-
-        .form-range::-ms-thumb:active {
-        background-color: #ffc107;
-        box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); 
-        }
-
-    </style>
 
 </head>
 <body>

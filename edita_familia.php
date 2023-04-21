@@ -12,7 +12,7 @@ if (isset($id)) {
     foreach ($cadastroDao->read($id) as $cadastro) :
 
 ?>
-        <form method="post" action="app/controller/ProcessaForm.php">
+        <form method="post" action="app/controller/ProcessaEdita.php">
 
             <div class="form-floating mb-3">
                 <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['nome'];?>" name="nome">
@@ -68,6 +68,7 @@ if (isset($id)) {
 }
     ?>
     <input type="hidden" name="id" value="<?php echo $id ?>">
+    <input type="hidden" name="formulario" value="cadastro">
     <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
         Editar
     </button>

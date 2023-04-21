@@ -2,6 +2,7 @@
 
 namespace app\DAO;
 
+use \app\model\Marca;
 
 class MarcaDao{
 
