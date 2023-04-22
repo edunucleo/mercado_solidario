@@ -41,6 +41,7 @@ function aprovar(id) {
     });
     request.done(function (msg) {
       alert("Sucesso na Aprovação!!!");
+      location.reload() 
     });
     request.fail(function (jqXHR, textStatus) {
       alert("falhou: " + textStatus);
