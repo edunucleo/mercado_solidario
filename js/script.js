@@ -29,29 +29,25 @@ function excluir(id, formulario) {
     return false;
 
 }
-function atualizarPontos(id, pontos, formulario) {
-
-  decisao = confirm('Deseja realmente atualizar Pontos?')
-
-  if (decisao) {
-    //colocar ajax aqui
-    console.log('foi'+id+pontos+formulario);
-  }
-  else
-    return false;
-}
-function aprovar(id, formulario) {
+function aprovar(id) {
 
   decisao = confirm('Deseja realmente Aprovar?')
-
   if (decisao) {
-    //colocar ajax aqui
-    console.log('foi');
+    var request = $.ajax({
+      url: "app/controller/ProcessaAprova.php",
+      method: "POST",
+      data: { idCad: id },
+      dataType: "html"
+    });
+    request.done(function (msg) {
+      alert("sucesso");
+    });
+    request.fail(function (jqXHR, textStatus) {
+      alert("falhou: " + textStatus);
+    });
+
   }
-  else
+  else {
     return false;
-
+  }
 }
-
-
-
