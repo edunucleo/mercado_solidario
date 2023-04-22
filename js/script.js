@@ -40,7 +40,7 @@ function aprovar(id) {
       dataType: "html"
     });
     request.done(function (msg) {
-      alert("sucesso");
+      alert("Sucesso na Aprovação!!!");
     });
     request.fail(function (jqXHR, textStatus) {
       alert("falhou: " + textStatus);
