@@ -35,7 +35,7 @@ function atualizarPontos(id, pontos, formulario) {
 
   if (decisao) {
     //colocar ajax aqui
-    console.log('foi');
+    console.log('foi'+id+pontos+formulario);
   }
   else
     return false;
