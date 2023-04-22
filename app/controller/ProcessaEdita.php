@@ -10,7 +10,7 @@ require_once "../DAO/CadastroDAO.php";
 require_once "../DAO/ProdutoDao.php";
 require_once "../DAO/MarcaDao.php";
 
-/*use \app\model\Cadastro;
+/*use \app\model\Cadastro; o use não ta funcionando
 use \app\model\Produto;
 use \app\model\Marca;
 use \app\DAO\Conexao;

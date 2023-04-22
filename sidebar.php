@@ -10,19 +10,19 @@
                 <li class="nav-item">
                     <a href="consulta_familias.php" class="nav-link text-white" aria-current="page">
                         <i class="bi bi-people-fill"></i>
-                        Lista de Famílias
+                        Famílias
                     </a>
                 </li>
                 <li>
                     <a href="consulta_produtos.php" class="nav-link text-white">
                         <i class="bi bi-basket-fill"></i>
-                        Lista de Produtos/Estoque
+                        Produtos/Estoque
                     </a>
                 </li>
                 <li>
                     <a href="consulta_marcas.php" class="nav-link text-white">
-                        <i class="bi bi-basket-fill"></i>
-                        Lista de Marcas
+                    <i class="bi bi-tags-fill"></i>
+                        Marcas
                     </a>
                 </li>
             </ul>

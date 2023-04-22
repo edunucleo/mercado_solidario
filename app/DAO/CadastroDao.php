@@ -97,6 +97,18 @@ class CadastroDao extends Cadastro{
         $stmt->execute();
         
     }
+    public function aprova($id){
+
+        $sql='UPDATE `cadastro` 
+        SET `data_aprovacao` = NOW()
+        WHERE `cadastro`.`id` = ?;';
+        
+        $stmt = Conexao::conecta()->prepare($sql);
+        $stmt->bindValue(1,$id);
+        $stmt->execute();
+
+    }
+    
     public function delete($id){
 
         $sql='DELETE FROM cadastro WHERE id=?';
