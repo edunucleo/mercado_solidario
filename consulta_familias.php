@@ -116,10 +116,11 @@ $cadastroDao->delete(1);
                                 </button>
                             </td>
                             <td>
-                                <div class="input-group mb-3">
+                                <?php echo $cadastro['pontos']; ?>
+                                <!-- <div class="input-group mb-3">
                                     <input type="text" class="col-sm-3 col-form-label form-control-sm" placeholder="" aria-label="" aria-describedby="ponto" value=<?php echo $cadastro['pontos']; ?>>
                                     <button class="btn btn-success d-inline-flex align-items-center" type="button" id="ponto"><i class="bi bi-check-circle-fill"></i></button>
-                                </div>
+                                </div>-->
                             </td>
                             <td>
                                 <?php echo $cadastro['data_cadastro']; ?>
@@ -128,9 +129,9 @@ $cadastroDao->delete(1);
                                 <?php echo $cadastro['data_aprovacao']; ?>
                             </td>
                             <td>
-                                <a href="" class="btn btn-danger" onclick="excluir(<?php echo $cadastro['id']; ?>,'cadastro')">
+                                <button class="btn btn-danger" onclick="excluir(<?php echo $cadastro['id']; ?>,'cadastro')">
                                     <i class="bi bi-x-circle-fill"></i>
-                                </a>
+                                </button>
                             </td>
                             <td>
                                 <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregar(<?php echo $cadastro['id']; ?>,'cadastro')">
