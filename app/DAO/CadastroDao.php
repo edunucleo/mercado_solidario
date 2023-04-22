@@ -97,11 +97,15 @@ class CadastroDao extends Cadastro{
         $stmt->execute();
         
     }
+
     public function aprova($id){
 
         $sql='UPDATE `cadastro` 
-        SET `data_aprovacao` = NOW()
-        WHERE `cadastro`.`id` = ?;';
+        SET 
+        `data_aprovacao` = NOW(),
+        `pontos` = 450
+        WHERE 
+        `cadastro`.`id` = ?;';
         
         $stmt = Conexao::conecta()->prepare($sql);
         $stmt->bindValue(1,$id);
