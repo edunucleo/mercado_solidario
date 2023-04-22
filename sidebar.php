@@ -20,12 +20,6 @@
                     </a>
                 </li>
                 <li>
-                    <a href="cadastro_produtos.php" class="nav-link text-white">
-                        <i class="bi bi-basket-fill"></i>
-                        Cadastrar Produtos
-                    </a>
-                </li>
-                <li>
                     <a href="consulta_marcas.php" class="nav-link text-white">
                         <i class="bi bi-basket-fill"></i>
                         Lista de Marcas

@@ -111,17 +111,15 @@ $cadastroDao->delete(1);
                                 <?php echo $cadastro['nome']; ?>
                             </td>
                             <td>
-                                <button class="btn btn-danger d-inline-flex align-items-center " type="button" data-bs-toggle="modal" data-bs-target="#aprova">
+                                <button class="btn btn-danger d-inline-flex align-items-center " type="button" onclick="aprovar(<?php echo $cadastro['id']; ?>,'cadastro')">
                                     <i class="bi bi-cart-x-fill"></i>
                                 </button>
                             </td>
                             <td>
-                                
-                                <input type="text" class="col-sm-3 col-form-label form-control-sm" aria-label="pontos" aria-describedby="ponto" value=<?php echo $cadastro['pontos']; ?>>
-                                <button class="btn btn-success d-inline-flex align-items-center" type="button">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </button>
-
+                                <div class="input-group mb-3">
+                                    <input type="text" class="col-sm-3 col-form-label form-control-sm" placeholder="" aria-label="" aria-describedby="ponto" value=<?php echo $cadastro['pontos']; ?>>
+                                    <button class="btn btn-success d-inline-flex align-items-center" type="button" id="ponto"><i class="bi bi-check-circle-fill"></i></button>
+                                </div>
                             </td>
                             <td>
                                 <?php echo $cadastro['data_cadastro']; ?>
@@ -130,7 +128,7 @@ $cadastroDao->delete(1);
                                 <?php echo $cadastro['data_aprovacao']; ?>
                             </td>
                             <td>
-                                <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exclui">
+                                <a href="" class="btn btn-danger" onclick="excluir(<?php echo $cadastro['id']; ?>,'cadastro')">
                                     <i class="bi bi-x-circle-fill"></i>
                                 </a>
                             </td>
@@ -182,44 +180,6 @@ $cadastroDao->delete(1);
 
     </div><!--fim da principal-->
 
-
-    <!-- MODAL DE APROVAÇÃO DE CADASTRO-->
-    <div class="modal fade" id="aprova" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Aprovação</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    Deseja aprovar esta Família?
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-primary">Aprovar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- MODAL DE exclusao-->
-    <div class="modal fade" id="exclui" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Aprovação</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    Deseja excluir esta Família?
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-primary">Excluir</button>
-                </div>
-            </div>
-        </div>
-    </div>
 </body>
 </body>
 
