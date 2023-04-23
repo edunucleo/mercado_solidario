@@ -111,8 +111,9 @@ $cadastroDao->delete(1);
                                 <?php echo $cadastro['nome']; ?>
                             </td>
                             <td>
-                                <button class="btn btn-danger d-inline-flex align-items-center " type="button" onclick="aprovar(<?php echo $cadastro['id']; ?>)">
-                                    <i class="bi bi-cart-x-fill"></i>
+                                <button class="btn <?php echo $cadastro['data_aprovacao']=='0000-00-00'?'btn-danger':'btn-success' ?> d-inline-flex align-items-center " type="button" onclick="aprovar(<?php echo $cadastro['id']; ?>)">
+                                   
+                                <i class="bi <?php echo $cadastro['data_aprovacao']=='0000-00-00'?'bi-cart-x-fill':'bi-cart-check-fill' ?>"></i>
                                 </button>
                             </td>
                             <td>
