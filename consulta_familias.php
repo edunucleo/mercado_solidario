@@ -1,46 +1,6 @@
 <?php
 require_once 'vendor/autoload.php';
-/* teste cadastro
-$cadastro = new \app\model\Cadastro();
-$cadastro->setNome('teste pdo1');
-$cadastro->setEmail('teste@pdo');
-$cadastro->setEndereco('rua teste pdo');
-$cadastro->setAuxilio('sim');
-$cadastro->setDataNasc('2015/10/10');
-$cadastro->setTelefone('15-99600-8878');
-$cadastro->setRenda(500);
-$cadastro->setMoradores(2);
-$cadastro->setTermos(1);
-$cadastro->setDataCadastro('2015/10/10');
-$cadastro->setDataAprovacao('2015/10/10');
-$cadastro->setPontos(450);
 
-$cadastroDao = new \app\model\CadastroDao();
-$cadastroDao->create($cadastro);
-*/
-/* teste update
-$cadastro = new \app\model\Cadastro();
-$cadastro->setId(3);
-$cadastro->setNome('teste pdo333');
-$cadastro->setEmail('teste@pdo2333');
-$cadastro->setEndereco('rua teste pdo333');
-$cadastro->setAuxilio('333');
-$cadastro->setDataNasc('2015/10/13');
-$cadastro->setTelefone('15-99600-8873');
-$cadastro->setRenda(503);
-$cadastro->setMoradores(3);
-$cadastro->setTermos(3);
-$cadastro->setDataCadastro('2015/10/13');
-$cadastro->setDataAprovacao('2015/10/13');
-$cadastro->setPontos(453);
-
-$cadastroDao = new \app\model\CadastroDao();
-$cadastroDao->update($cadastro);
-*/
-/* delete
-$cadastroDao = new \app\model\CadastroDao();
-$cadastroDao->delete(1);
-*/
 ?>
 
 <!DOCTYPE html>
@@ -81,7 +41,7 @@ $cadastroDao->delete(1);
 
         <div class="container w-60 pt-5">
 
-            <button type="button" class="btn btn-primary">Cadastrar Família</button>
+            <a href="cadastro.php"  class="btn btn-primary">Cadastrar Família</a>
 
             <!-- Início da DataTable -->
             <table id="tabela" class="table table-striped" style="width:100%">
