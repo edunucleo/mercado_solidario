@@ -28,9 +28,9 @@
 
 <body>
 
-    <div class="container-fluid">
+    <div class="container">
         
-    </div>">
+
 
         <h2 class="text-center">INSCRIÇÃO MERCADO SOLIDÁRIO</h2>
         <p>
