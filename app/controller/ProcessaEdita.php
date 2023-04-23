@@ -22,6 +22,7 @@ use \app\DAO\MarcaDao;*/
 switch ($_POST['formulario']) {
     case 'cadastro':
         editaCadastro();
+        header('Location: ../../consulta_familias.php');
         break;
     case 'produto':
         editaProduto();
