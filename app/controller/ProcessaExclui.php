@@ -1,23 +1,30 @@
 <?php
 namespace app\controller;
 
-use app\DAO\CadastroDao;
+require_once "../model/Cadastro.php";
+require_once "../model/Produto.php";
+require_once "../model/Marca.php";
+require_once "../DAO/Conexao.php";
+require_once "../DAO/CadastroDAO.php";
+require_once "../DAO/ProdutoDao.php";
+require_once "../DAO/MarcaDao.php";
+/*use app\DAO\CadastroDao;
 use app\DAO\MarcaDao;
-use app\DAO\ProdutoDao;
+use app\DAO\ProdutoDao;*/
 
 $id = $_POST['id'];
 
 switch ($_POST['formulario']) {
     case 'cadastro':
-        $cadastroDao = new CadastroDao();
+        $cadastroDao = new \app\DAO\CadastroDao();
         $cadastroDao->delete($id);
         break;
     case 'produto':
-        $produtoDao = new ProdutoDao();
+        $produtoDao = new \app\DAO\ProdutoDao();
         $produtoDao->delete($id);
         break;
     case 'marca':
-        $marcaDao = new MarcaDao();
+        $marcaDao = new \app\DAO\MarcaDao();
         $cadastroDao->delete($id);
         break;
 

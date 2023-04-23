@@ -17,16 +17,29 @@ function carregar(id, formulario) {
   );
 }
 
-function excluir(id, formulario) {
+function excluir(id_, formulario_) {
 
   decisao = confirm('Deseja realmente excluir?')
 
   if (decisao) {
-    //colocar ajax aqui
-    console.log('foi');
+    var request = $.ajax({
+      url: "app/controller/ProcessaExclui.php",
+      method: "POST",
+      data: { id: id_, formulario: formulario_ },
+      dataType: "html"
+    });
+    request.done(function (msg) {
+      alert("Sucesso na Exclusão!!!");
+      location.reload() 
+    });
+    request.fail(function (jqXHR, textStatus) {
+      alert("falhou: " + textStatus);
+    });
+
   }
-  else
+  else {
     return false;
+  }
 
 }
 function aprovar(id) {
