@@ -8,6 +8,10 @@ $(document).ready(function () {
 
 });
 
+$( function() {
+  $( "#data_nasc" ).datepicker();
+} );
+
 function carregar(id, formulario) {
   $("#carrega_cadastro").load(`edita_familia.php`,
     {

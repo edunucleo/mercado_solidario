@@ -8,6 +8,8 @@
 
     <!-- jquery -->
     <script defer src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
 
     <!-- Bootstrap 5 links -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
@@ -29,7 +31,7 @@
 <body>
 
     <div class="container">
-        
+
 
 
         <h2 class="text-center">INSCRIÇÃO MERCADO SOLIDÁRIO</h2>
@@ -53,13 +55,66 @@
             </br> Obrigado!
         </p>
         <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">Digite seu e-mail.</small>
-            </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="form-group">
+                <input type="text" class="form-control" id="nome" placeholder="Nome Completo">
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Data de Nascimento" id="data_nasc">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Telefone">
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="row">
+                    <div class="col col-md-2">
+                        <select class="form-select " aria-label="Default select example">
+                            <option selected>Quantas pessoas moram com você?(incluindo criaças e bebês)</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10 ou +</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Insira aqui o nome e a idade das pessoas que moram com você">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="Sua família participa de algum Programa Social de auxílio do governo? Qual?">
+    </div>
+    <div class="form-group col-md-6">
+    Qual é a renda financeira mensal da sua família?
+      <label for="inputPassword4">Password</label>
+      <input type="text" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+            
+            <br />
+            <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
 
     </div>
