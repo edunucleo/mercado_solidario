@@ -1,3 +1,20 @@
+(() => {
+  'use strict';
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation');
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms).forEach((form) => {
+    form.addEventListener('submit', (event) => {
+      if (!form.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated');
+    }, false);
+  });
+})();
 $(document).ready(function () {
 
   $('#tabela').DataTable({
@@ -8,13 +25,13 @@ $(document).ready(function () {
 
 });
 
-$( function() {
-  $( "#data_nasc" ).datepicker({
+$(function () {
+  $("#data_nasc").datepicker({
     yearRange: "1950:2023",
     changeMonth: true,
     changeYear: true,
   });
-} );
+});
 
 function carregar(id, formulario) {
   $("#carrega_cadastro").load(`edita_familia.php`,
@@ -38,7 +55,7 @@ function excluir(id_, formulario_) {
     });
     request.done(function (msg) {
       alert("Sucesso na Exclusão!!!");
-      location.reload() 
+      location.reload()
     });
     request.fail(function (jqXHR, textStatus) {
       alert("falhou: " + textStatus);
@@ -62,7 +79,7 @@ function aprovar(id) {
     });
     request.done(function (msg) {
       alert("Sucesso na Aprovação!!!");
-      location.reload() 
+      location.reload()
     });
     request.fail(function (jqXHR, textStatus) {
       alert("falhou: " + textStatus);

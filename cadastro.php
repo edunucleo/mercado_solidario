@@ -22,6 +22,8 @@
     <script defer src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
     <!-- fim da integração do datatable -->
 
+
+    <link rel="stylesheet" href="css/style.css">
     <script defer src="js/script.js"></script>
 
     <title>INSCRIÇÃO MERCADO SOLIDÁRIO</title>
@@ -54,19 +56,25 @@
 
             </br> Obrigado!
         </p>
-        <form>
+        <form class="row g-3 needs-validation" novalidate>
 
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="nome" placeholder="Nome Completo">
+                <input type="text" class="form-control" id="nome" placeholder="Nome Completo" required>
                 <label for="floatingInput">Nome</label>
+                <div class="invalid-feedback">
+                    Preencha seu nome.
+                </div>
             </div>
             <br />
             <div class="form-group">
                 <div class="row">
                     <div class="col">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" placeholder="Data de Nascimento" id="data_nasc">
+                            <input type="text" class="form-control" placeholder="Data de Nascimento" id="data_nasc" required>
                             <label for="floatingInput">Data de Nascimento</label>
+                            <div class="invalid-feedback">
+                                Preecha a Data de Nascimento
+                            </div>
                         </div>
                     </div>
                     <div class="col">
@@ -79,8 +87,11 @@
             </div>
             <br />
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+                <input type="text" class="form-control" id="endereco" placeholder="Endereço" required>
                 <label for="floatingInput">Endereço</label>
+                <div class="invalid-feedback">
+                    Preencha o Endereço
+                </div>
             </div>
             <br />
             <div class="form-floating mb-3">
@@ -92,8 +103,8 @@
                 <div class="row">
                     <div class="col col-md-6">
                         <div class="form-floating">
-                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                            <option selected disabled value="">Escolha...</option>
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example" required>
+                                <option selected disabled value="">Escolha...</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -106,12 +117,18 @@
                                 <option value="10">10 ou +</option>
                             </select>
                             <label for="floatingSelect">Quantas pessoas moram com você?(incluindo criaças e bebês)</label>
+                            <div class="invalid-feedback">
+                                Selecione quantas pessoas moram com você
+                            </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" placeholder="Insira aqui o nome e a idade das pessoas que moram com você">
+                            <input type="text" class="form-control" placeholder="Insira aqui o nome e a idade das pessoas que moram com você" required>
                             <label for="floatingInput">Insira aqui o nome e a idade das pessoas que moram com você</label>
+                            <div class="invalid-feedback">
+                                Preecha o nome e a idade das pessoas que moram com você
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,14 +138,17 @@
                 <div class="row">
                     <div class="col">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="inputEmail4" placeholder="Sua família participa de algum Programa Social de auxílio do governo? Qual?">
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Sua família participa de algum Programa Social de auxílio do governo? Qual?" required>
                             <label for="floatingInput">Sua família participa de algum Programa Social de auxílio do governo? Qual?</label>
+                            <div class="invalid-feedback">
+                                Preencha este campo. Caso não participe digite "Não"
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                    <div class="form-floating">
-                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                            <option selected disabled value="">Escolha...</option>
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example" required>
+                                <option selected disabled value="">Escolha...</option>
 
                                 <option value="<1">Menos de 1 salário mínimo</option>
                                 <option value="<=2">Até 2 salários mínimos</option>
@@ -136,17 +156,23 @@
                                 <option value=">5">Mais de 5 salários mínimos</option>
                             </select>
                             <label for="floatingSelect">Qual é a renda financeira mensal da sua família?</label>
+                            <div class="invalid-feedback">
+                                Selecione qual renda que se encaixa próximo da sua
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             Ao preencher este formulário você concorda com os termos e política do Projeto Casa do Pão, e autoriza a divulgação da sua imagem para depoimentos e registros do Projeto?
-            <br/><br/>
+            <br /><br />
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
                 <label class="form-check-label" for="flexCheckDefault">
                     Concordar
                 </label>
+                <div class="invalid-feedback">
+                    Concorde com os Termos
+                </div>
             </div>
 
             <br />
