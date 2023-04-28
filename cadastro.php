@@ -32,6 +32,16 @@
 
 <body>
 
+    <?php
+   $msg =  isset($_GET['msg'])?$_GET['msg']:'';
+   
+    if ($msg !='') {
+        echo '  <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">' . $msg . '!</h4>
+                </div> ';
+    }
+    ?>
+
     <div class="container">
 
         <h2 class="text-center">INSCRIÇÃO MERCADO SOLIDÁRIO</h2>

@@ -64,6 +64,8 @@ function cadastraCadastro()
 
         $cadastroDao = new \app\DAO\CadastroDao();
         $cadastroDao->create($cadastro);
+
+        header('Location: ../../cadastro.php?&msg=Sucesso');
 }
 
 function cadastraProduto()
@@ -84,7 +86,7 @@ function cadastraProduto()
         $produtoDao = new \app\DAO\ProdutoDao();
         $produtoDao->create($produto);
 
-        header('Location: ../../cadastro.php?&msg=Sucesso');
+        
     
 }
 

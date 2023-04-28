@@ -47,7 +47,7 @@ if (isset($id)) {
                 <label for="nome">Quantas pessoas moram com você? Coloque o nome e idade: (inclusive crianças e bebês)</label>
             </div>
             <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['termos']; ?>"name="termos">
+                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['nomes_moradores']; ?>"name="nomes_moradores">
                 <label for="nome">Ao preencher este formulário você concorda com os termos e política do Projeto Casa do Pão, e autoriza a divulgação da sua imagem para depoimentos e registros do Projeto?</label>
             </div>
             <div class="form-floating mb-3">
