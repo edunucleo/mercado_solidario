@@ -56,63 +56,99 @@
         </p>
         <form>
 
-            <div class="form-group">
+            <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="nome" placeholder="Nome Completo">
+                <label for="floatingInput">Nome</label>
             </div>
             <br />
             <div class="form-group">
                 <div class="row">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Data de Nascimento" id="data_nasc">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" placeholder="Data de Nascimento" id="data_nasc">
+                            <label for="floatingInput">Data de Nascimento</label>
+                        </div>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Telefone">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" placeholder="Telefone">
+                            <label for="floatingInput">Telefone</label>
+                        </div>
                     </div>
                 </div>
             </div>
             <br />
-            <div class="form-group">
+            <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+                <label for="floatingInput">Endereço</label>
             </div>
             <br />
-            <div class="form-group">
+            <div class="form-floating mb-3">
                 <input type="email" class="form-control" id="email" placeholder="E-mail">
+                <label for="floatingInput">E-mail</label>
             </div>
             <br />
             <div class="form-group">
                 <div class="row">
-                    <div class="col col-md-2">
-                        <select class="form-select " aria-label="Default select example">
-                            <option selected>Quantas pessoas moram com você?(incluindo criaças e bebês)</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10 ou +</option>
-                        </select>
+                    <div class="col col-md-6">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected disabled value="">Escolha...</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10 ou +</option>
+                            </select>
+                            <label for="floatingSelect">Quantas pessoas moram com você?(incluindo criaças e bebês)</label>
+                        </div>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Insira aqui o nome e a idade das pessoas que moram com você">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" placeholder="Insira aqui o nome e a idade das pessoas que moram com você">
+                            <label for="floatingInput">Insira aqui o nome e a idade das pessoas que moram com você</label>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="Sua família participa de algum Programa Social de auxílio do governo? Qual?">
-    </div>
-    <div class="form-group col-md-6">
-    Qual é a renda financeira mensal da sua família?
-      <label for="inputPassword4">Password</label>
-      <input type="text" class="form-control" id="inputPassword4" placeholder="Password">
-    </div>
-  </div>
-            
+            <br />
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Sua família participa de algum Programa Social de auxílio do governo? Qual?">
+                            <label for="floatingInput">Sua família participa de algum Programa Social de auxílio do governo? Qual?</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                    <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected disabled value="">Escolha...</option>
+
+                                <option value="<1">Menos de 1 salário mínimo</option>
+                                <option value="<=2">Até 2 salários mínimos</option>
+                                <option value="<=5">Até 5 salários mínimos</option>
+                                <option value=">5">Mais de 5 salários mínimos</option>
+                            </select>
+                            <label for="floatingSelect">Qual é a renda financeira mensal da sua família?</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            Ao preencher este formulário você concorda com os termos e política do Projeto Casa do Pão, e autoriza a divulgação da sua imagem para depoimentos e registros do Projeto?
+            <br/><br/>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Concordar
+                </label>
+            </div>
+
             <br />
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>

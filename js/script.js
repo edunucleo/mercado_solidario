@@ -9,7 +9,11 @@ $(document).ready(function () {
 });
 
 $( function() {
-  $( "#data_nasc" ).datepicker();
+  $( "#data_nasc" ).datepicker({
+    yearRange: "1950:2023",
+    changeMonth: true,
+    changeYear: true,
+  });
 } );
 
 function carregar(id, formulario) {
