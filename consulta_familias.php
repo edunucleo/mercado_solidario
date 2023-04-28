@@ -71,9 +71,9 @@ require_once 'vendor/autoload.php';
                                 <?php echo $cadastro['nome']; ?>
                             </td>
                             <td>
-                                <button class="btn <?php echo $cadastro['data_aprovacao']=='0000-00-00'?'btn-danger':'btn-success' ?> d-inline-flex align-items-center " type="button" onclick="aprovar(<?php echo $cadastro['id']; ?>)">
+                                <button class="btn <?php echo $cadastro['data_aprovacao']==null?'btn-danger':'btn-success' ?> d-inline-flex align-items-center " type="button" onclick="aprovar(<?php echo $cadastro['id']; ?>)">
                                    
-                                <i class="bi <?php echo $cadastro['data_aprovacao']=='0000-00-00'?'bi-cart-x-fill':'bi-cart-check-fill' ?>"></i>
+                                <i class="bi <?php echo $cadastro['data_aprovacao']==null?'bi-cart-x-fill':'bi-cart-check-fill' ?>"></i>
                                 </button>
                             </td>
                             <td>

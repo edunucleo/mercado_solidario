@@ -34,14 +34,11 @@
 
     <div class="container">
 
-
-
         <h2 class="text-center">INSCRIÇÃO MERCADO SOLIDÁRIO</h2>
         <p>
             Este formulário tem o objetivo de cadastrar e selecionar pessoas que serão contempladas com compras mensais do Mercado Solidário Casa do Pão.
         </p>
         <p> *Importante:</p>
-
 
         <ol>
             <li> O Mercado Solidário Casa do Pão tem o objetivo de ajudar as famílias que estejam passando por dificuldades e precisam de auxílio com alimentação neste momento de crise, ocasionada pela pandemia do novo coronavírus (Covid-19).</li>
@@ -50,16 +47,15 @@
             <li> Caso seu formulário seja aprovado, você poderá realizar suas compras durante três meses, depois desse disso, um novo formulário deverá ser preenchido, caso necessite renovação.</li>
         </ol>
 
-
         <p>
             Qualquer dúvida, entrar em contato pelo Whatssapp (15) 99699-7979
 
             </br> Obrigado!
         </p>
-        <form class="row g-3 needs-validation" novalidate>
+        <form class="row g-3 needs-validation" novalidate method="post" action="app/controller/ProcessaCadastra.php">
 
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="nome" placeholder="Nome Completo" required>
+                <input type="text" class="form-control" id="nome" placeholder="Nome Completo" name="nome" required>
                 <label for="floatingInput">Nome</label>
                 <div class="invalid-feedback">
                     Preencha seu nome.
@@ -70,7 +66,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" placeholder="Data de Nascimento" id="data_nasc" required>
+                            <input type="text" class="form-control" placeholder="Data de Nascimento" id="data_nasc" name="data_nasc" required>
                             <label for="floatingInput">Data de Nascimento</label>
                             <div class="invalid-feedback">
                                 Preecha a Data de Nascimento
@@ -79,7 +75,7 @@
                     </div>
                     <div class="col">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" placeholder="Telefone">
+                            <input type="text" class="form-control" placeholder="Telefone" name="celular">
                             <label for="floatingInput">Telefone</label>
                         </div>
                     </div>
@@ -87,7 +83,7 @@
             </div>
             <br />
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="endereco" placeholder="Endereço" required>
+                <input type="text" class="form-control" id="endereco" placeholder="Endereço" name="endereco" required>
                 <label for="floatingInput">Endereço</label>
                 <div class="invalid-feedback">
                     Preencha o Endereço
@@ -95,7 +91,7 @@
             </div>
             <br />
             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="email" placeholder="E-mail">
+                <input type="email" class="form-control" id="email" placeholder="E-mail" name="email">
                 <label for="floatingInput">E-mail</label>
             </div>
             <br />
@@ -103,7 +99,7 @@
                 <div class="row">
                     <div class="col col-md-6">
                         <div class="form-floating">
-                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example" required>
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example" name="moradores" required>
                                 <option selected disabled value="">Escolha...</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -124,7 +120,7 @@
                     </div>
                     <div class="col">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" placeholder="Insira aqui o nome e a idade das pessoas que moram com você" required>
+                            <input type="text" class="form-control" placeholder="Insira aqui o nome e a idade das pessoas que moram com você" name="nomes_moradores" required>
                             <label for="floatingInput">Insira aqui o nome e a idade das pessoas que moram com você</label>
                             <div class="invalid-feedback">
                                 Preecha o nome e a idade das pessoas que moram com você
@@ -138,7 +134,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="inputEmail4" placeholder="Sua família participa de algum Programa Social de auxílio do governo? Qual?" required>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Sua família participa de algum Programa Social de auxílio do governo? Qual?" name="auxilio" required>
                             <label for="floatingInput">Sua família participa de algum Programa Social de auxílio do governo? Qual?</label>
                             <div class="invalid-feedback">
                                 Preencha este campo. Caso não participe digite "Não"
@@ -147,7 +143,7 @@
                     </div>
                     <div class="col">
                         <div class="form-floating">
-                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example" required>
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example" name="renda" required>
                                 <option selected disabled value="">Escolha...</option>
 
                                 <option value="<1">Menos de 1 salário mínimo</option>
@@ -176,6 +172,7 @@
             </div>
 
             <br />
+            <input type="hidden" name="formulario" value="cadastro">
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
 

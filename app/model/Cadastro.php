@@ -5,7 +5,7 @@ namespace app\model;
 class Cadastro
 {
 
-    private $id, $nome, $email, $endereco, $auxilio, $data_nasc, $telefone, $renda, $moradores, $termos, $data_cadastro, $data_aprovacao, $pontos;
+    private $id, $nome, $email, $endereco, $auxilio, $data_nasc, $telefone, $renda, $moradores, $nomes_moradores, $data_cadastro, $data_aprovacao, $pontos;
 
     public function getId()
     {
@@ -88,13 +88,13 @@ class Cadastro
         return $this->moradores = $moradores;
     }
 
-    public function getTermos()
+    public function getNomesMoradores()
     {
-        return $this->termos;
+        return $this->nomes_moradores;
     }
-    public function setTermos($termos)
+    public function setNomesMoradores($nomes_moradores)
     {
-        return $this->termos = $termos;
+        return $this->nomes_moradores = $nomes_moradores;
     }
 
     public function getDataCadastro()

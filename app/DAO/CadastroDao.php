@@ -8,7 +8,7 @@ class CadastroDao extends Cadastro{
 
     public function create(Cadastro $c){
 
-        $sql = 'INSERT INTO `cadastro` (`id`, `nome`, `email`, `endereco`, `auxilio`, `data_nasc`, `telefone`, `renda`, `moradores`, `termos`, `data_cadastro`, `data_aprovacao`, `pontos`) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);';
+        $sql = 'INSERT INTO `cadastro` (`id`, `nome`, `email`, `endereco`, `auxilio`, `data_nasc`, `telefone`, `renda`, `moradores`, `nomes_moradores`, `data_cadastro`, `data_aprovacao`, `pontos`) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NULL, NULL);';
 
         $stmt = Conexao::conecta()->prepare($sql);
         $stmt ->bindValue(1,$c->getNome());
@@ -19,10 +19,8 @@ class CadastroDao extends Cadastro{
         $stmt ->bindValue(6,$c->getTelefone());
         $stmt ->bindValue(7,$c->getRenda());
         $stmt ->bindValue(8,$c->getMoradores());
-        $stmt ->bindValue(9,$c->getTermos());
-        $stmt ->bindValue(10,$c->getDataCadastro());
-        $stmt ->bindValue(11,$c->getDataAprovacao());
-        $stmt ->bindValue(12,$c->getPontos());
+        $stmt ->bindValue(9,$c->getNomesMoradores());
+        $stmt ->bindValue(10,date('Y-m-d'));
 
         $stmt->execute();
 
@@ -73,7 +71,7 @@ class CadastroDao extends Cadastro{
         `telefone` = ?,
         `renda` = ?,
         `moradores` = ?, 
-        `termos` = ?, 
+        `nomes_moradores` = ?, 
         `data_cadastro` = ?, 
         `data_aprovacao` = ?, 
         `pontos` = ? 
@@ -88,7 +86,7 @@ class CadastroDao extends Cadastro{
         $stmt->bindValue(6, $c->getTelefone());
         $stmt->bindValue(7, $c->getRenda());
         $stmt->bindValue(8, $c->getMoradores());
-        $stmt->bindValue(9, $c->getTermos());
+        $stmt->bindValue(9, $c->getNomesMoradores());
         $stmt->bindValue(10, $c->getDataCadastro());
         $stmt->bindValue(11, $c->getDataAprovacao());
         $stmt->bindValue(12, $c->getPontos());
