@@ -36,20 +36,37 @@ $(function () {
   });
 });
 $(function () {
-  $("#data_nasc").datepicker({ 
+  $("#data_nasc").datepicker({
     yearRange: "1950:2023",
     changeMonth: true,
     changeYear: true,
   });
 });
 
-function carregar(id, formulario) {
-  $("#carrega_cadastro").load(`edita_familia.php`,
+function carrega(id, formulario) {
+
+  switch (formulario) {
+
+    case 'cadastro':
+      local = 'edita_familia.php';
+      break;
+    case 'produto':
+      local = `edita_produto.php`;
+      break;
+    case 'marca':
+      local = `edita_marca.php`;
+      break;
+    default:
+      console.log(formulario);
+  }
+
+  $("#carrega").load(local,
     {
       id: id,
       formulario: formulario
     }
   );
+
 }
 
 function excluir(id_, formulario_) {

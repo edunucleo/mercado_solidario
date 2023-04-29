@@ -41,7 +41,7 @@ require_once 'vendor/autoload.php';
 
         <div class="container w-60 pt-5">
 
-            <a href="cadastro.php"  class="btn btn-primary">Cadastrar Família</a>
+            <a href="cadastro.php" class="btn btn-primary">Cadastrar Família</a>
 
             <!-- Início da DataTable -->
             <table id="tabela" class="table table-striped" style="width:100%">
@@ -71,9 +71,9 @@ require_once 'vendor/autoload.php';
                                 <?php echo $cadastro['nome']; ?>
                             </td>
                             <td>
-                                <button class="btn <?php echo $cadastro['data_aprovacao']==null?'btn-danger':'btn-success' ?> d-inline-flex align-items-center " type="button" onclick="aprovar(<?php echo $cadastro['id']; ?>)">
-                                   
-                                <i class="bi <?php echo $cadastro['data_aprovacao']==null?'bi-cart-x-fill':'bi-cart-check-fill' ?>"></i>
+                                <button class="btn <?php echo $cadastro['data_aprovacao'] == null ? 'btn-danger' : 'btn-success' ?> d-inline-flex align-items-center " type="button" onclick="aprovar(<?php echo $cadastro['id']; ?>)">
+
+                                    <i class="bi <?php echo $cadastro['data_aprovacao'] == null ? 'bi-cart-x-fill' : 'bi-cart-check-fill' ?>"></i>
                                 </button>
                             </td>
                             <td>
@@ -95,7 +95,7 @@ require_once 'vendor/autoload.php';
                                 </button>
                             </td>
                             <td>
-                                <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carregar(<?php echo $cadastro['id']; ?>,'cadastro')">
+                                <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroFamilia" onclick="carrega(<?php echo $cadastro['id']; ?>,'cadastro')">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
                             </td>
@@ -127,7 +127,7 @@ require_once 'vendor/autoload.php';
                             <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
                             <h4 class="modal-title">Informações</h4>
                         </div>
-                        <div class="modal-body" id="carrega_cadastro">
+                        <div class="modal-body" id="carrega">
 
                         </div>
                         <div class="modal-footer">
@@ -138,7 +138,6 @@ require_once 'vendor/autoload.php';
             </div>
         </div>
 
-    </div>
 
     </div><!--fim da principal-->
 

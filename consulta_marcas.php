@@ -43,6 +43,8 @@ require_once 'vendor/autoload.php';
                     <tr>
                         <th>Nome</th>
                         <th>Status</th>
+                        <th>Excluir</th>
+                        <th>Editar/Ver</th>
                     </tr>
 
                 </thead>
@@ -62,6 +64,16 @@ require_once 'vendor/autoload.php';
                             <td>
                                 <?php echo $marca['status']; ?>
                             </td>
+                            <td>
+                                <button class="btn btn-danger" onclick="excluir(<?php echo $marca['id']; ?>,'marca')">
+                                    <i class="bi bi-x-circle-fill"></i>
+                                </button>
+                            </td>
+                            <td>
+                                <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroMarca" onclick="carrega(<?php echo $marca['id']; ?>,'marca')">
+                                    <i class="bi bi-pencil-square"></i>
+                                </a>
+                            </td>
                         </tr>
 
                     <?php
@@ -73,11 +85,33 @@ require_once 'vendor/autoload.php';
                     <tr>
                         <th>Nome</th>
                         <th>Status</th>
+                        <th>Excluir</th>
+                        <th>Editar/Ver</th>
                     </tr>
 
                 </tfoot>
             </table>
             <!-- Fim da DataTable -->
+
+            <!-- modal. ao clicar em visualizar ou editar aparece o modal com o cadastro completo-->
+            <!-- Modal -->
+            <div class="modal fade" id="cadastroMarca" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Informações</h4>
+                        </div>
+                        <div class="modal-body" id="carrega">
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 </body>
 
