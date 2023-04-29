@@ -65,12 +65,12 @@ require_once 'vendor/autoload.php';
                                 <?php echo $marca['status']; ?>
                             </td>
                             <td>
-                                <button class="btn btn-danger" onclick="excluir(<?php echo $marca['id']; ?>,'marca')">
+                                <button class="btn btn-danger" onclick="excluir(<?php echo $marca['idmarca']; ?>,'marca')">
                                     <i class="bi bi-x-circle-fill"></i>
                                 </button>
                             </td>
                             <td>
-                                <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroMarca" onclick="carrega(<?php echo $marca['id']; ?>,'marca')">
+                                <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroMarca" onclick="carrega(<?php echo $marca['idmarca']; ?>,'marca')">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
                             </td>
