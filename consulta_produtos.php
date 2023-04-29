@@ -1,32 +1,10 @@
 <?php
-
 require_once 'vendor/autoload.php';
-//teste produtos
-/*$produto = new \app\model\Produto();
-$produto->setNome('produto111');
-$produto->setIdMarca(1);
-$produto->setQtdeEstoque(50);
-$produto->setQtdeMinima(10);
-$produto->setQtdePontos(5);
 
-$produtoDao = new \app\model\ProdutoDao();
-$produtoDao->create($produto);
+use app\DAO\MarcaDao;
+use app\DAO\ProdutoDao;
 
-// teste update produto
-$produto = new \app\model\Produto();
-$produto->setNome('produto111');
-$produto->setIdMarca(1);
-$produto->setQtdeEstoque(50);
-$produto->setQtdeMinima(10);
-$produto->setQtdePontos(5);
 
-$produtoDao = new \app\model\ProdutoDao();
-$produtoDao->update($produto);
-
- //delete
-$produtoDao = new \app\model\ProdutoDao();
-$produtoDao->delete(1);
-*/
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -86,7 +64,16 @@ $produtoDao->delete(1);
                                 <?php echo $produto['nome']; ?>
                             </td>
                             <td>
-                                <?php echo $produto['idmarca']; ?>
+                                <?php
+
+                                $marcaDao = new \app\DAO\MarcaDao();
+
+                                $resultado = $marcaDao->read($produto['idmarca']);
+                                
+                                echo $resultado['nome'];
+
+                                ?>
+
                             </td>
                             <td>
                                 <?php echo $produto['quantidade_estoque']; ?>
@@ -97,12 +84,12 @@ $produtoDao->delete(1);
                             <td>
                                 <?php echo $produto['quantidade_pontos']; ?>
                             </td>
-                    <?php
+                        <?php
                     endforeach;
-                    ?>
+                        ?>
+
                 </tbody>
                 <tfoot>
-                    <tr>
                     <tr>
                         <th>Nome</th>
                         <th>Marca</th>
@@ -110,11 +97,11 @@ $produtoDao->delete(1);
                         <th>Quantidade Mín.</th>
                         <th>Pontos</th>
                     </tr>
-                    </tr>
                 </tfoot>
             </table>
             <!-- Fim da DataTable -->
         </div>
+
 </body>
 
 </html>

@@ -1,32 +1,7 @@
 <?php
 
 require_once 'vendor/autoload.php';
-//teste produtos
-/*$produto = new \app\model\Produto();
-$produto->setNome('produto111');
-$produto->setIdMarca(1);
-$produto->setQtdeEstoque(50);
-$produto->setQtdeMinima(10);
-$produto->setQtdePontos(5);
 
-$produtoDao = new \app\model\ProdutoDao();
-$produtoDao->create($produto);
-
-// teste update produto
-$produto = new \app\model\Produto();
-$produto->setNome('produto111');
-$produto->setIdMarca(1);
-$produto->setQtdeEstoque(50);
-$produto->setQtdeMinima(10);
-$produto->setQtdePontos(5);
-
-$produtoDao = new \app\model\ProdutoDao();
-$produtoDao->update($produto);
-
- //delete
-$produtoDao = new \app\model\ProdutoDao();
-$produtoDao->delete(1);
-*/
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">

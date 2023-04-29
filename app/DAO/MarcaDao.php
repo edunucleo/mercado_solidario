@@ -4,7 +4,7 @@ namespace app\DAO;
 
 use \app\model\Marca;
 
-class MarcaDao{
+class MarcaDao extends Marca{
 
     public function create(Marca $m){
 
@@ -27,7 +27,7 @@ class MarcaDao{
 
         if($stmt->rowCount() > 0):
             $resultado = $stmt-> fetchAll(\PDO::FETCH_ASSOC);
-            return $resultado;
+            return $resultado[0];
         else:
             return [];
         endif;
