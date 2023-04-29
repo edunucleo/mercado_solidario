@@ -12,56 +12,94 @@ if (isset($id)) {
     foreach ($cadastroDao->read($id) as $cadastro) :
 
 ?>
-        <form method="post" action="app/controller/ProcessaEdita.php">
+        <form class="row g-3 needs-validation" novalidate method="post" action="app/controller/ProcessaEdita.php">
 
             <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['nome'];?>" name="nome">
-                <label for="nome">Nome Completo</label>
+                <input type="text" class="form-control" id="nome" placeholder="Nome Completo" name="nome" value="<?php echo $cadastro['nome']; ?>" name="nome" required>
+                <label for="floatingInput">Nome Completo</label>
+                <div class="invalid-feedback">
+                    Preencha seu nome.
+                </div>
             </div>
+            <br />
             <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['email']; ?>" name="email">
+                <input type="email" class="form-control " id="floatingInput" placeholder="E-mail" value="<?php echo $cadastro['email']; ?>" name="email">
                 <label for="nome">E-Mail</label>
             </div>
             <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['endereco']; ?>"name="endereco">
+                <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $cadastro['endereco']; ?>" name="endereco" required>
                 <label for="nome">Endereço</label>
+                <div class="invalid-feedback">
+                    Preencha seu Endereço.
+                </div>
             </div>
             <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['auxilio']; ?>"name="auxilio">
+                <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $cadastro['auxilio']; ?>" name="auxilio">
                 <label for="nome">Sua família participa de algum Programa Social de auxílio do governo? Qual?</label>
+                <div class="invalid-feedback">
+                    Preencha este campo. Caso não participe digite "Não"
+                </div>
             </div>
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['data_nasc']; ?>"name="data_nasc">
-                <label for="nome">Data de Nascimento</label>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $cadastro['data_nasc']; ?>" name="data_nasc" required>
+                            <label for="nome">Data de Nascimento</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $cadastro['telefone']; ?>" name="celular">
+                            <label for="nome">Celular</label>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['telefone']; ?>"name="celular">
-                <label for="nome">Celular</label>
+            <br />
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $cadastro['renda']; ?>" name="renda">
+                            <label for="nome">Qual é a renda financeira mensal da família?</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $cadastro['moradores']; ?>" name="moradores">
+                            <label for="nome">Quantas pessoas moram com você? Coloque o nome e idade: (inclusive crianças e bebês)</label>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['renda']; ?>" name="renda">
-                <label for="nome">Qual é a renda financeira mensal da família?</label>
+            <br />
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control " id="floatingInput" placeholder="text" value="<?php echo $cadastro['data_aprovacao']; ?>" name="data_aprovacao" readonly>
+                            <label for="nome">Aprovado em</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control " id="floatingInput" placeholder="text" value="<?php echo $cadastro['data_cadastro']; ?>" name="data_cadastro" readonly>
+                            <label for="nome">Cadastrado em</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $cadastro['pontos']; ?>" name="pontos" <?php echo isset($cadastro['data_aprovacao'])?'':'readonly';?>>
+                            <label for="nome">Pontos</label>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['moradores']; ?>"name="moradores">
-                <label for="nome">Quantas pessoas moram com você? Coloque o nome e idade: (inclusive crianças e bebês)</label>
-            </div>
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['nomes_moradores']; ?>"name="nomes_moradores">
-                <label for="nome">Ao preencher este formulário você concorda com os termos e política do Projeto Casa do Pão, e autoriza a divulgação da sua imagem para depoimentos e registros do Projeto?</label>
-            </div>
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['data_aprovacao']; ?>"name="data_aprovacao">
-                <label for="nome">Aprovado</label>
-            </div>
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['data_cadastro']; ?>"name="data_cadastro">
-                <label for="nome">Cadastrado em</label>
-            </div>
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control focus border-warning" id="floatingInput" placeholder="text" value="<?php echo $cadastro['pontos']; ?>"name="pontos">
-                <label for="nome">Pontos</label>
-            </div>
+            <br />
 
     <?php
     endforeach;

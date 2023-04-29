@@ -51,7 +51,7 @@ function editaCadastro()
         $telefone = filter_var($_POST['celular'], FILTER_SANITIZE_NUMBER_INT);
         $renda = filter_var($_POST['renda'], FILTER_SANITIZE_NUMBER_INT);
         $moradores = filter_var($_POST['moradores'], FILTER_SANITIZE_NUMBER_INT);
-        $termos = filter_var($_POST['termos'], FILTER_SANITIZE_NUMBER_INT);
+        $nome_moradores = filter_var($_POST['nome_moradores'], FILTER_SANITIZE_NUMBER_INT);
         $dataCadastro = preg_replace("([^0-9/])", "", $_POST['data_cadastro']);
         $dataAprovacao = preg_replace("([^0-9/])", "", $_POST['data_aprovacao']);
         $pontos = filter_var($_POST['pontos'], FILTER_SANITIZE_NUMBER_INT);
@@ -67,7 +67,7 @@ function editaCadastro()
         $cadastro->setTelefone($telefone);
         $cadastro->setRenda($renda);
         $cadastro->setMoradores($moradores);
-        $cadastro->setTermos($termos);
+        $cadastro->setNomesMoradores($nome_moradores);
         $cadastro->setDataCadastro($dataCadastro);
         $cadastro->setDataAprovacao($dataAprovacao);
         $cadastro->setPontos($pontos);
