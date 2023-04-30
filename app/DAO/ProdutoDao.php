@@ -23,7 +23,7 @@ class ProdutoDao{
 
     public function read($idProduto){
 
-        $sql = 'SELECT * FROM `produtos` WHERE `produto`.`idproduto` = ?;';
+        $sql = 'SELECT * FROM `produtos` WHERE idproduto = ?;';
         
         $stmt = Conexao::conecta()->prepare($sql);
         $stmt->bindValue(1, $idProduto);
@@ -35,7 +35,6 @@ class ProdutoDao{
         else:
             return [];
         endif;
-
 
     }
 

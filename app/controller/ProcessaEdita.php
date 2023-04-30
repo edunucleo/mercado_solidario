@@ -26,6 +26,7 @@ switch ($_POST['formulario']) {
         break;
     case 'produto':
         editaProduto();
+        header('Location: ../../consulta_produtos.php');
         break;
     case 'marca':
         editaMarca();
