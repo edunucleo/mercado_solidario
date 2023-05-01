@@ -25,7 +25,7 @@ switch ($_POST['formulario']) {
         break;
     case 'marca':
         $marcaDao = new \app\DAO\MarcaDao();
-        $cadastroDao->delete($id);
+        $marcaDao->delete($id);
         break;
 
     default:

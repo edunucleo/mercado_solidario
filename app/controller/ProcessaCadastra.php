@@ -86,7 +86,7 @@ function cadastraProduto()
         $produtoDao = new \app\DAO\ProdutoDao();
         $produtoDao->create($produto);
    
-        header('Location: ../../consulta_produtos.php?&msg=Sucesso no cadastro do Produto. ');
+        header('Location: ../../consulta_produtos.php?&msg=Sucesso no cadastro do Produto ');
 }
 
 function cadastraMarca()
@@ -102,5 +102,7 @@ function cadastraMarca()
 
         $marcaDao = new \app\DAO\MarcaDao;
         $marcaDao->create($marca);
+
+        header('Location: ../../consulta_marcas.php?&msg=Sucesso no cadastro da Marca ');
     
 }

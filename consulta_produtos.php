@@ -50,7 +50,7 @@ require_once 'vendor/autoload.php';
 
         <div class="container w-60 pt-5">
 
-        <a href="edita_produto.php" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroProduto" onclick="carrega(0,'produto')">Cadastrar Produto</a>
+        <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroProduto" onclick="carrega(0,'produto')">Cadastrar Produto</a>
 
             <!-- Início da DataTable -->
             <table id="tabela" class="table table-striped" style="width:100%">

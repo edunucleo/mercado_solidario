@@ -30,6 +30,7 @@ switch ($_POST['formulario']) {
         break;
     case 'marca':
         editaMarca();
+        header('Location: ../../consulta_marcas.php');
         break;
 
     default:

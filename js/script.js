@@ -57,7 +57,7 @@ function carrega(id, formulario) {
       local = `edita_marca.php`;
       break;
     default:
-      console.log(formulario);
+
   }
 
   $("#carrega").load(local,
