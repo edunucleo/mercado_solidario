@@ -8,7 +8,7 @@ class CadastroDao extends Cadastro{
 
     public function create(Cadastro $c){
 
-        $sql = 'INSERT INTO `cadastro` (`id`, `nome`, `email`, `endereco`, `auxilio`, `data_nasc`, `telefone`, `renda`, `moradores`, `nomes_moradores`, `data_cadastro`, `data_aprovacao`, `pontos`) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NULL, NULL);';
+        $sql = 'INSERT INTO `cadastro` (`id`, `nome`, `email`, `endereco`, `auxilio`, `data_nasc`, `telefone`, `renda`, `moradores`, `nomes_moradores`, `data_cadastro`, `data_aprovacao`, `pontos`) VALUES (NULL, ?, ?, ?, ?, STR_TO_DATE(?,"%d/%m/%Y"), ?, ?, ?, ?, ?, NULL, NULL);';
 
         $stmt = Conexao::conecta()->prepare($sql);
         $stmt ->bindValue(1,$c->getNome());
@@ -28,7 +28,7 @@ class CadastroDao extends Cadastro{
 
     public function read($id){
 
-        $sql = 'SELECT * FROM `cadastro` WHERE `cadastro`.`id` = ?;';
+        $sql = 'SELECT *,DATE_FORMAT(data_cadastro,"%d/%m/%Y") AS data_cadastro, DATE_FORMAT(data_aprovacao,"%d/%m/%Y") AS data_aprovacao, DATE_FORMAT(data_nasc,"%d/%m/%Y") AS data_nasc  FROM `cadastro` WHERE `cadastro`.`id` = ?;';
         
         $stmt = Conexao::conecta()->prepare($sql);
         $stmt->bindValue(1, $id);
@@ -46,7 +46,7 @@ class CadastroDao extends Cadastro{
 
     public function listAll(){
 
-        $sql = 'SELECT * FROM `cadastro`';
+        $sql = 'SELECT *,DATE_FORMAT(data_cadastro,"%d/%m/%Y") AS data_cadastro, DATE_FORMAT(data_aprovacao,"%d/%m/%Y") AS data_aprovacao FROM `cadastro`';
 
         $stmt = Conexao::conecta()->prepare($sql);
         $stmt->execute();
