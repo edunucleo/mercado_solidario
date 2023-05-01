@@ -39,7 +39,6 @@ if (isset($_POST['id']) && $_POST['id'] != 0) {
         <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
 
             <?php
-
             if ($id == 0) {
                 echo 'Gravar';
             } else {
