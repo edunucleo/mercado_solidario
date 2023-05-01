@@ -28,16 +28,30 @@ require_once 'vendor/autoload.php';
     <script defer src="js/script.js"></script>
     <!-- fim da integração do datatable -->
 
-    <title>Listagem de Famílias</title>
+    <title>Listagem de Produtos</title>
 
 </head>
 
 <body>
+
+<?php
+   $msg =  isset($_GET['msg'])?$_GET['msg']:'';
+   
+    if ($msg !='') {
+        echo '  <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">' . $msg . '!</h4>
+                </div> ';
+    }
+    ?>
+
     <div class="d-flex flex-nowrap ">
 
         <?php include_once "sidebar.php"; ?>
 
         <div class="container w-60 pt-5">
+
+        <a href="edita_produto.php" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroProduto" onclick="carrega(0,'produto')">Cadastrar Produto</a>
+
             <!-- Início da DataTable -->
             <table id="tabela" class="table table-striped" style="width:100%">
                 <thead>

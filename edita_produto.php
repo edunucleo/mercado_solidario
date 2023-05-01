@@ -1,25 +1,22 @@
 <?php
 require_once 'vendor/autoload.php';
 
-if (isset($_POST['id'])) {
-    $id = filter_var($_POST['id'], FILTER_SANITIZE_NUMBER_INT);
+$id = filter_var($_POST['id'], FILTER_SANITIZE_NUMBER_INT);
+
+if (isset($_POST['id']) && $_POST['id'] != 0) {
+
+    $produtoDao = new \app\DAO\ProdutoDao();
+    $produto = $produtoDao->read($id);
+
 }
-
-$produtoDao = new \app\DAO\ProdutoDao();
-
-if (isset($id)) {
-
-    $produtoDao->read($id);
-    foreach ($produtoDao->read($id) as $produto) :
-
 ?>
-        <form class="row g-3 needs-validation" novalidate method="post" action="app/controller/ProcessaEdita.php">
+        <form class="row g-3 needs-validation" novalidate method="post" action="<?php echo $_POST['id'] != 0?'app/controller/ProcessaEdita.php':'app/controller/ProcessaCadastra.php'; ?>">
 
             <div class="form-group">
                 <div class="row">
                     <div class="col-8">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="nome" placeholder="Nome Completo" name="nome" value="<?php echo $produto['nome']; ?>" name="nome" required>
+                            <input type="text" class="form-control" id="nome" placeholder="Nome Completo" name="nome" value="<?php echo $_POST['id'] != 0?$produto['nome']:''; ?>" name="nome" required>
                             <label for="floatingInput">Nome do Produto</label>
                             <div class="invalid-feedback">
                                 Nome do Produto.
@@ -31,6 +28,7 @@ if (isset($id)) {
                         <div class="form-floating">
                             <select class="form-select" id="floatingSelect" aria-label="Floating label select example" name="idMarca">
                                 <?php
+                                if($_POST['id'] != 0){
                                 $marcaDao1 = new \app\DAO\MarcaDao();
                                 $marca1 = $marcaDao1->read($produto['idmarca']);
                                 ?>
@@ -38,13 +36,14 @@ if (isset($id)) {
                                 <option value=" <?php echo $marca1['idmarca']; ?>" selected> <?php echo $marca1['nome']; ?></option>
 
                                 <?php
+                                }
                                 $marcaDao = new \app\DAO\MarcaDao();
                                 $marcaDao->listAll();
 
                                 foreach ($marcaDao->listAll() as $marca) :
-                                    if($marca['idmarca']!=$marca1['idmarca']){
+                                    if ($marca['idmarca'] != $marca1['idmarca']) {
                                 ?>
-                                    <option value=" <?php echo $marca['idmarca']; ?>"> <?php echo $marca['nome']; ?></option>
+                                        <option value=" <?php echo $marca['idmarca']; ?>"> <?php echo $marca['nome']; ?></option>
                                 <?php
                                     }
                                 endforeach;
@@ -61,32 +60,36 @@ if (isset($id)) {
 
             <div class="col">
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $produto['quantidade_estoque']; ?>" name="qtdeEstoque">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $_POST['id'] != 0?$produto['quantidade_estoque']:''; ?>" name="qtdeEstoque">
                     <label for="nome">Em Estoque</label>
                 </div>
             </div>
             <div class="col">
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $produto['quantidade_minima']; ?>" name="qtdeMinima">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $_POST['id'] != 0?$produto['quantidade_minima']:''; ?>" name="qtdeMinima">
                     <label for="nome">Mínima</label>
                 </div>
             </div>
             <div class="col">
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $produto['quantidade_pontos']; ?>" name="pontos">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="text" value="<?php echo $_POST['id'] != 0?$produto['quantidade_pontos']:''; ?>" name="pontos">
                     <label for="nome">Pontos</label>
                 </div>
             </div>
 
-
-    <?php
-    endforeach;
-}
-    ?>
-    <input type="hidden" name="id" value="<?php echo $id ?>">
+    <input type="hidden" name="id" value="<?php echo $_POST['id'] ?>">
     <input type="hidden" name="formulario" value="produto">
     <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-        Editar
+
+        <?php
+
+        if ($id == 0) {
+            echo 'Gravar';           
+        } else {
+            echo 'Editar';
+        }
+        ?>
+
     </button>
 
         </form>
