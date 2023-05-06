@@ -33,9 +33,9 @@
 <body>
 
     <?php
-   $msg =  isset($_GET['msg'])?$_GET['msg']:'';
-   
-    if ($msg !='') {
+    $msg =  isset($_GET['msg']) ? $_GET['msg'] : '';
+
+    if ($msg != '') {
         echo '  <div class="alert alert-success" role="alert">
                 <h4 class="alert-heading">' . $msg . '!</h4>
                 </div> ';
@@ -140,6 +140,14 @@
                 </div>
             </div>
             <br />
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nomes_moradores" placeholder="Nome e idade dos Moradore" name="nomes_moradores" required>
+                <label for="floatingInput">Coloque o nome e idade: (inclusive crianças e bebês)</label>
+                <div class="invalid-feedback">
+                    Preencha o Nome dos Moradores
+                </div>
+            </div>
+            <br />
             <div class="form-group">
                 <div class="row">
                     <div class="col">
@@ -169,6 +177,7 @@
                     </div>
                 </div>
             </div>
+
             Ao preencher este formulário você concorda com os termos e política do Projeto Casa do Pão, e autoriza a divulgação da sua imagem para depoimentos e registros do Projeto?
             <br /><br />
             <div class="form-check">
@@ -180,6 +189,7 @@
                     Concorde com os Termos
                 </div>
             </div>
+
 
             <br />
             <input type="hidden" name="formulario" value="cadastro">

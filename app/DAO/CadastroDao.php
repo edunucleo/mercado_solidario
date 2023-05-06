@@ -36,7 +36,7 @@ class CadastroDao extends Cadastro{
         $stmt->execute();
 
         if($stmt->rowCount() > 0):
-            $resultado = $stmt-> fetchAll(\PDO::FETCH_ASSOC);
+            $resultado = $stmt-> fetch(\PDO::FETCH_ASSOC);
             return $resultado;
         else:
             return [];

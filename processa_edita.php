@@ -18,7 +18,7 @@ switch ($_POST['formulario']) {
             $telefone = filter_var($_POST['celular'], FILTER_SANITIZE_NUMBER_INT);
             $renda = filter_var($_POST['renda'], FILTER_SANITIZE_NUMBER_INT);
             $moradores = filter_var($_POST['moradores'], FILTER_SANITIZE_NUMBER_INT);
-            $nome_moradores = filter_var($_POST['nome_moradores'], FILTER_SANITIZE_NUMBER_INT);
+            $nomes_moradores = filter_var($_POST['nomes_moradores'], FILTER_SANITIZE_SPECIAL_CHARS);
             $dataCadastro = preg_replace("([^0-9/])", "", $_POST['data_cadastro']);
             $dataAprovacao = preg_replace("([^0-9/])", "", $_POST['data_aprovacao']);
             $pontos = filter_var($_POST['pontos'], FILTER_SANITIZE_NUMBER_INT);
@@ -34,7 +34,7 @@ switch ($_POST['formulario']) {
             $cadastro->setTelefone($telefone);
             $cadastro->setRenda($renda);
             $cadastro->setMoradores($moradores);
-            $cadastro->setNomesMoradores($nome_moradores);
+            $cadastro->setNomesMoradores($nomes_moradores);
             $cadastro->setDataCadastro($dataCadastro);
             $cadastro->setDataAprovacao($dataAprovacao);
             $cadastro->setPontos($pontos);

@@ -30,8 +30,8 @@ class ProdutoDao{
         $stmt->execute();
 
         if($stmt->rowCount() > 0):
-            $resultado = $stmt-> fetchAll(\PDO::FETCH_ASSOC);
-            return $resultado[0];
+            $resultado = $stmt-> fetch(\PDO::FETCH_ASSOC);
+            return $resultado;
         else:
             return [];
         endif;

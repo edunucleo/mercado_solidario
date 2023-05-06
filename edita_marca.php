@@ -36,7 +36,7 @@ if (isset($_POST['id']) && $_POST['id'] != 0) {
         <br />
         <input type="hidden" name="id" value="<?php echo $_POST['id'] ?>">
         <input type="hidden" name="formulario" value="marca">
-        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        <button type="submit" class="btn btn-primary">
 
             <?php
             if ($id == 0 || $id == null) {
@@ -49,3 +49,22 @@ if (isset($_POST['id']) && $_POST['id'] != 0) {
         </button>
 
 </form>
+<script>
+    (() => {
+        'use strict';
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation');
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach((form) => {
+            form.addEventListener('submit', (event) => {
+                if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        });
+    })();
+</script>
