@@ -1,16 +1,13 @@
 <?php
 namespace app\controller;
 
-require_once "../model/Cadastro.php";
-require_once "../model/Produto.php";
-require_once "../model/Marca.php";
-require_once "../DAO/Conexao.php";
-require_once "../DAO/CadastroDAO.php";
-require_once "../DAO/ProdutoDao.php";
-require_once "../DAO/MarcaDao.php";
-/*use app\DAO\CadastroDao;
-use app\DAO\MarcaDao;
-use app\DAO\ProdutoDao;*/
+use \app\model\Cadastro;
+use \app\model\Produto;
+use \app\model\Marca;
+use \app\DAO\Conexao;
+use \app\DAO\CadastroDao;
+use \app\DAO\ProdutoDao;
+use \app\DAO\MarcaDao;
 
 $id = $_POST['id'];
 

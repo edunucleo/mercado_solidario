@@ -3,6 +3,7 @@
 namespace app\DAO;
 
 use app\model\Cadastro;
+use app\DAO\Conexao;
 
 class CadastroDao extends Cadastro{
 
@@ -67,13 +68,13 @@ class CadastroDao extends Cadastro{
         `email` = ?, 
         `endereco` = ?, 
         `auxilio` = ?, 
-        `data_nasc` = ?,
+        `data_nasc` = STR_TO_DATE(?,\"%d/%m/%Y\"),
         `telefone` = ?,
         `renda` = ?,
         `moradores` = ?, 
         `nomes_moradores` = ?, 
-        `data_cadastro` = ?, 
-        `data_aprovacao` = ?, 
+        `data_cadastro` = STR_TO_DATE(?,\"%d/%m/%Y\"), 
+        `data_aprovacao` = STR_TO_DATE(?,\"%d/%m/%Y\"), 
         `pontos` = ? 
         WHERE `cadastro`.`id` = ?;";
 

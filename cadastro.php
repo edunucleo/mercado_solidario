@@ -62,7 +62,7 @@
 
             </br> Obrigado!
         </p>
-        <form class="row g-3 needs-validation" novalidate method="post" action="app/controller/ProcessaCadastra.php">
+        <form class="row g-3 needs-validation" novalidate method="post" action="processa.php">
 
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="nome" placeholder="Nome Completo" name="nome" required>

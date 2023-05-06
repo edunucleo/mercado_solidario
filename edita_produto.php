@@ -10,7 +10,7 @@ if (isset($_POST['id']) && $_POST['id'] != 0) {
 
 }
 ?>
-        <form class="row g-3 needs-validation" novalidate method="post" action="<?php echo $_POST['id'] != 0?'app/controller/ProcessaEdita.php':'app/controller/ProcessaCadastra.php'; ?>">
+        <form class="row g-3 needs-validation" novalidate method="post" action="<?php echo $_POST['id'] != 0?'processa_edita.php':'processa.php'; ?>">
 
             <div class="form-group">
                 <div class="row">
@@ -83,7 +83,7 @@ if (isset($_POST['id']) && $_POST['id'] != 0) {
 
         <?php
 
-        if ($id == 0) {
+        if ($id == 0 || $id==null) {
             echo 'Gravar';           
         } else {
             echo 'Editar';

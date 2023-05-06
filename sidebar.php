@@ -28,13 +28,13 @@
             </ul>
             <hr>
             <div class="dropdown">
-                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                
                     <strong>
                         <?php
                        echo $current_user->display_name;
                         ?>
                     </strong>
-                </a>
+                
             </div>
         </div>
 

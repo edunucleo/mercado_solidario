@@ -1,18 +1,8 @@
 <?php
 require_once 'vendor/autoload.php';
-require_once 'wp-load.php';
 
+require_once 'integra.php';
 
-$current_user = wp_get_current_user();
-
-if ( in_array( 'administrator', (array) $current_user->caps ) ) {
-    // O usuário atual é um administrador
-    
-} else {
-    // O usuário atual não é um administrador /
-    header('Location: wp-login.php?loggedout=true&wp_lang=pt_BR');
-    exit();
-}
 
 ?>
 
@@ -84,17 +74,13 @@ if ( in_array( 'administrator', (array) $current_user->caps ) ) {
                                 <?php echo $cadastro['nome']; ?>
                             </td>
                             <td>
-                                <button class="btn <?php echo $cadastro['data_aprovacao'] == null ? 'btn-danger' : 'btn-success' ?> d-inline-flex align-items-center " type="button" onclick="aprovar(<?php echo $cadastro['id']; ?>)">
+                                <button class="btn <?php echo $cadastro['data_aprovacao'] == null || $cadastro['data_aprovacao'] == '00/00/0000' ? 'btn-danger' : 'btn-success' ?> d-inline-flex align-items-center " type="button" onclick="aprovar(<?php echo $cadastro['id']; ?>)">
 
                                     <i class="bi <?php echo $cadastro['data_aprovacao'] == null ? 'bi-cart-x-fill' : 'bi-cart-check-fill' ?>"></i>
                                 </button>
                             </td>
                             <td>
                                 <?php echo $cadastro['pontos']; ?>
-                                <!-- <div class="input-group mb-3">
-                                    <input type="text" class="col-sm-3 col-form-label form-control-sm" placeholder="" aria-label="" aria-describedby="ponto" value=<?php echo $cadastro['pontos']; ?>>
-                                    <button class="btn btn-success d-inline-flex align-items-center" type="button" id="ponto"><i class="bi bi-check-circle-fill"></i></button>
-                                </div>-->
                             </td>
                             <td>
                                 <?php echo $cadastro['data_cadastro']; ?>

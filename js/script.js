@@ -27,6 +27,7 @@ $(document).ready(function () {
 
 $(function () {
   $.datepicker.setDefaults({
+    ordering: false,
     dateFormat: 'dd/mm/yy',
     showOn: "focus",
     dayNames: ["Domingo", "Segunda", "Terça", "Quarte", "Quinta", "Sexta", "Sábado"],
@@ -75,7 +76,7 @@ function excluir(id_, formulario_) {
 
   if (decisao) {
     var request = $.ajax({
-      url: "app/controller/ProcessaExclui.php",
+      url: "processa_exclui.php",
       method: "POST",
       data: { id: id_, formulario: formulario_ },
       dataType: "html"
@@ -99,7 +100,7 @@ function aprovar(id) {
   decisao = confirm('Deseja realmente Aprovar?')
   if (decisao) {
     var request = $.ajax({
-      url: "app/controller/ProcessaAprova.php",
+      url: "processa_aprova.php",
       method: "POST",
       data: { idCad: id },
       dataType: "html"

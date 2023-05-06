@@ -2,6 +2,8 @@
 
 require_once 'vendor/autoload.php';
 
+require_once 'integra.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">

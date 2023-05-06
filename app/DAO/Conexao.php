@@ -10,7 +10,7 @@ class Conexao
     {
         if (!isset(self::$instancia)) :
             //essas informações é do meu banco local. NÃO COLOCAR NO BANCO EM PRODUÇÃO 
-            self::$instancia = new \PDO('mysql:host=localhost;dbname=wp_casa_do_pao;charset=utf8', 'root', '');
+            self::$instancia = new \PDO('mysql:host=localhost;dbname=mercado;charset=utf8', 'root', '');
         endif;
         return self::$instancia;
     }
