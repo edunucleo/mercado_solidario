@@ -131,20 +131,12 @@
                     <div class="col">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" placeholder="Insira aqui o nome e a idade das pessoas que moram com você" name="nomes_moradores" required>
-                            <label for="floatingInput">Insira aqui o nome e a idade das pessoas que moram com você</label>
+                            <label for="floatingInput">Coloque o nome e idade das pessoas que moram com você (inclusive crianças e bebês)
                             <div class="invalid-feedback">
                                 Preecha o nome e a idade das pessoas que moram com você
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <br />
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="nomes_moradores" placeholder="Nome e idade dos Moradore" name="nomes_moradores" required>
-                <label for="floatingInput">Coloque o nome e idade: (inclusive crianças e bebês)</label>
-                <div class="invalid-feedback">
-                    Preencha o Nome dos Moradores
                 </div>
             </div>
             <br />
