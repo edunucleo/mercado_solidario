@@ -1,11 +1,10 @@
 
-<img src="https://drive.google.com/uc?id=1yk0tDjc5fRL091YgpAohBwTrtwDPKXda" width="60" height="60">
-
-# Projeto Mercado Solidário - Conectando corações generosos a famílias em necessidade.
+<img src="https://drive.google.com/uc?id=18-JRzH3pre2b-RFjk4qlPNCVmI5h38xg"/><br>
+# Projeto Mercado Solidário
 
 Conheça o nosso projeto para o Mercado Solidário de Tatuí.
 
-teve como objetivo ajudar na divulgação do Mercado Solidário da cidade, através da criação de um website, onde as pessoas poderão conhecer o projeto, saber como doar, como se voluntariar e também onde as famílias poderão se cadastrar para realizar as "compras" no mercado.
+O projeto teve como objetivo ajudar na divulgação do Mercado Solidário da cidade, através da criação de um website, onde as pessoas poderão conhecer o projeto, saber como doar, como se voluntariar e também onde as famílias poderão se cadastrar para realizar as "compras" no mercado.
 Além disso, o sistema conta com uma interface administrativa para a visualização das famílias cadastradas, cálculo das pontuações, e gestão de estoque do mercado.<br>
 
 
