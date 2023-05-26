@@ -1,33 +1,24 @@
-- Website para divulgação de cadastro das famílias, etc: wodpress
-- Controle de estoque, pontuações das famílias e afins: php, sql e bootstrap
-- Controle de versão: git
 
-## Website
+# Projeto Mercado Solidário
 
-**Ferramenta:** Wordpress
+<b>Projeto Integrador I do Eixo Computação da UNIVESP de Tatuí-SP.</b><br>
+O projeto teve como objetivo ajudar na divulgação do Mercado Solidário da cidade, através da criação de um website, onde as pessoas poderão conhecer o projeto, saber como doar, como se voluntariar e também onde as famílias poderão se cadastrar para realizar as "compras" no mercado.
+Além disso, o sistema conta com uma interface administrativa para a visualização das famílias cadastradas, cálculo das pontuações, e gestão de estoque do mercado.
 
-**Futuro domínio:** [mercadosolidariotatui.com](http://mercadosolidariotatui.com) ou [mercadosolidariotatui.com.br](http://mercadosolidariotatui.com.br) …
+## Autores
 
-**Páginas:**
+- [@devleticiastahl](https://www.github.com/devleticiastahl)
+- [@edunucleo](https://www.github.com/edunucleo)
 
-- Home
-- Cadastro das Famílias
-- “Quero ajudar” → página para captação de interessados em ajudar: “quero ser um voluntário” → direciona para o grupo do whats; “quero doar” → direciona para um whatsapp ou para **o pastor cesta básica (**[https://www.instagram.com/pastorcestasbasicas/](https://www.instagram.com/pastorcestasbasicas/))
-- Sobre nós → página com um breve resumo do mercado e um vídeo
-- Contato → página com todos os contatos do mercado
 
-## Gerenciamento de Estoque
+## Funcionalidades
 
-**Ferramentas:** PHP, MySQL e um framework web (bootstrap) 
+- Responsividade
+- Gestão de Estoque
+- Cálculo de Pontuação das Famílias Cadastradas
+- Consulta em tempo real aos dados das famílias cadastradas
 
-**Funcionalidades:**
+## Ferramentas Utilizadas
 
-- Controle de Estoque
+<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a>  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg" alt="wordpress" width="40" height="40"/>  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40"/> </p>
 
-- Pontuação das Famílias e rankeamento automático baseado no cadastro feito no site (vamos ter que enviar do formulário pro branco de dados, do banco de dados pro nosso site)
-- Podemos fazer uma média com diferentes pesos para cada resposta. Cada resposta padrão vale 10 pontos, por exemplo. **Para essas respostas devemos atribuir uma pontuação maior:**
-- **Pontuação máxima atual: 450 PONTOS**
-
-- Devemos exibir essa tabela das famílias de forma bem visual no acesso do administrador
-- Precisamos verificar como vai ser feito a contagem de pontos de cada produto e retirar da pontuação mensal dessa família
-- Geralmente, cada família tem a sua pontuação renovada mensalmente e cada participação dura em média 3 meses, dependendo da situação da família.
